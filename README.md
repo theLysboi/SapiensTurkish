@@ -3,9 +3,9 @@ Sapiens Turkish Localization
 A Turkish localization for the game 'Sapiens'.
 
 How to install EN
-After downloading the code, grab the tr_tr folder and put it in %appdata%\majicjungle\sapiens\localizations, that's it.
-If you dont know how to get there: press Winkey+r, type (or copy-paste) %appdata%\majicjungle\sapiens\localizarions, click OK.
-For now you still need to do everything yourself once I figure out how to make this a propper mod it will go a lot easier.
+After downloading the code, take the tr_tr folder and import it into %appdata%\majicjungle\sapiens\localizations.
+If you don't know how to go: Press Winkey+r, type %appdata%\majicjungle\sapiens\localizarions (or copy-paste) and click OK.
+For now, I don't know how to mod it and import it to steam workshop, you have to install your own :)
 
 Nasıl kurulur TR
 Kodu indirdikten sonra tr_tr klasörünü alın ve %appdata%\majicjungle\sapiens\localizations içine aktarın.
