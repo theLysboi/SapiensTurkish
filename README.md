@@ -1,0 +1,2 @@
+# SapiensTurkish
+Sapiens Turkish Localization
