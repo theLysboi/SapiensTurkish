@@ -8,7 +8,7 @@ After downloading the code, take the tr_tr folder and import it into %appdata%\m
 
 If you don't know how to go: Press Winkey+r, type %appdata%\majicjungle\sapiens\localizarions (or copy-paste) and click OK.
 
-.Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2843893368
+- Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2843893368
 
 # Nasıl kurulur TR
 - Manuel: 
@@ -16,4 +16,4 @@ Kodu indirdikten sonra tr_tr klasörünü alın ve %appdata%\majicjungle\sapiens
 
 Nasıl gideceğinizi bilmiyorsanız: Winkey+r tuşlarına basın, %appdata%\majicjungle\sapiens\localizarions yazın (veya kopyala-yapıştır) ve Tamam'a tıklayın.
 
-.Steam Atölye: https://steamcommunity.com/sharedfiles/filedetails/?id=2843893368
+- Steam Atölye: https://steamcommunity.com/sharedfiles/filedetails/?id=2843893368
