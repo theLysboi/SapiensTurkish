@@ -4,7 +4,7 @@ A Turkish localization for the game 'Sapiens'.
 
 # How to install EN
 - Manual:
-After downloading the code, take the tr_tr folder and import it into %appdata%\majicjungle\sapiens\localizations.
+After downloading the code, take the tr_tr folder and import it into %appdata%\majicjungle\sapiens\localizations
 
 If you don't know how to go: Press Winkey+r, type %appdata%\majicjungle\sapiens\localizarions (or copy-paste) and click OK.
 
