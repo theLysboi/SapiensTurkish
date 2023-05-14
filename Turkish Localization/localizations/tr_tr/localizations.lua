@@ -1,7 +1,5 @@
 local localizations = {}
 
---local typeMaps = mjrequire "common/typeMaps"
-
 local researchName = "İncele"
 local researchingName = "İnceleniyor"
 
@@ -54,7 +52,7 @@ localizations.values = {
     buildable_woolskinBed = "Yün Yatak",
     buildable_woolskinBed_plural = "Yün Yataklar",
     buildable_woolskinBed_summary = "Sıacık bir yatak.",
-    buildable_thatchRoof = "Sazdan Çati",
+    buildable_thatchRoof = "Sazdan Çatı",
     buildable_thatchRoof_plural = "Sazdan Çatılar",
     buildable_thatchRoof_summary = "Mütevazi bir yapı.",
     buildable_thatchRoofLarge = "Büyük Sazdan Çatı",
@@ -195,9 +193,9 @@ localizations.values = {
     craftable_boneKnife = "Kemik Bıçak",
     craftable_boneKnife_plural = "Kemik Bıçaklar",
     craftable_boneKnife_summary = "Temel işçilik aleti, birçok amaç için kullanılabilir.",
-    craftable_boneFlüte = "Kemik Flüt",
-    craftable_boneFlüte_plural = "Kemik Flütler",
-    craftable_boneFlüte_summary = "Müzik ruhun gıdasıdır! sapienleri mutlu eder.",
+    craftable_boneFlute = "Kemik Flüt",
+    craftable_boneFlute_plural = "Kemik Flütler",
+    craftable_boneFlute_summary = "Müzik ruhun gıdasıdır! sapienleri mutlu eder.",
     craftable_logDrum = "Kütük Davul",
     craftable_logDrum_plural = "Kütük Davullar",
     craftable_logDrum_summary = "Müzik ruhun gıdasıdır! sapienleri mutlu eder.",
@@ -321,522 +319,516 @@ localizations.values = {
     craftable_firedBrick_plural = "Tuğlalar",
     craftable_firedBrick_summary = "Dayanıklı bir inşa kaynağı.",
 
- --0.3.0 group:
-    craftable_injuryMediçine = "Yara İlacı",
-    craftable_injuryMediçine_plural = "Yara İlaçları",
-    craftable_injuryMediçine_summary = "Fiziksel yaraları iyileştirir.",
-    craftable_burnMediçine = "Yanık İlacı",
-    craftable_burnMediçine_plural = "Yanık İlaçları",
-    craftable_burnMediçine_summary = "Yanıkları iyileştirir",
-    craftable_foodPoisoningMediçine = "Zehir İlacı",
-    craftable_foodPoisoningMediçine_plural = "Zehir İlaçları",
-    craftable_foodPoisoningMediçine_summary = "Gıda zehirlenmesi için ilaç.",
-    craftable_virusMediçine = "Virüs İlacı",
-    craftable_virusMediçine_plural = "Virüs İlaçları",
-    craftable_virusMediçine_summary = "Soğuk ve viral enfeksiyonlar için ilaç.",
-    --0.3.0 group end
-
-    --actions
-    action_idle = "Boş dur",
-    action_idle_inProgress = "Boşta",
-    action_gather = "Topla",
-    action_gather_inProgress = "Toplanıyor",
-    action_chop = "Kes",
-    action_chop_inProgress = "Kesiliyor",
-    action_pullOut = "At",
-    action_pullOut_inProgress = "Atılıyor",
-    action_dig = "Kaz",
-    action_dig_inProgress = "Kazılıyor",
-    action_mine = "Maden Kaz",
-    action_mine_inProgress = "Maden Kazılıyor",
-    action_clear = "Temizle",
-    action_clear_inProgress = "Temizleniyor",
-    action_moveTo = "Yürü",
-    action_moveTo_inProgress = "Yürünüyor",
-    action_flee = "Kaç",
-    action_flee_inProgress = "Kaçılıyor",
-    action_pickup = "Al",
-    action_pickup_inProgress = "Alınıyor",
-    action_place = "Ek",
-    action_place_inProgress = "Ekiliyor",
-    action_eat = "Beslen",
-    action_eat_inProgress = "Besleniyor",
-    action_playFlüte = "Müzik Çal",
-    action_playFlüte_inProgress = "Flüt Üfleniyor",
-    action_playDrum = "Müzik Çal",
-    action_playDrum_inProgress = "Davul Çaliniyor",
-    action_playBalafon = "Müzik Çal",
-    action_playBalafon_inProgress = "Balafon Çaliniyor",
-    action_wave = "Dalgalan",
-    action_wave_inProgress = "Dalgalanıyor",
-    action_turn = "Dön",
-    action_turn_inProgress = "Dönülüyor",
-    action_fall = "Düş",
-    action_fall_inProgress = "Düşülüyor",
-    action_sleep = "Uyu",
-    action_sleep_inProgress = "Uyunuyor",
-    action_build = "İnşa Et",
-    action_build_inProgress = "İnşa Ediliyor",
-    action_light = "Aydınlat",
-    action_light_inProgress = "Aydınlatılıyor",
-    action_extinguish = "Söndür",
-    action_extinguish_inProgress = "Söndürülüyor",
-    action_destroyContents = "Yok Et",
-    action_destroyContents_inProgress = "Yok Ediliyor",
-    action_throwProjectile = "At",
-    action_throwProjectile_inProgress = "Atılıyor",
-    action_butcher = "Doğra",
-    action_butcher_inProgress = "Doğranıyor",
-    action_knap = "Yont",
-    action_knap_inProgress = "Yontuluyor",
-    action_potteryCraft = "Yap",
-    action_potteryCraft_inProgress = "Yapılıyor",
-    action_craft = "Yap", --0.3.0
-    action_craft_inProgress = "Yapılıyor", --0.3.0
-    action_spinCraft = "Yap",
-    action_spinCraft_inProgress = "Yapılıyor",
-    action_thresh = "Harmanla",
-    action_thresh_inProgress = "Harmanlanıyor",
-    action_scrapeWood = "Üret",
-    action_scrapeWood_inProgress = "Üretiliyor",
-    action_fireStickCook = "Pişir",
-    action_fireStickCook_inProgress = "Pişiriliyor",
-    action_recruit = "Kabileye Davet",
-    action_recruit_inProgress = "Kabileye Aliniyor",
-    action_sneak = "Gizlen",
-    action_sneak_inProgress = "Gizleniyor",
-    action_sit = "Otur",
-    action_sit_inProgress = "Oturuyor",
-    action_inspect = "İncele",
-    action_inspect_inProgress = "İnceleniyor",
-    action_patDown = "Düzenle",
-    action_patDown_inProgress = "Düzenleniyor",
-    action_takeOffTorsoClothing = "Soyun",
-    action_takeOffTorsoClothing_inProgress = "Soyunuyor",
-    action_putOnTorsoClothing = "Giyin",
-    action_putOnTorsoClothing_inProgress = "Giyiniyor",
-
-
-
     --0.3.0 group:
-    action_selfApplyOralMediçine = "İlaç Kullan",
-    action_selfApplyOralMediçine_inProgress = "İlaç kullanılıyor",
-    action_selfApplyTopicalMediçine = "İlaç Uygula",
-    action_selfApplyTopicalMediçine_inProgress = "İlaç Uygulanıyor",
-    action_giveMediçine = "İlaç Ver",
-    action_giveMediçine_inProgress = "İlaç Veriliyor",
-    --0.3.0 group end
+       craftable_injuryMedicine = "Yara İlacı",
+       craftable_injuryMedicine_plural = "Yara İlaçları",
+       craftable_injuryMedicine_summary = "Fiziksel yaraları iyileştirir.",
+       craftable_burnMedicine = "Yanık İlacı",
+       craftable_burnMedicine_plural = "Yanık İlaçları",
+       craftable_burnMedicine_summary = "Yanıkları iyileştirir",
+       craftable_foodPoisoningMedicine = "Zehir İlacı",
+       craftable_foodPoisoningMedicine_plural = "Zehir İlaçları",
+       craftable_foodPoisoningMedicine_summary = "Gıda zehirlenmesi için ilaç.",
+       craftable_virusMedicine = "Virüs İlacı",
+       craftable_virusMedicine_plural = "Virüs İlaçları",
+       craftable_virusMedicine_summary = "Soğuk ve viral enfeksiyonlar için ilaç.",
+       --0.3.0 group end
+
+       --actions
+       action_idle = "Boş dur",
+       action_idle_inProgress = "Boşta",
+       action_gather = "Topla",
+       action_gather_inProgress = "Toplanıyor",
+       action_chop = "Kes",
+       action_chop_inProgress = "Kesiliyor",
+       action_pullOut = "At",
+       action_pullOut_inProgress = "Atılıyor",
+       action_dig = "Kaz",
+       action_dig_inProgress = "Kazılıyor",
+       action_mine = "Maden Kaz",
+       action_mine_inProgress = "Maden Kazılıyor",
+       action_clear = "Temizle",
+       action_clear_inProgress = "Temizleniyor",
+       action_moveTo = "Yürü",
+       action_moveTo_inProgress = "Yürünüyor",
+       action_flee = "Kaç",
+       action_flee_inProgress = "Kaçılıyor",
+       action_pickup = "Al",
+       action_pickup_inProgress = "Alınıyor",
+       action_place = "Ek",
+       action_place_inProgress = "Ekiliyor",
+       action_eat = "Beslen",
+       action_eat_inProgress = "Besleniyor",
+       action_playFlute = "Müzik Çal",
+       action_playFlute_inProgress = "Flüt Üfleniyor",
+       action_playDrum = "Müzik Çal",
+       action_playDrum_inProgress = "Davul Çaliniyor",
+       action_playBalafon = "Müzik Çal",
+       action_playBalafon_inProgress = "Balafon Çaliniyor",
+       action_wave = "Dalgalan",
+       action_wave_inProgress = "Dalgalanıyor",
+       action_turn = "Dön",
+       action_turn_inProgress = "Dönülüyor",
+       action_fall = "Düş",
+       action_fall_inProgress = "Düşülüyor",
+       action_sleep = "Uyu",
+       action_sleep_inProgress = "Uyunuyor",
+       action_build = "İnşa Et",
+       action_build_inProgress = "İnşa Ediliyor",
+       action_light = "Aydınlat",
+       action_light_inProgress = "Aydınlatılıyor",
+       action_extinguish = "Söndür",
+       action_extinguish_inProgress = "Söndürülüyor",
+       action_destroyContents = "Yok Et",
+       action_destroyContents_inProgress = "Yok Ediliyor",
+       action_throwProjectile = "At",
+       action_throwProjectile_inProgress = "Atılıyor",
+       action_butcher = "Doğra",
+       action_butcher_inProgress = "Doğranıyor",
+       action_knap = "Yont",
+       action_knap_inProgress = "Yontuluyor",
+       action_grind = "Öğüt",
+       action_grind_inProgress = "Öğütülüyor",
+       action_potteryCraft = "Yap",
+       action_potteryCraft_inProgress = "Yapılıyor",
+       action_craft = "Yap", --0.3.0
+       action_craft_inProgress = "Yapılıyor", --0.3.0
+       action_spinCraft = "Yap",
+       action_spinCraft_inProgress = "Yapılıyor",
+       action_thresh = "Harmanla",
+       action_thresh_inProgress = "Harmanlanıyor",
+       action_scrapeWood = "Üret",
+       action_scrapeWood_inProgress = "Üretiliyor",
+       action_fireStickCook = "Pişir",
+       action_fireStickCook_inProgress = "Pişiriliyor",
+       action_recruit = "Kabileye Davet",
+       action_recruit_inProgress = "Kabileye Aliniyor",
+       action_sneak = "Gizlen",
+       action_sneak_inProgress = "Gizleniyor",
+       action_sit = "Otur",
+       action_sit_inProgress = "Oturuyor",
+       action_inspect = "İncele",
+       action_inspect_inProgress = "İnceleniyor",
+       action_patDown = "Düzenle",
+       action_patDown_inProgress = "Düzenleniyor",
+       action_takeOffTorsoClothing = "Soyun",
+       action_takeOffTorsoClothing_inProgress = "Soyunuyor",
+       action_putOnTorsoClothing = "Giyin",
+       action_putOnTorsoClothing_inProgress = "Giyiniyor",
 
 
+       --0.3.0 group:
+       action_selfApplyOralMedicine = "İlaç Kullan",
+       action_selfApplyOralMedicine_inProgress = "İlaç kullanılıyor",
+       action_selfApplyTopicalMedicine = "İlaç Uygula",
+       action_selfApplyTopicalMedicine_inProgress = "İlaç Uygulanıyor",
+       action_giveMedicine = "İlaç Ver",
+       action_giveMedicine_inProgress = "İlaç Veriliyor",
+       --0.3.0 group end
 
-    --action modifiers
-    action_jog = "Yürü",
-    action_jog_inProgress = "Yürüyor",
-    action_run = "Koş",
-    action_run_inProgress = "Koşuyor",
-    action_slowWalk = "Yavaş Yürü",
-    action_slowWalk_inProgress = "Yavaş Yürünüyor",
-    action_sadWalk = "Bitkin Yürü",
-    action_sadWalk_inProgress = "Bitkin Yürünüyor",
-    action_crouch = "Çömel",
-    action_crouch_inProgress = "Çömeliyor",
+       --action modifiers
+       action_jog = "Yürü",
+       action_jog_inProgress = "Yürüyor",
+       action_run = "Koş",
+       action_run_inProgress = "Koşuyor",
+       action_slowWalk = "Yavaş Yürü",
+       action_slowWalk_inProgress = "Yavaş Yürünüyor",
+       action_sadWalk = "Bitkin Yürü",
+       action_sadWalk_inProgress = "Bitkin Yürünüyor",
+       action_crouch = "Çömel",
+       action_crouch_inProgress = "Çömeliyor",
 
-    -- terrain types
-    terrain_rock = "Taş",
-    terrain_limestone = "Kireçtaşı",
-    terrain_redRock = "Kızıl Kaya",
-    terrain_greenRock = "Yeşil Kaya",
-    terrain_beachSand = "Kum",
-    terrain_riverSand = "Nehir Kumu",
-    terrain_desertSand = "Çöl Kumu",
-    terrain_ice = "Buz",
-    terrain_desertRedSand = "Kızıl Çöl Kumu",
-    terrain_dirt = "Toprak",
-    terrain_richDirt = "Zengin Toprak",
-    terrain_poorDirt = "Dandik Toprak",
-    terrain_clay = "Kil",
+       -- terrain types
+       terrain_rock = "Taş",
+       terrain_limestone = "Kireçtaşı",
+       terrain_redRock = "Kızıl Kaya",
+       terrain_greenRock = "Yeşil Kaya",
+       terrain_beachSand = "Kum",
+       terrain_riverSand = "Nehir Kumu",
+       terrain_desertSand = "Çöl Kumu",
+       terrain_ice = "Buz",
+       terrain_desertRedSand = "Kızıl Çöl Kumu",
+       terrain_dirt = "Toprak",
+       terrain_richDirt = "Zengin Toprak",
+       terrain_poorDirt = "Dandik Toprak",
+       terrain_clay = "Kil",
 
-    -- terrain variations
-    terrainVariations_snow = "Kar",
-    terrainVariations_grassSnow = "Karlı Çimen",
-    terrainVariations_grass = "Çimen",
-    terrainVariations_flint = "Çakmaktaşı",
-    terrainVariations_clay = "Kil",
-    terrainVariations_limestone = "Kireçtaşı",
-    terrainVariations_redRock = "Kızıl Kaya",
-    terrainVariations_greenRock = "Yeşil Kaya",
-    terrainVariations_shallowWater = "Sığ Su",
-    terrainVariations_deepWater = "Derin Su",
+       -- terrain variations
+       terrainVariations_snow = "Kar",
+       terrainVariations_grassSnow = "Karlı Çimen",
+       terrainVariations_grass = "Çimen",
+       terrainVariations_flint = "Çakmaktaşı",
+       terrainVariations_clay = "Kil",
+       terrainVariations_limestone = "Kireçtaşı",
+       terrainVariations_redRock = "Kızıl Kaya",
+       terrainVariations_greenRock = "Yeşil Kaya",
+       terrainVariations_shallowWater = "Sığ Su",
+       terrainVariations_deepWater = "Derin Su",
 
-    -- needs
-    need_sleep = "Uykusu Var",
-    need_warmth = "Sıcak Basmış",
-    need_food = "Aç",
-    need_rest = "Dinlenmeli",
-    need_starvation = "Açlıktan Ölüyor",
-    need_exhaustion = "Yorgun",
-    need_music = "Müzik Dinlemeli",
+       -- needs
+       need_sleep = "Uykusu Var",
+       need_warmth = "Sıcak Basmış",
+       need_food = "Aç",
+       need_rest = "Dinlenmeli",
+       --need_starvation = "Starving", --deprecated 0.3.0
+       need_exhaustion = "Yorgun",
+       need_music = "Müzik Dinlemeli",
 
-    --flora
-    flora_willow = "Söğüt",
-    flora_willow_plural = "Söğütler",
-    flora_willow_summary = "Nehirlerin yakınında yetişen söğütler.",
-    flora_willow_sapling = "Söğüt Fidanı",
-    flora_willow_sapling_plural = "Söğüt Fidanları",
-    flora_beetrootPlant = "Pancar kökü",
-    flora_beetrootPlant_plural = "Pancar kökleri",
-    flora_beetrootPlant_summary = "Lezzetli ve dayanıklı bir kök sebzesi.",
-    flora_beetrootPlantSapling = "Kırmızı Pancar Fidanı",
-    flora_beetrootPlantSapling_plural = "Kırmızı Pancar Fidanları",
-    flora_wheatPlant = "Buğday",
-    flora_wheatPlant_plural = "Buğdaylar",
-    flora_wheatPlant_summary = "Buğday, ekmek yapmak için dövülebilir ve un haline getirilebilir.",
-    flora_wheatPlantSapling = "Buğday Fidanı",
-    flora_wheatPlantSapling_plural = "Buğday Fidanları",
-    flora_flaxPlant = "Keten",
-    flora_flaxPlant_plural = "Ketenler",
-    flora_flaxPlant_summary = "Sicim haline getirilebilen çok yonlu bir bitki ve biraz kalori için yenilebilir tohumlar.",
-    flora_flaxPlantSapling = "Keten Fidanı",
-    flora_flaxPlantSapling_plural = "Keten Fidanları",
-    flora_poppyPlant = "Haşhaş", --0.3.0
-    flora_poppyPlant_plural = "Haşhaşlar", --0.3.0
-    flora_poppyPlant_summary = "Haşhaş ilaç olarak kullanılabilir.", --0.3.0
-    flora_poppyPlantSapling = "Haşhaş Fidanı", --0.3.0
-    flora_poppyPlantSapling_plural = "Haşhaş Fidanları", --0.3.0
-    flora_echinaceaPlant = "Ekinezya", --0.3.0
-    flora_echinaceaPlant_plural = "Ekinezyalar", --0.3.0
-    flora_echinaceaPlant_summary = "Ekinezya bitkisi ilaç için kullanılabilir.", --0.3.0
-    flora_echinaceaPlantSapling = "Ekinezya Fidanı", --0.3.0
-    flora_echinaceaPlantSapling_plural = "Ekinezya Fidanları", --0.3.0
-    flora_gingerPlant = "Zencefil", --0.3.0
-    flora_gingerPlant_plural = "Zencefiller", --0.3.0
-    flora_gingerPlant_summary = "Zencefil miğde bulantısına iyi gelir.", --0.3.0
-    flora_gingerPlantSapling = "Zencefil Fidanı", --0.3.0
-    flora_gingerPlantSapling_plural = "Zencefil Fidanları", --0.3.0
-    flora_turmericPlant = "Zerdeçal", --0.3.0
-    flora_turmericPlant_plural = "Zerdeçallar", --0.3.0
-    flora_turmericPlant_summary = "Zerdeçal iltihaplanmaya iyi gelir.", --0.3.0
-    flora_turmericPlantSapling = "Zerdeçal Fidanı", --0.3.0
-    flora_turmericPlantSapling_plural = "Zerdeçal Fidanları", --0.3.0
-    flora_marigoldPlant = "Kadife Çiçeği", --0.3.0
-    flora_marigoldPlant_plural = "Kadife Çiçekleri", --0.3.0
-    flora_marigoldPlant_summary = "Kadife Çiçekleri yaraları tedavi etmek için lapa yapımında kullanılır.", --0.3.0
-    flora_marigoldPlantSapling = "Kadife Çiçeği Fidanı", --0.3.0
-    flora_marigoldPlantSapling_plural = "Kadife Çiçeği Fidanları", --0.3.0
-    flora_garlicPlant = "Sarımsak", --0.3.0
-    flora_garlicPlant_plural = "Sarımsaklar", --0.3.0
-    flora_garlicPlant_summary = "Sarımsak yenilebilir ve ilaç yapımında kullanılabilir.", --0.3.0
-    flora_garlicPlantSapling = "Sarımsak Fidanları", --0.3.0
-    flora_garlicPlantSapling_plural = "Sarımsak Fidanları", --0.3.0
-    flora_aloePlant = "Aloe Vera", --0.3.0
-    flora_aloePlant_plural = "Aloe Veralar", --0.3.0
-    flora_aloePlant_summary = "Aloe Vera hafif yanıklara iyi gelir", --0.3.0
-    flora_aloePlantSapling = "Aloe Vera Fidanı", --0.3.0
-    flora_aloePlantSapling_plural = "Aloe Vera Fidanları", --0.3.0
-    flora_aspen = "Kavak",
-    flora_aspen_plural = "Kavaklar",
-    flora_aspen_summary = "Soğuk bölgelere özgü uzun, yaprak döken bir ağaç. Beyaz kabuklu hafif bir ahşap sağlar.",
-    flora_aspen_sapling = "Kavak Fidanı",
-    flora_aspen_sapling_plural = "Kavak Fidanları",
-    flora_bamboo = "Bambu",
-    flora_bamboo_plural = "Bambular",
-    flora_bamboo_summary = "Bambu hızla büyür. Dalları inşaat ve yakacak odun için kullanılabilir.",
-    flora_bamboo_sapling = "Bambu Fidanı",
-    flora_bamboo_sapling_plural = "Bambu Fidanları",
+       --flora
+       flora_willow = "Söğüt",
+       flora_willow_plural = "Söğütler",
+       flora_willow_summary = "Nehirlerin yakınında yetişen söğütler.",
+       flora_willow_sapling = "Söğüt Fidanı",
+       flora_willow_sapling_plural = "Söğüt Fidanları",
+       flora_beetrootPlant = "Pancar kökü",
+       flora_beetrootPlant_plural = "Pancar kökleri",
+       flora_beetrootPlant_summary = "Lezzetli ve dayanıklı bir kök sebzesi.",
+       flora_beetrootPlantSapling = "Kırmızı Pancar Fidanı",
+       flora_beetrootPlantSapling_plural = "Kırmızı Pancar Fidanları",
+       flora_wheatPlant = "Buğday",
+       flora_wheatPlant_plural = "Buğdaylar",
+       flora_wheatPlant_summary = "Buğday, ekmek yapmak için dövülebilir ve un haline getirilebilir.",
+       flora_wheatPlantSapling = "Buğday Fidanı",
+       flora_wheatPlantSapling_plural = "Buğday Fidanları",
+       flora_flaxPlant = "Keten",
+       flora_flaxPlant_plural = "Ketenler",
+       flora_flaxPlant_summary = "Sicim haline getirilebilen çok yonlu bir bitki ve biraz kalori için yenilebilir tohumlar.",
+       flora_flaxPlantSapling = "Keten Fidanı",
+       flora_flaxPlantSapling_plural = "Keten Fidanları",
+       flora_poppyPlant = "Haşhaş", --0.3.0
+       flora_poppyPlant_plural = "Haşhaşlar", --0.3.0
+       flora_poppyPlant_summary = "Haşhaş ilaç olarak kullanılabilir.", --0.3.0
+       flora_poppyPlantSapling = "Haşhaş Fidanı", --0.3.0
+       flora_poppyPlantSapling_plural = "Haşhaş Fidanları", --0.3.0
+       flora_echinaceaPlant = "Ekinezya", --0.3.0
+       flora_echinaceaPlant_plural = "Ekinezyalar", --0.3.0
+       flora_echinaceaPlant_summary = "Ekinezya bitkisi ilaç için kullanılabilir.", --0.3.0
+       flora_echinaceaPlantSapling = "Ekinezya Fidanı", --0.3.0
+       flora_echinaceaPlantSapling_plural = "Ekinezya Fidanları", --0.3.0
+       flora_gingerPlant = "Zencefil", --0.3.0
+       flora_gingerPlant_plural = "Zencefiller", --0.3.0
+       flora_gingerPlant_summary = "Zencefil miğde bulantısına iyi gelir.", --0.3.0
+       flora_gingerPlantSapling = "Zencefil Fidanı", --0.3.0
+       flora_gingerPlantSapling_plural = "Zencefil Fidanları", --0.3.0
+       flora_turmericPlant = "Zerdeçal", --0.3.0
+       flora_turmericPlant_plural = "Zerdeçallar", --0.3.0
+       flora_turmericPlant_summary = "Zerdeçal iltihaplanmaya iyi gelir.", --0.3.0
+       flora_turmericPlantSapling = "Zerdeçal Fidanı", --0.3.0
+       flora_turmericPlantSapling_plural = "Zerdeçal Fidanları", --0.3.0
+       flora_marigoldPlant = "Kadife Çiçeği", --0.3.0
+       flora_marigoldPlant_plural = "Kadife Çiçekleri", --0.3.0
+       flora_marigoldPlant_summary = "Kadife Çiçekleri yaraları tedavi etmek için lapa yapımında kullanılır.", --0.3.0
+       flora_marigoldPlantSapling = "Kadife Çiçeği Fidanı", --0.3.0
+       flora_marigoldPlantSapling_plural = "Kadife Çiçeği Fidanları", --0.3.0
+       flora_garlicPlant = "Sarımsak", --0.3.0
+       flora_garlicPlant_plural = "Sarımsaklar", --0.3.0
+       flora_garlicPlant_summary = "Sarımsak yenilebilir ve ilaç yapımında kullanılabilir.", --0.3.0
+       flora_garlicPlantSapling = "Sarımsak Fidanları", --0.3.0
+       flora_garlicPlantSapling_plural = "Sarımsak Fidanları", --0.3.0
+       flora_aloePlant = "Aloe Vera", --0.3.0
+       flora_aloePlant_plural = "Aloe Veralar", --0.3.0
+       flora_aloePlant_summary = "Aloe Vera hafif yanıklara iyi gelir", --0.3.0
+       flora_aloePlantSapling = "Aloe Vera Fidanı", --0.3.0
+       flora_aloePlantSapling_plural = "Aloe Vera Fidanları", --0.3.0
+       flora_aspen = "Kavak",
+       flora_aspen_plural = "Kavaklar",
+       flora_aspen_summary = "Soğuk bölgelere özgü uzun, yaprak döken bir ağaç. Beyaz kabuklu hafif bir ahşap sağlar.",
+       flora_aspen_sapling = "Kavak Fidanı",
+       flora_aspen_sapling_plural = "Kavak Fidanları",
+       flora_bamboo = "Bambu",
+       flora_bamboo_plural = "Bambular",
+       flora_bamboo_summary = "Bambu hızla büyür. Dalları inşaat ve yakacak odun için kullanılabilir.",
+       flora_bamboo_sapling = "Bambu Fidanı",
+       flora_bamboo_sapling_plural = "Bambu Fidanları",
+       flora_palm = "Palmiye",
+       flora_palm_plural = "Palmiyeler",
+       flora_palm_summary = "Palmiye palmiyedir.",
+       flora_palm_sapling = "Palmiye Fidanı",
+       flora_palm_sapling_plural = "Palmiye Fidanları",
+       flora_birch = "Huş Ağacı",
+       flora_birch_plural = "Huş Ağaçları",
+       flora_birch_summary = "Beyaz kabuklu hafif bir odun veren bir ağaç.",
+       flora_birch_sapling = "Huş Ağacı Fidanı",
+       flora_birch_sapling_plural = "Huş Ağacı Fidanları",
+       flora_pine = "Çam Ağacı",
+       flora_pine_plural = "Çam Ağaçları",
+       flora_pine_summary = "Çam ağaçları gezegenin her yerinde bulunabilir. Yakıt olarak kullanılabilen cam kozalakları ile birlikte çok odun sağlar.",
+       flora_pine_sapling = "Çam Ağacı Fidanı",
+       flora_pine_sapling_plural = "Çam Ağacı Fidanları",
+       flora_pineBig = "Uzun Çam Ağacı",
+       flora_pineBig_plural = "Uzun Çam Ağaçları",
+       flora_pineBig_summary = "Uzun Çamlar nadirdir, büyümeleri uzun zaman alır ve sadece her on yılda bir tohum verir, ancak kesildiğinde büyük miktarda odun sağlar.",
+       flora_pineBig_sapling = "Uzun Çam Ağacı Fidanı",
+       flora_pineBig_sapling_plural = "Uzun Çam Ağacı Fidanları",
+       flora_aspenBig = "Uzun Kavak",
+       flora_aspenBig_plural = "Uzun Kavaklar",
+       flora_aspenBig_summary = "Uzun kavaklar nadirdir, büyümesi uzun zaman alır ve sadece on yılda bir tohum verir, ancak kesildiğinde Büyük miktarda odun sağlar.",
+       flora_aspenBig_sapling = "Uzun Kavak Fidanı",
+       flora_aspenBig_sapling_plural = "Uzun Kavak Fidanları",
+       flora_appleTree = "Elma Ağacı",
+       flora_appleTree_plural = "Elma Ağaçları",
+       flora_appleTree_summary = "Yaz sonundan sonbahara kadar meyve veren bir ağaç.",
+       flora_appleTree_sapling = "Elma Ağacı Fidanı",
+       flora_appleTree_sapling_plural = "Elma Ağacı Fidanları",
+       flora_elderberryTree = "Mürver Ağacı", --0.3.0
+       flora_elderberryTree_plural = "Mürver Ağaçları", --0.3.0
+       flora_elderberryTree_summary = "Tıbbi meyveleri olan küçük, gür bir ağaç.", --0.3.0
+       flora_elderberryTree_sapling = "Mürver Fidanı", --0.3.0
+       flora_elderberryTree_sapling_plural = "Mürver Fidanları", --0.3.0
+       flora_gooseberryBush = "Bektaşi Üzümü",
+       flora_gooseberryBush_plural = "Bektaşi Üzümleri",
+       flora_gooseberryBush_summary = "C vitamini açısından zengin sulu bir meyve üretir. Yaz aylarında hasat edilebilir.",
+       flora_pumpkinPlant = "Kabak Bitkisi",
+       flora_pumpkinPlant_plural = "Kabak Bitkileri",
+       flora_pumpkinPlant_summary = "Kabaklar uzun süre saklanır, yemesi lezzetlidir ve başka şeyler için de kullanılabilir.",
+       flora_peachTree = "Şeftali Ağacı",
+       flora_peachTree_plural = "Şeftali Ağaçları",
+       flora_peachTree_summary = "Yaz aylarında olgunlaşan sulu bir şeftali üretir. Bazı insanlar şeftaliye dokunamaz, mesela ben :(",
+       flora_peachTree_sapling = "Şeftali Fidanı",
+       flora_peachTree_sapling_plural = "Şeftali Fidanları",
+       flora_bananaTree = "Muz Ağacı",
+       flora_bananaTree_plural = "Muz Ağaçları",
+       flora_bananaTree_summary = "Muz ağaçları aslında ağaç değil, ot. Muz da meyve değil zaten, teknik olarak çilek. Uzun sarı sebzeler iste.",
+       flora_bananaTree_sapling = "Muz Ağacı Fidanı",
+       flora_bananaTree_sapling_plural = "Muz Ağacı Fidanları",
+       flora_coconutTree = "Hindistan Cevizi Ağacı",
+       flora_coconutTree_plural = "Hindistan Cevizi Ağaçları",
+       flora_coconutTree_summary = "Hindistan Cevizi Ağacı Büyük ve besleyici bir meyve ve eşsiz bir odun sağlar. Düşen hindistan cevizleri yılda ortalama 150 kişiyi ölduruyor.",
+       flora_coconutTree_sapling = "Hindistan Cevizi Fidanı",
+       flora_coconutTree_sapling_plural = "Hindistan Cevizi Fidanları",
+       flora_raspberryBush = "Ahududu Çalısı",
+       flora_raspberryBush_plural = "Ahududu Çalıları",
+       flora_raspberryBush_summary = "Ahududu, C vitamini açısından zengindir ve lezzetle doludur. Sonbaharda hasat edilebilir.",
+       flora_shrub = "Çalı",
+       flora_shrub_plural = "Çalılar",
+       flora_shrub_summary = "Çalı işte.",
+       flora_orangeTree = "Portakal Ağacı",
+       flora_orangeTree_plural = "Portakal Ağaçları",
+       flora_orangeTree_summary = "Portakal ağaçları dayanıklıdır ve kış sonunda çok ihtiyaç duyulan bir hasat sağlar.",
+       flora_orangeTree_sapling = "Portakal Ağacı Fidanı",
+       flora_orangeTree_sapling_plural = "Portakal Ağacı Fidanları",
+       flora_cactus = "Kaktüs",
+       flora_cactus_plural = "Kaktüsler",
+       flora_cactus_summary = "Kaktüs, dikenli..",
+       flora_cactus_sapling = "Kaktüs Fidanı",
+       flora_cactus_sapling_plural = "Kaktüs Fidanları",
+       flora_sunflower = "Ayçiçeği",
+       flora_sunflower_plural = "Ayçiçekleri",
+       flora_sunflower_summary = "Ayçiçekleri efsane bir manzara sağlar ve tohumları biraz kalori için yenebilir.",
+       flora_sunflowerSapling = "Ayçiçeği Fidanı",
+       flora_sunflowerSapling_plural = "Ayçiçeği Fidanları",
+       flora_flower1 = "Çiçek",
+       flora_flower1_plural = "Çiçekler",
+       flora_flower1_summary = "Çiçek, yaprağı falan var.",
 
----- BURADA KALDIM ----
+       -- branches
+       branch_birch = "Huş Ağacı Dalı",
+       branch_birch_plural = "Huş Ağacı Dalları",
+       branch_pine = "Çam Dalı",
+       branch_pine_plural = "Çam Dalları",
+       branch_aspen = "Kavak Dalı",
+       branch_aspen_plural = "Kavak Dalları",
+       branch_bamboo = "Bambu",
+       branch_bamboo_plural = "Bambular",
+       branch_willow = "Söğüt Dalı",
+       branch_willow_plural = "Söğüt Dalları",
+       branch_apple = "Elma Ağacı Dalı",
+       branch_apple_plural = "Elma Ağacı Dalları",
+       branch_elderberry = "Mürver Dalı", --0.3.0
+       branch_elderberry_plural = "Mürver Dalları", --0.3.0
+       branch_orange = "Portakal Ağacı Dalı",
+       branch_orange_plural = "Portakal Ağacı Dalları",
+       branch_peach = "Şeftali Ağacı Dalı",
+       branch_peach_plural = "Şeftali Ağacı Dalları",
 
-    flora_palm = "Palmiye",
-    flora_palm_plural = "Palmiyeler",
-    flora_palm_summary = "Palmiye palmiyedir.",
-    flora_palm_sapling = "Palmiye Fidanı",
-    flora_palm_sapling_plural = "Palmiye Fidanları",
-    flora_birch = "Huş Ağacı",
-    flora_birch_plural = "Huş Ağaçları",
-    flora_birch_summary = "Beyaz kabuklu hafif bir odun veren bir ağaç.",
-    flora_birch_sapling = "Huş Ağacı Fidanı",
-    flora_birch_sapling_plural = "Huş Ağacı Fidanları",
-    flora_pine = "Çam Ağacı",
-    flora_pine_plural = "Çam Ağaçları",
-    flora_pine_summary = "Çam ağaçları gezegenin her yerinde bulunabilir. Yakıt olarak kullanılabilen cam kozalakları ile birlikte çok odun sağlar.",
-    flora_pine_sapling = "Çam Ağacı Fidanı",
-    flora_pine_sapling_plural = "Çam Ağacı Fidanları",
-    flora_pineBig = "Uzun Çam Ağacı",
-    flora_pineBig_plural = "Uzun Çam Ağaçları",
-    flora_pineBig_summary = "Uzun Çamlar nadirdir, büyümeleri uzun zaman alır ve sadece her on yılda bir tohum verir, ancak kesildiğinde büyük miktarda odun sağlar.",
-    flora_pineBig_sapling = "Uzun Çam Ağacı Fidanı",
-    flora_pineBig_sapling_plural = "Uzun Çam Ağacı Fidanları",
-    flora_aspenBig = "Uzun Kavak",
-    flora_aspenBig_plural = "Uzun Kavaklar",
-    flora_aspenBig_summary = "Uzun kavaklar nadirdir, büyümesi uzun zaman alır ve sadece on yılda bir tohum verir, ancak kesildiğinde Büyük miktarda odun sağlar.",
-    flora_aspenBig_sapling = "Uzun Kavak Fidanı",
-    flora_aspenBig_sapling_plural = "Uzun Kavak Fidanları",
-    flora_appleTree = "Elma Ağacı",
-    flora_appleTree_plural = "Elma Ağaçları",
-    flora_appleTree_summary = "Yaz sonundan sonbahara kadar meyve veren bir ağaç.",
-    flora_appleTree_sapling = "Elma Ağacı Fidanı",
-    flora_appleTree_sapling_plural = "Elma Ağacı Fidanları",
-    flora_elderberryTree = "Mürver Ağacı", --0.3.0
-    flora_elderberryTree_plural = "Mürver Ağaçları", --0.3.0
-    flora_elderberryTree_summary = "Tıbbi meyveleri olan küçük, gür bir ağaç.", --0.3.0
-    flora_elderberryTree_sapling = "Mürver Fidanı", --0.3.0
-    flora_elderberryTree_sapling_plural = "Mürver Fidanları", --0.3.0
-    flora_gooseberryBush = "Bektaşi Üzümü",
-    flora_gooseberryBush_plural = "Bektaşi Üzümleri",
-    flora_gooseberryBush_summary = "C vitamini açısından zengin sulu bir meyve üretir. Yaz aylarında hasat edilebilir.",
-    flora_pumpkinPlant = "Kabak Bitkisi",
-    flora_pumpkinPlant_plural = "Kabak Bitkileri",
-    flora_pumpkinPlant_summary = "Kabaklar uzun süre saklanır, yemesi lezzetlidir ve başka şeyler için de kullanılabilir.",
-    flora_peachTree = "Şeftali Ağacı",
-    flora_peachTree_plural = "Şeftali Ağaçları",
-    flora_peachTree_summary = "Yaz aylarında olgunlaşan sulu bir şeftali üretir. Bazı insanlar şeftaliye dokunamaz, mesela ben :(",
-    flora_peachTree_sapling = "Şeftali Fidanı",
-    flora_peachTree_sapling_plural = "Şeftali Fidanları",
-    flora_banaIslakree = "Muz Ağacı",
-    flora_banaIslakree_plural = "Muz Ağaçları",
-    flora_banaIslakree_summary = "Muz ağaçları aslında ağaç değil, ot. Muz da meyve değil zaten, teknik olarak çilek. Uzun sarı sebzeler iste.",
-    flora_banaIslakree_sapling = "Muz Ağacı Fidanı",
-    flora_banaIslakree_sapling_plural = "Muz Ağacı Fidanları",
-    flora_coconutTree = "Hindistan Cevizi Ağacı",
-    flora_coconutTree_plural = "Hindistan Cevizi Ağaçları",
-    flora_coconutTree_summary = "Hindistan Cevizi Ağacı Büyük ve besleyici bir meyve ve eşsiz bir odun sağlar. Düşen hindistan cevizleri yılda ortalama 150 kişiyi ölduruyor.",
-    flora_coconutTree_sapling = "Hindistan Cevizi Fidanı",
-    flora_coconutTree_sapling_plural = "Hindistan Cevizi Fidanları",
-    flora_raspberryBush = "Ahududu Çalısı",
-    flora_raspberryBush_plural = "Ahududu Çalıları",
-    flora_raspberryBush_summary = "Ahududu, C vitamini açısından zengindir ve lezzetle doludur. Sonbaharda hasat edilebilir.",
-    flora_shrub = "Çalı",
-    flora_shrub_plural = "Çalılar",
-    flora_shrub_summary = "Çali işte.",
-    flora_orangeTree = "Portakal Ağacı",
-    flora_orangeTree_plural = "Portakal Ağaçları",
-    flora_orangeTree_summary = "Portakal ağaçları dayanıklıdır ve kış sonunda çok ihtiyaç duyulan bir hasat sağlar.",
-    flora_orangeTree_sapling = "Portakal Ağacı Fidanı",
-    flora_orangeTree_sapling_plural = "Portakal Ağacı Fidanları",
-    flora_cactus = "Kaktüs",
-    flora_cactus_plural = "Kaktüsler",
-    flora_cactus_summary = "Kaktüs, dikenli..",
-    flora_cactus_sapling = "Kaktüs Fidanı",
-    flora_cactus_sapling_plural = "Kaktüs Fidanları",
-    flora_sunflower = "Ayçiçeği",
-    flora_sunflower_plural = "Ayçiçekleri",
-    flora_sunflower_summary = "Ayçiçekleri efsane bir manzara sağlar ve tohumları biraz kalori için yenebilir.",
-    flora_sunflowerSapling = "Ayçiçeği Fidanı",
-    flora_sunflowerSapling_plural = "Ayçiçeği Fidanları",
-    flora_flower1 = "Çiçek",
-    flora_flower1_plural = "Çiçekler",
-    flora_flower1_summary = "Çiçek, yaprağı falan var.",
+       -- logs
+       log_birch = "Huş Ağacı Kütüğü",
+       log_birch_plural = "Huş Ağacı Kütükleri",
+       log_willow = "Söğüt Kütüğü",
+       log_willow_plural = "Söğüt Kütükleri",
+       log_apple = "Elma Ağacı Kütüğü",
+       log_apple_plural = "Elma Ağacı Kütükleri",
+       log_elderberry = "Mürver Kütüğü", --0.3.0
+       log_elderberry_plural = "Mürver Kütükleri", --0.3.0
+       log_orange = "Portakal Ağacı Kütüğü",
+       log_orange_plural = "Portakal Ağacı Kütükleri",
+       log_peach = "Şeftali Ağacı Kütüğü",
+       log_peach_plural = "Şeftali Ağacı Kütükleri",
+       log_pine = "Çam Ağacı Kütüğü",
+       log_pine_plural = "Çam Ağacı Kütükleri",
+       log_aspen = "Kavak Ağacı Kütüğü",
+       log_aspen_plural = "Kavak Ağacı Kütükleri",
+       log_coconut = "Hindistan Cevizi Ağacı Kütüğü",
+       log_coconut_plural = "Hindistan Cevizi Ağacı Kütükleri",
 
-    -- branches
-    branch_birch = "Huş Ağacı Dalı",
-    branch_birch_plural = "Huş Ağacı Dalları",
-    branch_pine = "Çam Dalı",
-    branch_pine_plural = "Çam Dalları",
-    branch_aspen = "Kavak Dalı",
-    branch_aspen_plural = "Kavak Dalları",
-    branch_bamboo = "Bambu",
-    branch_bamboo_plural = "Bambular",
-    branch_willow = "Söğüt Dalı",
-    branch_willow_plural = "Söğüt Dalları",
-    branch_apple = "Elma Ağacı Dalı",
-    branch_apple_plural = "Elma Ağacı Dalları",
-    branch_elderberry = "Mürver Dalı", --0.3.0
-    branch_elderberry_plural = "Mürver Dalları", --0.3.0
-    branch_orange = "Portakal Ağacı Dalı",
-    branch_orange_plural = "Portakal Ağacı Dalları",
-    branch_peach = "Şeftali Ağacı Dalı",
-    branch_peach_plural = "Şeftali Ağacı Dalları",
+       --fruits/seeds
+       fruit_orange = "Portakal",
+       fruit_orange_plural = "Portakallar",
+       fruit_orange_rotten = "Çürük Portakal",
+       fruit_orange_rotten_plural = "Çürük Portakallar",
+       fruit_apple = "Elma",
+       fruit_apple_plural = "Elmalar",
+       fruit_apple_rotten = "Çürük Elma",
+       fruit_apple_rotten_plural = "Çürük Elmalar",
+       fruit_elderberry = "Mürver", --0.3.0
+       fruit_elderberry_plural = "Mürverler", --0.3.0
+       fruit_elderberry_rotten = "Çürük Mürver", --0.3.0
+       fruit_elderberry_rotten_plural = "Çürük Mürverler", --0.3.0
+       fruit_banana = "Muz",
+       fruit_banana_plural = "Muzlar",
+       fruit_banana_rotten = "Çürük Muz",
+       fruit_banana_rotten_plural = "Çürük Muzlar",
+       fruit_coconut = "Hindistan Cevizi",
+       fruit_coconut_plural = "Hindistan Cevizleri",
+       fruit_coconut_rotten = "Çürük Hindistan Cevizi",
+       fruit_coconut_rotten_plural = "Çürük Hindistan Cevizleri",
+       fruit_pineCone = "Çam Kozalağı",
+       fruit_pineCone_plural = "Çam Kozalakları",
+       fruit_pineCone_rotten = "Çürük Çam Kozalağı",
+       fruit_pineCone_rotten_plural = "Çürük Çam Kozalakları",
+       fruit_pineConeBig = "Büyük Çam Kozalağı",
+       fruit_pineConeBig_plural = "Büyük Çam Kozalakları",
+       fruit_pineConeBig_rotten = "Çürük Büyük Çam Kozalağı",
+       fruit_pineConeBig_rotten_plural = "Çürük Büyük Çam Kozalakları",
+       fruit_aspenBigSeed = "Büyük Kavak Tohumu",
+       fruit_aspenBigSeed_plural = "Büyük Kavak Tohumları",
+       fruit_aspenBigSeed_rotten = "Çürük Büyük Kavak Tohumu",
+       fruit_aspenBigSeed_rotten_plural = "Çürük Büyük Kavak Tohumları",
+       fruit_beetroot = "Pancar Kökü",
+       fruit_beetroot_plural = "Pancar Kökleri",
+       fruit_beetroot_rotten = "Çürük Pancar Kökü",
+       fruit_beetroot_rotten_plural = "Çürük Pancar Kökleri",
+       fruit_beetrootSeed = "Kırmızı Pancar Tohumu",
+       fruit_beetrootSeed_plural = "Kırmızı Pancar Tohumları",
+       fruit_beetrootSeed_rotten = "Çürük Kırmızı Pancar Tohumu",
+       fruit_beetrootSeed_rotten_plural = "Çürük Kırmızı Pancar Tohumları",
+       fruit_wheat = "Buğday",
+       fruit_wheat_plural = "Buğdaylar",
+       fruit_wheat_rotten = "Çürük Buğday",
+       fruit_wheat_rotten_plural = "Çürük Buğdaylar",
+       fruit_flax = "Yaş Keten",
+       fruit_flax_plural = "Yaş Ketenler",
+       fruit_flax_rotten = "Çürük Keten",
+       fruit_flax_rotten_plural = "Çürük Ketenler",
+       fruit_flaxSeed = "Keten Tohumu",
+       fruit_flaxSeed_plural = "Keten Tohumları",
+       fruit_flaxSeed_rotten = "Çürük Keten Tohumu",
+       fruit_flaxSeed_rotten_plural = "Çürük Keten Tohumları",
+       fruit_poppyFlower = "Gelincik Çiçeği", --0.3.0
+       fruit_poppyFlower_plural = "Gelincik Çiçekleri", --0.3.0
+       fruit_poppyFlower_rotten = "Çürük Gelincik Çiçeği", --0.3.0
+       fruit_poppyFlower_rotten_plural = "Çürük Gelincik Çiçekleri", --0.3.0
+       fruit_echinaceaFlower = "Ekinezya Çiçeği", --0.3.0
+       fruit_echinaceaFlower_plural = "Ekinezya Çiçekleri", --0.3.0
+       fruit_echinaceaFlower_rotten = "Çürük Ekinezya Çiçeği", --0.3.0
+       fruit_echinaceaFlower_rotten_plural = "Çürük Ekinezya Çiçekleri", --0.3.0
+       fruit_marigoldFlower = "Kadife Çiçeği", --0.3.0
+       fruit_marigoldFlower_plural = "Kadife Çiçekleri", --0.3.0
+       fruit_marigoldFlower_rotten = "Çürük Kadife Çiçeği", --0.3.0
+       fruit_marigoldFlower_rotten_plural = "Çürük Kadife Çiçekleri", --0.3.0
+       fruit_gingerRoot = "Zencefil Kökü", --0.3.0
+       fruit_gingerRoot_plural = "Zencefil Kökleri", --0.3.0
+       fruit_gingerRoot_rotten = "Çürük Zencefil Kökü", --0.3.0
+       fruit_gingerRoot_rotten_plural = "Çürük Zencefil Kökleri", --0.3.0
+       fruit_turmericRoot = "Zerdeçal Kökü", --0.3.0
+       fruit_turmericRoot_plural = "Zerdeçal Kökleri", --0.3.0
+       fruit_turmericRoot_rotten = "Çürük Zerdeçal Kökü", --0.3.0
+       fruit_turmericRoot_rotten_plural = "Çürük Zerdeçal Kökleri", --0.3.0
+       fruit_garlic = "Sarımsak", --0.3.0
+       fruit_garlic_plural = "Sarımsaklar", --0.3.0
+       fruit_garlic_rotten = "Çürük Sarımsak", --0.3.0
+       fruit_garlic_rotten_plural = "Çürük Sarımsaklar", --0.3.0
+       fruit_aloeLeaf = "Aloe Vera Yaprağı", --0.3.0
+       fruit_aloeLeaf_plural = "Aloe Vera Yaprakları", --0.3.0
+       fruit_aloeLeaf_rotten = "Çürük Aloe Vera Yaprağı", --0.3.0
+       fruit_aloeLeaf_rotten_plural = "Çürük Aloe Vera Yaprakları", --0.3.0
+       fruit_sunflowerSeed = "Ayçiçeği Çekirdeği",
+       fruit_sunflowerSeed_plural = "Ayçiçeği Çekirdekleri",
+       fruit_sunflowerSeed_rotten = "Çürük Ayçiçeği Çekirdeği",
+       fruit_sunflowerSeed_rotten_plural = "Çürük Ayçiçeği Çekirdekleri",
+       fruit_peach = "Şeftali",
+       fruit_peach_plural = "Şeftaliler",
+       fruit_peach_rotten = "Çürük Şeftali",
+       fruit_peach_rotten_plural = "Çürük Şeftaliler",
+       fruit_raspberry = "Ahududu",
+       fruit_raspberry_plural = "Ahududular",
+       fruit_raspberry_rotten = "Çürük Ahududu",
+       fruit_raspberry_rotten_plural = "Çürük Ahududular",
+       fruit_gooseberry = "Bektaşi Üzümü",
+       fruit_gooseberry_plural = "Bektaşi Üzümleri",
+       fruit_gooseberry_rotten = "Çürük Bektaşi Üzümü",
+       fruit_gooseberry_rotten_plural = "Çürük Bektaşi Üzümleri",
+       fruit_pumpkin = "Kabak",
+       fruit_pumpkin_plural = "Kabaklar",
+       fruit_pumpkin_rotten = "Çürük Kabak",
+       fruit_pumpkin_rotten_plural = "Çürük Kabaklar",
+       fruit_birchSeed = "Huş Tohumu",
+       fruit_birchSeed_plural = "Huş Tohumları",
+       fruit_birchSeed_rotten = "Çürük Huş Tohumu",
+       fruit_birchSeed_rotten_plural = "Çürük Huş Tohumları",
+       fruit_aspenSeed = "Kavak Tohumu",
+       fruit_aspenSeed_plural = "Kavak Tohumları",
+       fruit_aspenSeed_rotten = "Çürük Kavak Tohumu",
+       fruit_aspenSeed_rotten_plural = "Çürük Kavak Tohumları",
+       fruit_willowSeed = "Söğüt Tohumu",
+       fruit_willowSeed_plural = "Söğüt Tohumları",
+       fruit_willowSeed_rotten = "Çürük Söğüt Tohumu",
+       fruit_willowSeed_rotten_plural = "Çürük Söğüt Tohumları",
+       fruit_bambooSeed = "Bambu Tohumu",
+       fruit_bambooSeed_plural = "Bambu Tohumları",
+       fruit_bambooSeed_rotten = "Çürük Bambu Tohumu",
+       fruit_bambooSeed_rotten_plural = "Çürük Bambu Tohumları",
 
---- Burda Kaldım ---
+       -- tool groups
+       toolGroup_weapon = "Silah",
+       toolGroup_weapon_plural = "Silahlar",
 
-    -- logs
-    log_birch = "Huş Ağacı Kütüğü",
-    log_birch_plural = "Huş Ağacı Kütükleri",
-    log_willow = "Söğüt Kütüğü",
-    log_willow_plural = "Söğüt Kütükleri",
-    log_apple = "Elma Ağacı Kütüğü",
-    log_apple_plural = "Elma Ağacı Kütükleri",
-    log_elderberry = "Mürver Kütüğü", --0.3.0
-    log_elderberry_plural = "Mürver Kütükleri", --0.3.0
-    log_orange = "Portakal Ağacı Kütüğü",
-    log_orange_plural = "Portakal Ağacı Kütükleri",
-    log_peach = "Şeftali Ağacı Kütüğü",
-    log_peach_plural = "Şeftali Ağacı Kütükleri",
-    log_pine = "Çam Ağacı Kütüğü",
-    log_pine_plural = "Çam Ağacı Kütükleri",
-    log_aspen = "Kavak Ağacı Kütüğü",
-    log_aspen_plural = "Kavak Ağacı Kütükleri",
-    log_coconut = "Hindistan Cevizi Ağacı Kütüğü",
-    log_coconut_plural = "Hindistan Cevizi Ağacı Kütükleri",
+       -- tools
+       tool_treeChop = "Ağaç Kesme Aracı",
+       tool_treeChop_plural = "Ağaç Kesme Araçları",
+       tool_treeChop_usage = "Ağaç Kesme Aracı Kullanılıyor",
+       tool_dig = "Kazma Aracı",
+       tool_dig_plural = "Kazma Araçları",
+       tool_dig_usage = "Kazma Aracı Kullanılıyor",
+       tool_mine = "Madencilik Aracı",
+       tool_mine_plural = "Madencilik Araçları",
+       tool_mine_usage = "Madencilik Aracı Kullanılıyor",
+       tool_weaponBasic = "Basit Silah",
+       tool_weaponBasic_plural = "Basit Silahlar",
+       tool_weaponBasic_usage = "Basit Silah",
+       tool_weaponSpear = "Mızrak",
+       tool_weaponSpear_plural = "Mızraklar",
+       tool_weaponSpear_usage = "Mızrak",
+       tool_weaponKnife = "Bıçak",
+       tool_weaponKnife_plural = "Bıçaklar",
+       tool_weaponKnife_usage = "Bıçak",
+       tool_butcher = "Kasap Aracı",
+       tool_butcher_plural = "Kasap Araçları",
+       tool_butcher_usage = "Kesmek",
+       tool_knapping = "Yontma Aracı",
+       tool_knapping_plural = "Yontma Araçları",
+       tool_knapping_usage = "Yontmak",
+       tool_carving = "Oyma Aracı",
+       tool_carving_plural = "Oyma Araçları",
+       tool_carving_usage = "Oymak",
+       tool_grinding = "Bileme Aracı",
+       tool_grinding_plural = "Bileme Araçları",
+       tool_grinding_usage = "Bilemek",
 
-    --fruits/seeds
-    fruit_orange = "Portakal",
-    fruit_orange_plural = "Portakallar",
-    fruit_orange_rotten = "Çürük Portakal",
-    fruit_orange_rotten_plural = "Çürük Portakallar",
-    fruit_apple = "Elma",
-    fruit_apple_plural = "Elmalar",
-    fruit_apple_rotten = "Çürük Elma",
-    fruit_apple_rotten_plural = "Çürük Elmalar",
-    fruit_elderberry = "Mürver", --0.3.0
-    fruit_elderberry_plural = "Mürverler", --0.3.0
-    fruit_elderberry_rotten = "Çürük Mürver", --0.3.0
-    fruit_elderberry_rotten_plural = "Çürük Mürverler", --0.3.0
-    fruit_banana = "Muz",
-    fruit_banana_plural = "Muzlar",
-    fruit_banana_rotten = "Çürük Muz",
-    fruit_banana_rotten_plural = "Çürük Muzlar",
-    fruit_coconut = "Hindistan Cevizi",
-    fruit_coconut_plural = "Hindistan Cevizleri",
-    fruit_coconut_rotten = "Çürük Hindistan Cevizi",
-    fruit_coconut_rotten_plural = "Çürük Hindistan Cevizleri",
-    fruit_pineCone = "Çam Kozalağı",
-    fruit_pineCone_plural = "Çam Kozalakları",
-    fruit_pineCone_rotten = "Çürük Çam Kozalağı",
-    fruit_pineCone_rotten_plural = "Çürük Çam Kozalakları",
-    fruit_pineConeBig = "Büyük Çam Kozalağı",
-    fruit_pineConeBig_plural = "Büyük Çam Kozalakları",
-    fruit_pineConeBig_rotten = "Çürük Büyük Çam Kozalağı",
-    fruit_pineConeBig_rotten_plural = "Çürük Büyük Çam Kozalakları",
-    fruit_aspenBigSeed = "Büyük Kavak Tohumu",
-    fruit_aspenBigSeed_plural = "Büyük Kavak Tohumları",
-    fruit_aspenBigSeed_rotten = "Çürük Büyük Kavak Tohumu",
-    fruit_aspenBigSeed_rotten_plural = "Çürük Büyük Kavak Tohumları",
-    fruit_beetroot = "Pancar Kökü",
-    fruit_beetroot_plural = "Pancar Kökleri",
-    fruit_beetroot_rotten = "Çürük Pancar Kökü",
-    fruit_beetroot_rotten_plural = "Çürük Pancar Kökleri",
-    fruit_beetrootSeed = "Kırmızı Pancar Tohumu",
-    fruit_beetrootSeed_plural = "Kırmızı Pancar Tohumları",
-    fruit_beetrootSeed_rotten = "Çürük Kırmızı Pancar Tohumu",
-    fruit_beetrootSeed_rotten_plural = "Çürük Kırmızı Pancar Tohumları",
-    fruit_wheat = "Buğday",
-    fruit_wheat_plural = "Buğdaylar",
-    fruit_wheat_rotten = "Çürük Buğday",
-    fruit_wheat_rotten_plural = "Çürük Buğdaylar",
-    fruit_flax = "Yaş Keten",
-    fruit_flax_plural = "Yaş Ketenler",
-    fruit_flax_rotten = "Çürük Keten",
-    fruit_flax_rotten_plural = "Çürük Ketenler",
-    fruit_flaxSeed = "Keten Tohumu",
-    fruit_flaxSeed_plural = "Keten Tohumları",
-    fruit_flaxSeed_rotten = "Çürük Keten Tohumu",
-    fruit_flaxSeed_rotten_plural = "Çürük Keten Tohumları",
-    fruit_poppyFlower = "Gelincik Çiçeği", --0.3.0
-    fruit_poppyFlower_plural = "Gelincik Çiçekleri", --0.3.0
-    fruit_poppyFlower_rotten = "Çürük Gelincik Çiçeği", --0.3.0
-    fruit_poppyFlower_rotten_plural = "Çürük Gelincik Çiçekleri", --0.3.0
-    fruit_echinaceaFlower = "Ekinezya Çiçeği", --0.3.0
-    fruit_echinaceaFlower_plural = "Ekinezya Çiçekleri", --0.3.0
-    fruit_echinaceaFlower_rotten = "Çürük Ekinezya Çiçeği", --0.3.0
-    fruit_echinaceaFlower_rotten_plural = "Çürük Ekinezya Çiçekleri", --0.3.0
-    fruit_marigoldFlower = "Kadife Çiçeği", --0.3.0
-    fruit_marigoldFlower_plural = "Kadife Çiçekleri", --0.3.0
-    fruit_marigoldFlower_rotten = "Çürük Kadife Çiçeği", --0.3.0
-    fruit_marigoldFlower_rotten_plural = "Çürük Kadife Çiçekleri", --0.3.0
-    fruit_gingerRoot = "Zencefil Kökü", --0.3.0
-    fruit_gingerRoot_plural = "Zencefil Kökleri", --0.3.0
-    fruit_gingerRoot_rotten = "Çürük Zencefil Kökü", --0.3.0
-    fruit_gingerRoot_rotten_plural = "Çürük Zencefil Kökleri", --0.3.0
-    fruit_turmericRoot = "Zerdeçal Kökü", --0.3.0
-    fruit_turmericRoot_plural = "Zerdeçal Kökleri", --0.3.0
-    fruit_turmericRoot_rotten = "Çürük Zerdeçal Kökü", --0.3.0
-    fruit_turmericRoot_rotten_plural = "Çürük Zerdeçal Kökleri", --0.3.0
-    fruit_garlic = "Sarımsak", --0.3.0
-    fruit_garlic_plural = "Sarımsaklar", --0.3.0
-    fruit_garlic_rotten = "Çürük Sarımsak", --0.3.0
-    fruit_garlic_rotten_plural = "Çürük Sarımsaklar", --0.3.0
-    fruit_aloeLeaf = "Aloe Vera Yaprağı", --0.3.0
-    fruit_aloeLeaf_plural = "Aloe Vera Yaprakları", --0.3.0
-    fruit_aloeLeaf_rotten = "Çürük Aloe Vera Yaprağı", --0.3.0
-    fruit_aloeLeaf_rotten_plural = "Çürük Aloe Vera Yaprakları", --0.3.0
-    fruit_sunflowerSeed = "Ayçiçeği Çekirdeği",
-    fruit_sunflowerSeed_plural = "Ayçiçeği Çekirdekleri",
-    fruit_sunflowerSeed_rotten = "Çürük Ayçiçeği Çekirdeği",
-    fruit_sunflowerSeed_rotten_plural = "Çürük Ayçiçeği Çekirdekleri",
-    fruit_peach = "Şeftali",
-    fruit_peach_plural = "Şeftaliler",
-    fruit_peach_rotten = "Çürük Şeftali",
-    fruit_peach_rotten_plural = "Çürük Şeftaliler",
-    fruit_raspberry = "Ahududu",
-    fruit_raspberry_plural = "Ahududular",
-    fruit_raspberry_rotten = "Çürük Ahududu",
-    fruit_raspberry_rotten_plural = "Çürük Ahududular",
-    fruit_gooseberry = "Bektaşi Üzümü",
-    fruit_gooseberry_plural = "Bektaşi Üzümleri",
-    fruit_gooseberry_rotten = "Çürük Bektaşi Üzümü",
-    fruit_gooseberry_rotten_plural = "Çürük Bektaşi Üzümleri",
-    fruit_pumpkin = "Kabak",
-    fruit_pumpkin_plural = "Kabaklar",
-    fruit_pumpkin_rotten = "Çürük Kabak",
-    fruit_pumpkin_rotten_plural = "Çürük Kabaklar",
-    fruit_birchSeed = "Huş Tohumu",
-    fruit_birchSeed_plural = "Huş Tohumları",
-    fruit_birchSeed_rotten = "Çürük Huş Tohumu",
-    fruit_birchSeed_rotten_plural = "Çürük Huş Tohumları",
-    fruit_aspenSeed = "Kavak Tohumu",
-    fruit_aspenSeed_plural = "Kavak Tohumları",
-    fruit_aspenSeed_rotten = "Çürük Kavak Tohumu",
-    fruit_aspenSeed_rotten_plural = "Çürük Kavak Tohumları",
-    fruit_willowSeed = "Söğüt Tohumu",
-    fruit_willowSeed_plural = "Söğüt Tohumları",
-    fruit_willowSeed_rotten = "Çürük Söğüt Tohumu",
-    fruit_willowSeed_rotten_plural = "Çürük Söğüt Tohumları",
-    fruit_bambooSeed = "Bambu Tohumu",
-    fruit_bambooSeed_plural = "Bambu Tohumları",
-    fruit_bambooSeed_rotten = "Çürük Bambu Tohumu",
-    fruit_bambooSeed_rotten_plural = "Çürük Bambu Tohumları",
+       tool_knappingCrude = "Ham Yoğurma Aracı", --b20
+       tool_knappingCrude_plural = "Ham Yoğurma araçlari", --b20
+       tool_knappingCrude_usage = "Ham Yoğurma", --b20
 
-    -- tool groups
-    toolGroup_weapon = "Silah",
-    toolGroup_weapon_plural = "Silahlar",
+       --tool properties
+       toolProperties_damage = "Hasar",
+       toolProperties_speed = "Hız",
+       toolProperties_durability = "Dayanıklılık",
 
-    -- tools
-    tool_treeChop = "Ağaç Kesme Aracı",
-    tool_treeChop_plural = "Ağaç Kesme Araçları",
-    tool_treeChop_usage = "Ağaç Kesme Aracı Kullanılıyor",
-    tool_dig = "Kazma Aracı",
-    tool_dig_plural = "Kazma Araçları",
-    tool_dig_usage = "Kazma Aracı Kullanılıyor",
-    tool_mine = "Madencilik Aracı",
-    tool_mine_plural = "Madencilik Araçları",
-    tool_mine_usage = "Madencilik Aracı Kullanılıyor",
-    tool_weaponBasic = "Basit Silah",
-    tool_weaponBasic_plural = "Basit Silahlar",
-    tool_weaponBasic_usage = "Basit Silah",
-    tool_weaponSpear = "Mızrak",
-    tool_weaponSpear_plural = "Mızraklar",
-    tool_weaponSpear_usage = "Mızrak",
-    tool_weaponKnife = "Bıçak",
-    tool_weaponKnife_plural = "Bıçaklar",
-    tool_weaponKnife_usage = "Bıçak",
-    tool_butcher = "Kasap Aracı",
-    tool_butcher_plural = "Kasap Araçları",
-    tool_butcher_usage = "Kesmek",
-    tool_knapping = "Yontma Aracı",
-    tool_knapping_plural = "Yontma Araçları",
-    tool_knapping_usage = "Yontmak",
-    tool_carving = "Oyma Aracı",
-    tool_carving_plural = "Oyma Araçları",
-    tool_carving_usage = "Oymak",
-    tool_grinding = "Bileme Aracı",
-    tool_grinding_plural = "Bileme Araçları",
-    tool_grinding_usage = "Bilemek",
-
-    tool_knappingCrude = "Ham Yoğurma Aracı", --b20
-    tool_knappingCrude_plural = "Ham Yoğurma araçlari", --b20
-    tool_knappingCrude_usage = "Ham Yoğurma", --b20
-
-    --tool properties
-    toolProperties_damage = "Hasar",
-    toolProperties_speed = "Hız",
-    toolProperties_durability = "Dayanıklılık",
-
-    -- tool usages
-    tool_usage_new = "Yeni",
-    tool_usage_used = "Kullanılmış",
-    tool_usage_wellUsed = "Çok Kullanılmış",
-    tool_usage_nearlyBroken = "Neredeyse Kırılacak",
+       -- tool usages
+       tool_usage_new = "Yeni",
+       tool_usage_used = "Kullanılmış",
+       tool_usage_wellUsed = "Çok Kullanılmış",
+       tool_usage_nearlyBroken = "Neredeyse Kırılacak",
 
     -- plans
     plan_build = "Yapı",
@@ -884,12 +876,13 @@ localizations.values = {
     plan_deconstruct = "Yık",
     plan_deconstruct_inProgress = "Yıkılıyor",
     plan_manageStorage = "Depolamayı Yönet",
+    plan_manageStorage_inProgress = "Depolama Yönetiliyor",
     plan_manageSapien = "Sapien'i Yönet",
     plan_manageSapien_inProgress = "Sapien Yönetiliyor",
     plan_addFuel = "Yakıt Ekle",
     plan_addFuel_inProgress = "Yakıt Ekleniyor",
     plan_buildPath = "Yol Yap",
-    plan_buildPath_inProgress = "Yol yapılıyor",
+    plan_buildPath_inProgress = "Yol Yapılıyor",
     plan_research = researchName,
     plan_research_inProgress = researchingName,
     plan_constructWith = "Kullan",
@@ -904,26 +897,6 @@ localizations.values = {
     plan_clone_inProgress = "Kopyalanıyor",
     plan_playInstrument = "Çal",
     plan_playInstrument_inProgress = "Çalınıyor",
-    plan_manageSapien = "Sapien'i Yönet",
-    plan_manageSapien_inProgress = "Sapien Yönetiliyor",
-    plan_addFuel = "Yakıt Ekle",
-    plan_addFuel_inProgress = "Yakıt Ekleniyor",
-    plan_buildPath = "Yol Yap",
-    plan_buildPath_inProgress = "Yol yapılıyor",
-    plan_research_inProgress = researchingName,
-    plan_constructWith = "Kullan",
-    plan_constructWith_inProgress = "Kullanılıyor",
-    plan_allowUse = "Kullanıma İzin Ver",
-    plan_allowUse_inProgress = "Kullanıma İzin Veriliyor",
-    plan_stop = "Dur",
-    plan_stop_inProgress = "Duruluyor",
-    plan_butcher = "Doğra",
-    plan_butcher_inProgress = "Doğranıyor",
-    plan_clone = "Kopyala",
-    plan_clone_inProgress = "Kopyalanıyor",
-    plan_playInstrument = "Çal",
-    plan_playInstrument_inProgress = "Çalınıyor",
-
 
     plan_treatInjury = "Tedavi Et", --0.3.0
     plan_treatInjury_inProgress = "Tedavi Ediliyor", --0.3.0
@@ -931,9 +904,8 @@ localizations.values = {
     plan_treatBurn_inProgress = "Tedavi Ediliyor", --0.3.0
     plan_treatFoodPoisoning = "Zehirlenmeyi Tedavi Et", --0.3.0
     plan_treatFoodPoisoning_inProgress = "Tedavi Ediliyor", --0.3.0
-    plan_treatVirüs = "Virüsü Tedavi Et", --0.3.0
-    plan_treatVirüs_inProgress = "Tedavi Ediliyor", --0.3.0
-
+    plan_treatVirus = "Virüsü Tedavi Et", --0.3.0
+    plan_treatVirus_inProgress = "Tedavi Ediliyor", --0.3.0
 
     --research
     research_fire = researchName,
@@ -949,22 +921,22 @@ localizations.values = {
     research_brickBuilding_inProgress = researchingName,
     research_brickBuilding_description = "Artık kabileniz kurumuş tuğlaları nasıl birbirine bağlayacağını öğrendiğine göre, duvar inşa etmek için tuğlalara yeni bir dekoratif alternatifleri var.",
     research_woodBuilding = researchName,
-    research_woodBuilding_inProgress = researchName,
+    research_woodBuilding_inProgress = researchingName,
     research_woodBuilding_description = "Kabileniz, basit araçlarla kütükleri bölerek yeni bir yapı malzemesi buldu. Ahşap ile yapılan yapılar daha güçlüdür ve hava koşullarına karşı daha dayanıklıdır.",
     research_rockKnapping = researchName,
-    research_rockKnapping_inProgress = researchName,
+    research_rockKnapping_inProgress = researchingName,
     research_rockKnapping_description = "Kabileniz, bir kayayı diğerine vurdu ve bu sayede kenarların keskinleştirilebileceğini keşfetti böylece çok faydalı aletlerin nasıl yapılabileceğini öğrendiler.",
     research_flintKnapping = researchName,
-    research_flintKnapping_inProgress = researchName,
+    research_flintKnapping_inProgress = researchingName,
     research_flintKnapping_description = "Yeni bir kaya türu bulduktan sonra, kabileniz yeni bir keskin kenar oluşturmak için onu yontmaya çalıştı. Bu yeni malzeme daha dayanıklı!.",
     research_pottery = researchName,
-    research_pottery_inProgress = researchName,
-    research_pottery_description = "Kabileniz, bazı toprak türlerinin yumuşak ve ıslakken preslenebileceğini ve kuruyup sertleştiklerinde şekillerini koruyacaklarını keşfetti. Bu, belirli kaynakları depolamak için yararlı olacaktır.",
+    research_pottery_inProgress = researchingName,
+    research_pottery_description = "Your tribe has discovered that some types of earth can be pressed into forms when soft and wet, and they will then keep their shape when they dry out and harden. This will be useful for storing certain resources.",
     research_potteryFiring = researchName,
-    research_potteryFiring_inProgress = researchName,
+    research_potteryFiring_inProgress = researchingName,
     research_potteryFiring_description = "Kabileniz, kilin ateşle ısıtıldığında sertleştiğini fark etti. Amaca uygun olarak yapılmış bir şey yardımıyla, daha sıcak bir ateşle, artık suya daha dayanıklı çanak çömlek yapabilir ve içeriklerini daha iyi koruyabilirler.",
     research_spinning = researchName,
-    research_spinning_inProgress = researchName,
+    research_spinning_inProgress = researchingName,
     research_spinning_description = "Kabileniz artık bitki liflerini bir araya getirerek sicimler ve halatlar oluşturabilir. Bu özellikle bir şeyleri birbirine bağlamak ve karmaşık araçlar yapmak için faydalı olacaktır.",
     research_digging = researchName,
     research_digging_inProgress = researchingName,
@@ -1004,17 +976,20 @@ localizations.values = {
     research_campfireCooking_description = "Bir anlık ilhamla kabile, yemeklerin ateşte pişirilerek daha lezzetli ve daha kolay sindirilebilir hale getirilebileceğini keşfetti.",
     research_baking = researchName,
     research_baking_inProgress = researchingName,
-    research_baking_description = "Uzun uğraşlar sonucu kabile, etrafta yetişen tahılları kullanarak lezzetli ve doyurucu bir yemek yapabilme yeteneğine sahip oldu."
+    research_baking_description = "Uzun uğraşlar sonucu kabile, etrafta yetişen tahılları kullanarak lezzetli ve doyurucu bir yemek yapabilme yeteneğine sahip oldu.",
     research_toolAssembly = researchName,
     research_toolAssembly_inProgress = researchingName,
     research_toolAssembly_description = "Bilenmiş bir taş, ahşap bir sapla birleştirildiğinde daha fazla kuvvetle kullanılabilir. Kabileniz artık daha iyi araçlar ve daha zorlu silahlar üretebilir.",
+    research_medicine = researchName, --0.3.0
+    research_medicine_inProgress = researchingName, --0.3.0
+    research_medicine_description = "Kabileniz bitkileri, kökleri ve çiçekleri öğüterek ilaç yapılabileceğini keşfetti. Bu karışımlar yaralanmalara ve hastalıklara yardımcı olabilir.", --0.3.0
     research_grinding = researchName,
     research_grinding_inProgress = researchingName,
-    research_grinding_description = "Toz haline getirmek özellikle tohum ve tahıllarda saklı olan değerli kalorileri açığa çıkarmak için çok faydalı olabilir. Kabileniz, öğütme taşını geliştirerek öğütme işlemini çok daha kolay hale getirdi.",
+    research_grinding_description = "Toz haline getirmek özellikle tohum ve tahıllarda saklı olan değerli kalorileri açığa çıkarmak için çok faydalı olabilir. Kabileniz, öğütme taşını geliştirerek öğütme işlemini çok daha kolay hale getirdi.", --modified b13
     research_tiling = researchName,
     research_tiling_inProgress = researchingName,
     research_tiling_description = "İnce kil tabakaları ateşleyerek, kabileniz yeni bir inşaat yöntemi keşfetti. Kiremitler, yüksek kaliteli çatı, zemin ve yollar inşa etmek için kullanılabilir.",
-    research_unlock_butcherMammoth = "Butcher Mammoth",
+    research_unlock_butcherMammoth = "Mamut Kasabı",
 
     -- paths
     path_dirt = "Toprak Yol",
@@ -1060,7 +1035,7 @@ localizations.values = {
     object_grass = "Islak Saman",
     object_grass_plural = "Islak Saman",
     object_flaxDried = "Kurutulmuş Keten",
-
+    object_flaxDried_plural = "Kurutulmuş Ketenler",
     object_splitLogFloor = "Ahşap Zemin 2x2",
     object_splitLogFloor_plural = "Ahşap Zeminler 2x2",
     object_splitLogFloor4x4 = "Ahşap Zemin 4x4",
@@ -1145,6 +1120,8 @@ localizations.values = {
     object_willowWoodenPole_plural = "Söğüt Direkleri",
     object_appleWoodenPole = "Elma Ağacı Direği",
     object_appleWoodenPole_plural = "Elma Ağacı Direkleri",
+    object_elderberryWoodenPole = "Mürver Ahşap Direği",
+    object_elderberryWoodenPole_plural = "Mürver Ahşap Direkleri",
     object_orangeWoodenPole = "Portakal Ağacı Direği",
     object_orangeWoodenPole_plural = "Portakal Ağacı Direkleri",
     object_peachWoodenPole = "Şeftali Ağacı Direği",
@@ -1159,6 +1136,8 @@ localizations.values = {
     object_willowSplitLog_plural = "Kesilmiş Söğüt Kütükleri",
     object_appleSplitLog = "Kesilmiş Elma Ağacı Kütüğü",
     object_appleSplitLog_plural = "Kesilmiş Elma Ağacı Kütükleri",
+    object_elderberrySplitLog = "Kesik Mürver Kütüğü",
+    object_elderberrySplitLog_plural = "Kesik Mürver Kütükleri",
     object_orangeSplitLog = "Kesik Portakal Ağacı Kütüğü",
     object_orangeSplitLog_plural = "Kesik Portakal Ağacı Kütükleri",
     object_peachSplitLog = "Kesik Şeftali Ağacı Kütüğü",
@@ -1219,8 +1198,8 @@ localizations.values = {
     object_flintKnife_plural = "Çakmaktaşı Bıçaklar",
     object_boneKnife = "Kemik Bıçak",
     object_boneKnife_plural = "Kemik Bıçaklar",
-    object_boneFlüte = "Kemik Flüt",
-    object_boneFlüte_plural = "Kemik Flütler",
+    object_boneFlute = "Kemik Flüt",
+    object_boneFlute_plural = "Kemik Flütler",
     object_logDrum = "Kütük Davul",
     object_logDrum_plural = "Kütük Davullar",
     object_balafon = "Balafon",
@@ -1247,8 +1226,6 @@ localizations.values = {
     object_pumpkinCooked_plural = "Kavrulmuş Kabaklar",
     object_beetrootCooked = "Kavrulmuş Pancar",
     object_beetrootCooked_plural = "Kavrulmuş Pancarlar",
-    object_flatbread = "Ekmek",
-    object_flatbread_plural = "Ekmekler",
     object_flatbread = "Ekmek",
     object_flatbread_plural = "Ekmekler",
     object_flatbreadRotten = "Küflü Ekmek",
@@ -1279,7 +1256,6 @@ localizations.values = {
     object_thatchRoofEnd_plural = "Hasır Çatı Uçları",
     object_sand = "Kum",
     object_sand_plural = "Kumlar",
-
     object_craftArea = "Üretim Alanı",
     object_craftArea_plural = "Üretim Alanları",
     object_build_campfire = "Kamp Ateşi",
@@ -1375,10 +1351,11 @@ localizations.values = {
     object_unfiredUrnHulledWheat = "Kabuklu Buğday (Pişmemiş)",
     object_unfiredUrnHulledWheat_plural = "Kabuklu Buğdaylar (Pişmemiş)",
     object_unfiredUrnHulledWheatRotten = "Çürük Kabuklu Buğday (Pişmemiş)",
-    object_firedUrnHulledWheat = "Kabuklu Buğday (Pişmiş)"
-    object_firedUrnHulledWheat_plural = "Kabuklu Buğdaylar (Pişmiş)"
-    object_firedUrnHulledWheatRotten = "Çürük Kabuklu Buğday (Pişmiş)"
-    object_firedUrnHulledWheatRotten_plural = "Çürük Kabuklu Buğdaylar (Pişmiş)"
+    object_unfiredUrnHulledWheatRotten_plural = "Çürük Kabuklu Buğdaylar (Pişmemiş)",
+    object_firedUrnHulledWheat = "Kabuklu Buğday (Pişmiş)",
+    object_firedUrnHulledWheat_plural = "Kabuklu Buğdaylar (Pişmiş)",
+    object_firedUrnHulledWheatRotten = "Çürük Kabuklu Buğday (Pişmiş)",
+    object_firedUrnHulledWheatRotten_plural = "Çürük Kabuklu Buğdaylar (Pişmiş)",
 
     --0.3.0 added group start
     object_unfiredBowlWet = "Kase (Yaş)",
@@ -1388,27 +1365,27 @@ localizations.values = {
     object_firedBowl = "Kase",
     object_firedBowl_plural = "Kaseler",
 
-    object_unfiredBowlInjuryMediçine = "İlaç",
-    object_unfiredBowlInjuryMediçine_plural = "İlaçlar",
-    object_unfiredBowlBurnMediçine = "Yanık İlacı",
-    object_unfiredBowlBurnMediçine_plural = "Yanık İlaçları",
-    object_unfiredBowlFoodPoisoningMediçine = "Gıda Zehirlenmesi İlacı",
-    object_unfiredBowlFoodPoisoningMediçine_plural = "Gıda Zehirlenmesi İlaçları",
-    object_unfiredBowlVirüsMediçine = "Virüs İlacı",
-    object_unfiredBowlVirüsMediçine_plural = "Virüs İlaçları (Kasede)",
-    object_unfiredBowlMediçineRotten = "Çürük İlaç",
-    object_unfiredBowlMediçineRotten_plural = "Çürük İlaçları",
+    object_unfiredBowlInjuryMedicine = "İlaç",
+    object_unfiredBowlInjuryMedicine_plural = "İlaçlar",
+    object_unfiredBowlBurnMedicine = "Yanık İlacı",
+    object_unfiredBowlBurnMedicine_plural = "Yanık İlaçları",
+    object_unfiredBowlFoodPoisoningMedicine = "Gıda Zehirlenmesi İlacı",
+    object_unfiredBowlFoodPoisoningMedicine_plural = "Gıda Zehirlenmesi İlaçları",
+    object_unfiredBowlVirusMedicine = "Virüs İlacı",
+    object_unfiredBowlVirusMedicine_plural = "Virüs İlaçları (Kasede)",
+    object_unfiredBowlMedicineRotten = "Çürük İlaç",
+    object_unfiredBowlMedicineRotten_plural = "Çürük İlaçları",
 
-    object_firedBowlInjuryMediçine = "İlaç",
-    object_firedBowlInjuryMediçine_plural = "İlaçlar",
-    object_firedBowlBurnMediçine = "Yanık İlacı",
-    object_firedBowlBurnMediçine_plural = "Yanık İlaçları",
-    object_firedBowlFoodPoisoningMediçine = "Gıda Zehirlenmesi İlacı",
-    object_firedBowlFoodPoisoningMediçine_plural = "Gıda Zehirlenmesi İlaçları",
-    object_firedBowlVirüsMediçine = "Virüs İlacı",
-    object_firedBowlVirüsMediçine_plural = "Virüs İlaçları",
-    object_firedBowlMediçineRotten = "Çürük İlaç",
-    object_firedBowlMediçineRotten_plural = "Çürük İlaçları",
+    object_firedBowlInjuryMedicine = "İlaç",
+    object_firedBowlInjuryMedicine_plural = "İlaçlar",
+    object_firedBowlBurnMedicine = "Yanık İlacı",
+    object_firedBowlBurnMedicine_plural = "Yanık İlaçları",
+    object_firedBowlFoodPoisoningMedicine = "Gıda Zehirlenmesi İlacı",
+    object_firedBowlFoodPoisoningMedicine_plural = "Gıda Zehirlenmesi İlaçları",
+    object_firedBowlVirusMedicine = "Virüs İlacı",
+    object_firedBowlVirusMedicine_plural = "Virüs İlaçları",
+    object_firedBowlMedicineRotten = "Çürük İlaç",
+    object_firedBowlMedicineRotten_plural = "Çürük İlaçları",
     --0.3.0 group end
 
     object_temporaryCraftArea = "Üretim Alanı",
@@ -1612,10 +1589,14 @@ localizations.values = {
     order_putOnClothing_inProgress = "Giyiniliyor",
     order_takeOffClothing = "Soyun",
     order_takeOffClothing_inProgress = "Soyunuluyor",
-    order_giveMediçineToSelf = "Kendini İyileştir", --0.3.0
-    order_giveMediçineToSelf_inProgress = "Kendisini İyileştiriyor", --0.3.0
-    order_giveMediçineToOtherSapien = "İlaç Ver", --0.3.0
-    order_giveMediçineToOtherSapien_inProgress = "İlaç Veriyor", --0.3.0
+    order_giveMedicineToSelf = "Kendini İyileştir", --0.3.0
+    order_giveMedicineToSelf_inProgress = "Kendisini İyileştiriyor", --0.3.0
+    order_giveMedicineToOtherSapien = "İlaç Ver", --0.3.0
+    order_giveMedicineToOtherSapien_inProgress = "İlaç Veriyor", --0.3.0
+
+
+
+
 
     --resource
     resource_branch = "Dal",
@@ -1700,8 +1681,8 @@ localizations.values = {
     resource_flintKnife_plural = "Çakmaktaşı Bıçaklar",
     resource_boneKnife = "Kemik Bıçak",
     resource_boneKnife_plural = "Kemik Bıçaklar",
-    resource_boneFlüte = "Kemik Flüt",
-    resource_boneFlüte_plural = "Kemik Flütler",
+    resource_boneFlute = "Kemik Flüt",
+    resource_boneFlute_plural = "Kemik Flütler",
     resource_logDrum = "Kütük Davul",
     resource_logDrum_plural = "Kütük Davullar",
     resource_balafon = "Balafon",
@@ -1747,27 +1728,27 @@ localizations.values = {
     resource_firedBowl = "Kase",
     resource_firedBowl_plural = "Kaseler",
 
-    resource_unfiredBowlInjuryMediçine = "İlaç",
-    resource_unfiredBowlInjuryMediçine_plural = "İlaçalar",
-    resource_unfiredBowlBurnMediçine = "Yanık İlacı",
-    resource_unfiredBowlBurnMediçine_plural = "Yanık İlaçları",
-    resource_unfiredBowlFoodPoisoningMediçine = "Gıda Zehirlenmesi İlacı",
-    resource_unfiredBowlFoodPoisoningMediçine_plural = "Gıda Zehirlenmesi İlaçları",
-    resource_unfiredBowlVirüsMediçine = "Virüs İlacı",
-    resource_unfiredBowlVirüsMediçine_plural = "Virüs İlaçları",
-    resource_unfiredBowlMediçineRotten = "Çürük İlacı",
-    resource_unfiredBowlMediçineRotten_plural = "Çürük İlaçları",
+    resource_unfiredBowlInjuryMedicine = "İlaç",
+    resource_unfiredBowlInjuryMedicine_plural = "İlaçalar",
+    resource_unfiredBowlBurnMedicine = "Yanık İlacı",
+    resource_unfiredBowlBurnMedicine_plural = "Yanık İlaçları",
+    resource_unfiredBowlFoodPoisoningMedicine = "Gıda Zehirlenmesi İlacı",
+    resource_unfiredBowlFoodPoisoningMedicine_plural = "Gıda Zehirlenmesi İlaçları",
+    resource_unfiredBowlVirusMedicine = "Virüs İlacı",
+    resource_unfiredBowlVirusMedicine_plural = "Virüs İlaçları",
+    resource_unfiredBowlMedicineRotten = "Çürük İlacı",
+    resource_unfiredBowlMedicineRotten_plural = "Çürük İlaçları",
 
-    resource_firedBowlInjuryMediçine = "İlaç",
-    resource_firedBowlInjuryMediçine_plural = "İlaçlar",
-    resource_firedBowlBurnMediçine = "Yanık İlacı",
-    resource_firedBowlBurnMediçine_plural = "Yanık İlaçları",
-    resource_firedBowlFoodPoisoningMediçine = "Gıda Zehirlenmesi İlacı",
-    resource_firedBowlFoodPoisoningMediçine_plural = "Gıda Zehirlenmesi İlaçları",
-    resource_firedBowlVirüsMediçine = "Virüs İlacı",
-    resource_firedBowlVirüsMediçine_plural = "Virüs İlaçları",
-    resource_firedBowlMediçineRotten = "Çürük İlaç",
-    resource_firedBowlMediçineRotten_plural = "Çürük İlaçlar",
+    resource_firedBowlInjuryMedicine = "İlaç",
+    resource_firedBowlInjuryMedicine_plural = "İlaçlar",
+    resource_firedBowlBurnMedicine = "Yanık İlacı",
+    resource_firedBowlBurnMedicine_plural = "Yanık İlaçları",
+    resource_firedBowlFoodPoisoningMedicine = "Gıda Zehirlenmesi İlacı",
+    resource_firedBowlFoodPoisoningMedicine_plural = "Gıda Zehirlenmesi İlaçları",
+    resource_firedBowlVirusMedicine = "Virüs İlacı",
+    resource_firedBowlVirusMedicine_plural = "Virüs İlaçları",
+    resource_firedBowlMedicineRotten = "Çürük İlaç",
+    resource_firedBowlMedicineRotten_plural = "Çürük İlaçlar",
     --0.3.0 group end
 
     resource_branch_rotten = "Çürük Dal",
@@ -1815,14 +1796,14 @@ localizations.values = {
     resource_group_urnHulledWheat = "Kabuklu Buğday",
     resource_group_urnHulledWheat_plural = "Kabuklu Buğdaylar",
     --0.3.0 group:
-    resource_group_injuryMediçine = "İlaç",
-    resource_group_injuryMediçine_plural = "İlaçlar",
-    resource_group_burnMediçine = "Yanık İlacı",
-    resource_group_burnMediçine_plural = "Yanık İlaçları",
-    resource_group_foodPoisoningMediçine = "Gıda Zehirlenmesi İlacı",
-    resource_group_foodPoisoningMediçine_plural = "Gıda Zehirlenmesi İlaçları",
-    resource_group_virusMediçine = "Virüs İlacı",
-    resource_group_virusMediçine_plural = "Virüs İlaçları",
+    resource_group_injuryMedicine = "İlaç",
+    resource_group_injuryMedicine_plural = "İlaçlar",
+    resource_group_burnMedicine = "Yanık İlacı",
+    resource_group_burnMedicine_plural = "Yanık İlaçları",
+    resource_group_foodPoisoningMedicine = "Gıda Zehirlenmesi İlacı",
+    resource_group_foodPoisoningMedicine_plural = "Gıda Zehirlenmesi İlaçları",
+    resource_group_virusMedicine = "Virüs İlacı",
+    resource_group_virusMedicine_plural = "Virüs İlaçları",
     --0.3.0 group end
 
     --desire
@@ -1888,7 +1869,8 @@ localizations.values = {
     statusEffect_majorInjury_name = "Ağır Yaralı",
     statusEffect_majorInjury_description = "Hareket edebilir, ancak çalışmaz. Belki yavaşça iyileşir ama kritik bir duruma da dönüşebilir.",
     statusEffect_criticalInjury_name = "Çok Ağır Yaralı",
-    statusEffect_criticalInjury_description = "Hayatı tehdit eden yaralanmalar. İyileşebilir veya ölume yol açabilir.",
+    statusEffect_criticalInjury_description = "Hayatı tehdit eden yaralanmalar. İyileşebilir veya ölüme yol açabilir.",
+
 --0.3.0 added group start:
     statusEffect_minorBurn_name = "Hafif Yanık",
     statusEffect_minorBurn_description = "Biraz acı verici ama kendi kendine iyileşebilir. Doğru ilaçla daha hızlı iyileşir. ",
@@ -1902,12 +1884,12 @@ localizations.values = {
     statusEffect_majorFoodPoisoning_description = "Çalismayi engeller. Tedavi olmadan yavaş iyileşebilir ya da kritik hale gelebilir.",
     statusEffect_criticalFoodPoisoning_name = "Kritik Gıda Zehirlenmesi",
     statusEffect_criticalFoodPoisoning_description = "Ölümcül Zehirlenme.",
-    statusEffect_minorVirüs_name = "Hafif Viral Semptomlar",
-    statusEffect_minorVirüs_description = "Hafif bir burun akıntısı, kendi kendine iyileşebilir ancak tedavi olmadikca daha kötü hale gelebilir ve diğer Sapienlere bulaştırabilir.",
-    statusEffect_majorVirüs_name = "Viral Enfeksiyon",
-    statusEffect_majorVirüs_description = "Bazı aktiviteleri engeller. Tedavi edilmezse kritik hale gelebilir ve diğer Sapienlere kolayca bulaştırabilir.",
-    statusEffect_criticalVirüs_name = "Kritik Viral Enfeksiyon",
-    statusEffect_criticalVirüs_description = "Son Derece Bulaşıcı! Tedavi edilmezse ölume yol açabilir.",
+    statusEffect_minorVirus_name = "Hafif Viral Semptomlar",
+    statusEffect_minorVirus_description = "Hafif bir burun akıntısı, kendi kendine iyileşebilir ancak tedavi olmadikca daha kötü hale gelebilir ve diğer Sapienlere bulaştırabilir.",
+    statusEffect_majorVirus_name = "Viral Enfeksiyon",
+    statusEffect_majorVirus_description = "Bazı aktiviteleri engeller. Tedavi edilmezse kritik hale gelebilir ve diğer Sapienlere kolayca bulaştırabilir.",
+    statusEffect_criticalVirus_name = "Kritik Viral Enfeksiyon",
+    statusEffect_criticalVirus_description = "Son Derece Bulaşıcı! Tedavi edilmezse ölume yol açabilir.",
     statusEffect_hypothermia_name = "Hipotermi",
     statusEffect_hypothermia_description = "Acilen ısınması gerekiyor, yoksa ölecek.",
 
@@ -2057,7 +2039,7 @@ localizations.values = {
     storage_ui_clickToAddStops = "Durak eklemek için depolara tıklayın",
     storage_ui_hit = "Tıkla",
     storage_ui_whenDone = "Bittiğinde",
-    storage_ui_NoDestiIslakions = "Hedef yok",
+    storage_ui_NoDestinations = "Hedef yok",
 
     --resources ui
     resources_ui_allowUse = "Kullanıma izin ver",
@@ -2127,7 +2109,85 @@ localizations.values = {
     settings_exitDesktop = "Masaüstüne Çık",
     --stats ui
     ui_stats_days_ago = function(values)
-        return string.format("%d Güun önce", values.dayCount)
+        return string.format("%d Gün önce", values.dayCount)
+    end,
+    ui_stats_now = "Şimdi",
+
+    --roles ui
+    ui_roles_allowed = "Atandı",
+    ui_roles_disallowed = "Atanmadı",
+
+    --resources ui
+    resources_ui_allowUse = "Kullanıma izin ver",
+
+    -- tribe ui
+    tribe_ui_tribe = "Sapienler",
+    tribe_ui_roles = "Roller",
+    tribe_ui_stats = "İstatistikler",
+    tribe_ui_resources = "Kaynaklar",
+
+    --settings ui
+    settings_options = "Ayarlar",
+    settings_exit = "Çıkış",
+    settings_header = "Ayarlar: Genel",
+    settings_general = "Genel",
+    settings_graphics = "Grafikler",
+    settings_KeyBindings = "Tuşlar",
+    settings_Debug = "Debug",
+    settings_Exit = "Çıkış",
+    settings_language = "Dil",
+    settings_language_tip = "Ana Menüdeki 'Modlar' paneli aracılığı ile Steam Workshop'tan daha fazla dil yükleyin",
+    settings_Controls = "Kontroller",
+    settings_Controls_mouseSensitivity = "Fare Hassasiyeti",
+    settings_Controls_invertMouseLookY = "Fare Ters Çevir (Y)",
+    settings_Controls_invertMouseWheelZoom = "Fare Tekerleği Yakınlaştırmasını Ters Çevir", --b20
+    settings_Controls_controllerLookSensitivity = "Kontrolcü Hassasiyeti",
+    settings_Controls_invertControllerLookY = "Kontrolcü Ters Çevir (Y)",
+    settings_Controls_enableDoubleTapForFastMovement = "Çift Dokunma - hızlı hareket",
+    settings_Audio = "Ses",
+    settings_Audio_MusicVolume = "Müzik Seviyesi",
+    settings_Audio_SoundVolume = "Ses Seviyesi",
+    settings_Other = "Diğer",
+    settings_allowLanConnections = "Çok Oyunculu LAN Bağlantılarına İzin Ver",
+    settings_pauseOnLostFocus = "Oyun Alta Alındığında Durdur", --b19
+    settings_enableTutorialForThisWorld = "Bu gezegen için öğreticiyi etkinleştir",
+    settings_enableTutorialForNewWorlds = "Yeni gezegenler için öğreticiyi etkinleştir",
+    settings_GeneralGraphics = "Genel Grafikler",
+    settings_graphics_brightness = "Parlaklık",
+    settings_graphics_desktop = "Masaüstü",
+    settings_graphics_Multi = "Çoklu",
+    settings_graphics_Resolution = "Çözünürlük",
+    settings_graphics_Display = "Görüntüleme",
+    settings_graphics_window = "Pencere",
+    settings_graphics_Borderless = "Kenarlıksız Pencere",
+    settings_graphics_FullScreen = "Tam Ekran",
+    settings_graphics_Relaunch = "Yeniden Yükle",
+    settings_graphics_VSync = "VSync",
+    settings_graphics_FOV = "FOV",
+    settings_Performance = "Performans",
+    settings_Performance_RenderDistance = "Render Mesafesi",
+    settings_Performance_GrassDistance = "Çim Mesafesi",
+    settings_Performance_grassDensity = "Çim Yoğunluğu",
+    settings_Performance_animatedObjectsCount = "Maksimum Animasyonlu Nesne",
+    settings_Performance_ssao = "Çevresel Perdeleme",
+    settings_Performance_highQualityWater = "Yüksek Kaliteli Su Yansıması", --0.3.0
+    settings_Performance_bloomEnabled = "Bloom", --0.3.0
+    settings_Debug_display = "Debug Ekranı",
+    settings_Debug_Cloud = "Bulut",
+    settings_Debug_setSunrise = "Gündoğumu Yap",
+    settings_Debug_setMidday = "Öğlen Yap",
+    settings_Debug_setSunset = "Gün Batımı Yap",
+    settings_Debug_startLockCamera = "Kamera Kilidi",
+    settings_Debug_startServerProfile = "Profil Sunucusu",
+    settings_Debug_startLogicProfile = "Profil Mantık Konusu",
+    settings_Debug_startMainThreadProfile = "Profil Ana Konusu",
+    settings_exitAreYouSure = "Çıkmak istediğinizden emin misiniz?",
+    settings_exitAreYouSure_info = "Siz oynarken oyun sürekli olarak kaydedilir.",
+    settings_exitMainMenu = "Ana Menüye Çık",
+    settings_exitDesktop = "Masaüstüne Çık",
+    --stats ui
+    ui_stats_days_ago = function(values)
+        return string.format("%d Gün önce", values.dayCount)
     end,
     ui_stats_now = "Şimdi",
 
@@ -2145,7 +2205,7 @@ localizations.values = {
     ui_resources_decorations = "Yer Dekorasyonu",
     ui_resources_eating = "Yemek Yiyor",
     ui_resources_tool = "Araç veya Silah", --b13
-    ui_resources_mediçine = "İlaç", --0.3.0
+    ui_resources_medicine = "İlaç", --0.3.0
 
     -- look at ui
     lookatUI_needs = "İhtiyaclar",
@@ -2154,9 +2214,29 @@ localizations.values = {
     lookatUI_missingCampfire = "Yakınlarda yanan Kamp Ateşi yok",
     lookatUI_missingKiln = "Yakınlarda yanan Fırın yok",
     lookatUI_missingStorageAreaContainedObjects = "Burada saklanan uygun ürün yok",
-    lookatUI_missingTaşkAssignment = function(values)
+    lookatUI_missingTaskAssignment = function(values)
         return "Hiçbir Sapien atanmamış \"" .. values.taskName .. "\" rol"
     end,
+    lookatUI_needsTools = function(values)-- b16
+      local planInfoString = "Gerekli "
+      for i,missingToolInfo in ipairs(values.missingToolInfos) do
+          planInfoString = planInfoString .. missingToolInfo.toolName .. " (eg. " .. missingToolInfo.exampleObjectName .. ")"
+          if i ~= #values.missingToolInfos then
+              planInfoString = planInfoString .. ", "
+          end
+      end
+      return planInfoString
+  end,
+  lookatUI_needsResources = function(values)-- b16
+      local planInfoString = "Gerekli "
+      for i,missingResourceString in ipairs(values.missingResources) do
+          planInfoString = planInfoString .. missingResourceString
+          if i ~= #values.missingResources then
+              planInfoString = planInfoString .. ", "
+          end
+      end
+      return planInfoString
+  end,
     lookatUI_inaccessible = "Ulaşmak çok zor",
     lookatUI_terrainTooSteepFill = "Bunu doldurmak çok dik bir eğim oluşturur",
     lookatUI_invalidUnderWater = "Kuru araziden erişim gerekiyor",
@@ -2210,7 +2290,7 @@ localizations.values = {
         return "Yönet " .. values.name
     end,
     ui_action_join = "Katıl",
-    ui_action_createWorld = "Gezegen Ölüştur",
+    ui_action_createWorld = "Gezegen Oluştur",
     ui_action_credits = "Ekip",
     ui_action_exit = "Çıkış",
     ui_action_reportBug = "Hata Bildir",
@@ -2252,7 +2332,7 @@ localizations.values = {
             return "Araziyi doldurun " .. values.resourceTypeNamePlural
         end
     end,
-    ui_cantDoTaşks = function(values)
+    ui_cantDoTasks = function(values)
         if values.pregnant then
             return "Hamilelik nedeniyle bu görevleri yapamıyor."
         elseif values.hasBaby then
@@ -2266,7 +2346,7 @@ localizations.values = {
         end
         return "Sinirli olduğu için görevleri yapmıyor."
     end,
-    ui_partiallyCantDoTaşks = function(values)
+    ui_partiallyCantDoTasks = function(values)
         if values.pregnant then
             return "Bu görevlerden bazıları hamilelik nedeniyle yapılamaz."
         elseif values.hasBaby then
@@ -2278,7 +2358,7 @@ localizations.values = {
         end
         return "Bu görevlerden bazılarını sinirli olduğu için yapmaz."
     end,
-    ui_cantDoTaşksShort = function(values)
+    ui_cantDoTasksShort = function(values)
         if values.pregnant then
             return "Hamile"
         elseif values.hasBaby then
@@ -2292,7 +2372,7 @@ localizations.values = {
         end
         return "Sinirli"
     end,
-    ui_missingTaşkAssignment = function(values)
+    ui_missingTaskAssignment = function(values)
         return "atanmadı \"" .. values.taskName .. "\" rol"
     end,
     ui_portionCount = function(values)
@@ -2339,18 +2419,16 @@ localizations.values = {
     ui_name_steamOverlayDisabled = "Steam Overlay Kapalı", --b20
 
 
-
-
     -- ui infos
-    ui_info_deleteWorldAreYousüre = function(values)
+    ui_info_deleteWorldAreYouSure = function(values)
         return string.format("%s gezegenini silmek istediğinizden emin misiniz? Bu geri alınamaz, oyun kaydı sonsuza kadar gider.", values.worldName)
     end,
     ui_info_bindingPopUpViewInstructions = "Bu bağlama atamak için tuşlara basın ve bırakın.",
     ui_info_bindingTimeRemaining = function(values)
         return string.format("%d saniye içinde geri döner...", values.seconds)
     end,
-    ui_info_changeModAreYousüre = "Bu gezegen için modları değiştirmek istediğinizden emin misiniz?\n\n Bu, gezegenin yüklenmemesine neden olabilir, bu nedenle önce dünya dizininin bir kopyasını yedeklemelisiniz.", --b20
-    ui_info_updateModAreYousüre = function(values) --b20
+    ui_info_changeModAreYouSure = "Bu gezegen için modları değiştirmek istediğinizden emin misiniz?\n\n Bu, gezegenin yüklenmemesine neden olabilir, bu nedenle önce dünya dizininin bir kopyasını yedeklemelisiniz.", --b20
+    ui_info_updateModAreYouSure = function(values) --b20
         return string.format("%s modunu güncellemek istediğinizden emin misiniz?\n\n Bu geri alınamaz ve gezegenin yüklenmemesine neden olabilir.\n\n Modun en son sürümünü (%s) bu gezegenin dizinine kopyalayacaktır, eski sürümün (%s) üzerine yazma.\n\n Önce gezegen dizininin bir kopyasını yedeklemelisiniz.", values.modName, values.newVersion, values.oldVersion)
     end,
     ui_info_steamOverlayDisabled = "Bu özellik Steam Arayüzünü gerektirir.\n\n Steam Arayüzünü tüm oyunlar için veya sadece Sapiens için Steam uygulamasından etkinleştirebilirsiniz.", --b20
@@ -2402,7 +2480,7 @@ localizations.values = {
     misc_setFillType = "Dolgu Türünü Ayarla",
     misc_debug = "Debug",
     misc_cheat = "Hile",
-    misc_fmodCredit = "Ses için Sapiens, Firelight Technologies Pty Ltd. tarafindan uretilen FMOD Studio'yu kullanir.",
+    misc_fmodCredit = "Ses için Sapiens, Firelight Technologies Pty Ltd. tarafindan uretilen FMOD Studio'yu kullanir. Çeviri: Lysboi",
     misc_version = "Sürüm",
     misc_demo = "Demo",
     misc_forums = "Sapiens Forums",
@@ -2441,7 +2519,6 @@ localizations.values = {
     misc_decorate_with = function(values)--b13
         return string.format("%s ile Süsle", values.name)
     end,
-    misc_decorate_with = "Dekor",
 
     --loading
     loading_connecting = "Sunucuya Bağlanıyor",
@@ -2600,26 +2677,11 @@ localizations.values = {
     storage_brick = "Tuğla",
     storage_mammothMeat = "Mamut Eti",
     storage_flaxTwine = "Keten Sicim",
-    storage_boneFlüte = "Kemik Flüt",
+    storage_boneFlute = "Kemik Flüt",
     storage_logDrum = "Kütük Davul",
     storage_balafon = "Balafon",
     storage_tile = "Kiremitler",
 
-    -- constructable_classifiÇatıon
-    constructable_classificationatıon_build = "Yapılar",
-    constructable_classificationatıon_build_action = "İnşa",
-    constructable_classificationatıon_plant = "Bitkiler/Ağaçlar",
-    constructable_classification_plant_action = "Bitki",
-    constructable_classification_craft = "Üretilmiş Nesneler",
-    constructable_classification_craft_action = "Üretim",
-    constructable_classification_path = "Yollar",
-    constructable_classification_path_action = "İnşa",
-    constructable_classification_place = "Nesneyi Yerleştir",
-    constructable_classification_place_action = "Yerleştir",
-    constructable_classification_fill = "Araziyi Doldur",
-    constructable_classification_fill_action = "Doldur",
-    constructable_classification_research = "Keşifler",
-    constructable_classification_research_action = researchName,
 
     --evolution
     evolution_dryAction = "Kuruyor",
@@ -2668,7 +2730,7 @@ localizations.values = {
     key_game_confirmSpecial = "İkincil Onay",
     key_game_menu = "Menüyü Aç",
     key_game_buildMenu = "Yapı Menüsünü Aç",
-    key_game_buildMenu2 = "Yapı Menüsünü Aç (AlterIslake)",
+    key_game_buildMenu2 = "Yapı Menüsünü Aç (Alternatif)",
     key_game_tribeMenu = "Kabile Menüsünü Aç",
     key_game_routesMenu = "Rotalar Menüsünü Aç",
     key_game_settingsMenu = "Ayarlar Menüsünü Aç",
@@ -2703,10 +2765,10 @@ localizations.values = {
     key_movement_right = "Sağ",
     key_movement_slow = "Yavaş",
     key_movement_fast = "Hızlı",
-    key_movement_forwardAlt = "İleri (AlterIslakive)",
-    key_movement_backAlt = "Geri (AlterIslakive)",
-    key_movement_leftAlt = "Sol (AlterIslakive)",
-    key_movement_rightAlt = "Sağ (AlterIslakive)",
+    key_movement_forwardAlt = "İleri (Alternatif)",
+    key_movement_backAlt = "Geri (Alternatif)",
+    key_movement_leftAlt = "Sol (Alternatif)",
+    key_movement_rightAlt = "Sağ (Alternatif)",
     key_building_cancel = "İptal",
     key_building_confirm = "Onayla",
     key_building_zAxisModifier = "Axis Switch / Disable Snapping",
@@ -2832,46 +2894,56 @@ localizations.values = {
     end,
     --/b13
 
---0.3.0
+
+    --0.3.0
     notification_triggerActionCrafting = function(values)
         return "üretme " .. string.lower(values.craftablePlural)
     end,
     notification_triggerActionResearching = function(values)
-        return "araştırma"
+        return "araştırma "
     end,
     notification_triggerActionDeliveringFuel = function(values)
         return "yakıt teslim etme " .. string.lower(values.objectName)
     end,
     notification_triggerActionHuntingMob = function(values)
-        return "avlama " .. string.lower(values.mobTypeName)
+        return "avlama " .. getAorAn(string.lower(values.mobTypeName)) .. " " .. string.lower(values.mobTypeName) --0.3.6 modified
     end,
     notification_triggerActionBasic = function(values)  --values.actionName is also available
         return string.lower(values.actionInProgress)
     end,
 
     notification_minorInjury = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında hafif bir yara aldı "
+        return values.name .. " hafif bir yara aldı " .. values.triggerAction
     end,
     notification_majorInjury = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında yaralandı "
+        return values.name .. " yaralandı " .. values.triggerAction
     end,
     notification_criticalInjury = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında kritik bir yara aldı "
+        return values.name .. " kritik bir yara aldı " .. values.triggerAction
+    end,
+    notification_minorInjuryBy = function(values) --0.3.6 added
+        return values.name .. " hafif bir yara aldı " .. getAorAn(string.lower(values.objectName)) .. " " .. string.lower(values.objectName)
+    end,
+    notification_majorInjuryBy = function(values) --0.3.6 added
+        return values.name .. " yaralandı " .. getAorAn(string.lower(values.objectName)) .. " " .. string.lower(values.objectName)
+    end,
+    notification_criticalInjuryBy = function(values) --0.3.6 added
+        return values.name .. " kritik bir yara aldı " .. getAorAn(string.lower(values.objectName)) .. " " .. string.lower(values.objectName)
     end,
     notification_minorBurn = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında birazcık yandı "
+        return values.name .. " birazcık yandı " .. values.triggerAction
     end,
     notification_majorBurn = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında yandı "
+        return values.name .. " yandı " .. values.triggerAction
     end,
     notification_criticalBurn = function(values)
-        return values.name .. " " .. values.triggerAction .. " sırasında kritik şekilde yandı"
+        return values.name .. " kritik şekilde yandı " .. values.triggerAction
     end,
     notification_majorBurnDeveloped = function(values)
-        return values.name .. " ciddi şekilde yanıyor"
+        return values.name .. " yanıyor "
     end,
     notification_criticalBurnDeveloped = function(values)
-        return values.name .. " birazdan kömur olacak :("
+        return values.name .. " ciddi şekilde yanıyor "
     end,
     notification_minorFoodPoisoning = function(values)
         return values.name .. " yediği " .. values.resourceName .. " yüzünden mide bulantısı hissediyor"
@@ -2885,13 +2957,13 @@ localizations.values = {
     notification_criticalFoodPoisoningDeveloped = function(values)
         return values.name .. " kritik şekilde zehirlendi"
     end,
-    notification_minorVirüs = function(values)
+    notification_minorVirus = function(values)
         return values.name .. " virüse yakalandı ve hafif bir belirti gösteriyor"
     end,
-    notification_majorVirüsDeveloped = function(values)
+    notification_majorVirusDeveloped = function(values)
         return values.name .. " virüs belirtisi çoğaldı ve hastalığı yayabilir."
     end,
-    notification_criticalVirüsDeveloped = function(values)
+    notification_criticalVirusDeveloped = function(values)
         return values.name .. " ciddi bir enfeksiyon ile boğuşuyor ve diğer Sapienlere bulastıracak"
     end,
     notification_starving = function(values)
@@ -2940,13 +3012,13 @@ localizations.values = {
     notification_criticalFoodPoisoningBecameMajor = function(values)
         return values.name .. " artık daha iyi durumda"
     end,
-    notification_minorVirüsHealed = function(values)
+    notification_minorVirusHealed = function(values)
         return values.name .. " iyileşti"
     end,
-    notification_majorVirüsBecameMinor = function(values)
+    notification_majorVirusBecameMinor = function(values)
         return values.name .. " iyileşiyor"
     end,
-    notification_criticalVirüsBecameMajor = function(values)
+    notification_criticalVirusBecameMajor = function(values)
         return values.name .. " artık daha iyi durumda"
     end,
 
@@ -2996,7 +3068,7 @@ localizations.values = {
     reporting_sendBugReport = "Hata Raporu Gonder",
     reporting_sendCrashReport = "Cokme raporu gonder",
 
-    reporting_crashNotifiÇatıon = "En son oynadiginizda Sapiens çokmus gibi gorunuyor.\n\
+    reporting_crashNotification = "En son oynadiginizda Sapiens çokmus gibi gorunuyor.\n\
     Buna neden olan hatayi duzeltmek istiyoruz, bu yuzden lutfen bize kilitlenme raporunu gonderin. Tesekkurler!",
 
     --mods
@@ -3063,7 +3135,7 @@ localizations.values = {
 
     --tips/tutorial
     tutorial_skip = "Eğitimi Atla",
-    tutorial_skipAreYousüre = "Eğitimi atlamak istediğinizden emin misiniz?\n Daha sonra ayarlar menüsünden tekrar etkinleştirebilirsiniz.",
+    tutorial_skipAreYouSure = "Eğitimi atlamak istediğinizden emin misiniz?\n Daha sonra ayarlar menüsünden tekrar etkinleştirebilirsiniz.",
     tutorial_or = "veya",
 
     -- choose tribe
@@ -3092,7 +3164,7 @@ localizations.values = {
     tutorial_storingResources_build = function(values)
         return string.format("%d Depolama Alanı oluştur", values.count)
     end,
-    tutorial_storingResources_subTitle_accessWith = "- İle Yapı Menüsüne erişin",
+    tutorial_storingResources_subTitle_accessWith = "Yapı Menüsüne Erişin",
     tutorial_storingResources_subTitle_andPlace = "- Kabilenizin yakınına Depolama Alanları yerleştirin",
     tutorial_storingResources_store = function(values)
         return string.format("%d %s depola", values.count, values.typeName)
@@ -3106,7 +3178,7 @@ localizations.values = {
     tutorial_subtitle_toggleFastForward = "ile zamanı hızlandır",
 
     --multiselect
-    tutorial_title_multiselect = "Bir Nesne Türünü Birden Fazla Sayıda Seçmek",
+    tutorial_title_multiselect = "Birden Fazla Sayıda Seçim",
     tutorial_description_multiselect = "Birçok nesneyi veya arazi döşemesini aynı anda seçebilir ve ardından hepsi için aynı anda iş verebilir veya iptal edebilirsiniz.\n\nBu, özellikle geniş alanları temizlemek veya birçok ağaçtan toplama yapmak için kullanışlıdır.",
     tutorial_task_multiselect = function(values)
         return string.format("Aynı anda %d veya daha fazla nesne için herhangi bir iş verin", values.count)
@@ -3170,10 +3242,10 @@ localizations.values = {
     -- food
     tutorial_title_food = "Açlık ve Yemek",
     tutorial_food_storyText = "Sapienleriniz acıkmaya başlıyor. Sapienler kendi başına meyve toplamaz, yiyecek toplamak, avlamak ve depolamak için emirler vermeniz gerekir.\n\n Herşeyi bir kerede toplamayın, meyvelerin çoğu gelecek sezona kadar agaçta kalır, depolanınca çabucak çürür, dışarıda bırakılırsa yiyeceklerinize daha da hızlı veda edebilirsiniz.",
-    tutorial_food_storeTaşk = function(values)
+    tutorial_food_storeTask = function(values)
         return string.format("%d yiyecek kaynağı toplayın ve depolayın", values.count)
     end,
-    tutorial_food_storeTaşk_subTitle = "Meyveler bazı ağaç ve çalı türlerinde yetişir.",
+    tutorial_food_storeTask_subTitle = "Meyveler bazı ağaç ve çalı türlerinde yetişir.",
 
     -- farming
     tutorial_title_farming = "Tarım",
@@ -3188,7 +3260,7 @@ localizations.values = {
     tutorial_title_music = "Müzik Ruhun Gıdası",
     tutorial_music_storyText = "Müzik, Sapienleri daha mutlu ve daha sadık kılar. müzisyen Sapienler, uzun süredir müzik duymamiş veya çalmamışsa, üzülebilir.",
     tutorial_music_discoverBoneCarving = "Kemik Oymacılığını keşfedin",
-    tutorial_music_playFlüte = "Enstrumanı Çal",
+    tutorial_music_playFlute = "Enstrumanı Çal",
 
     -- routes
     tutorial_title_routes = "Rotalar ve Lojistik",
@@ -3249,6 +3321,14 @@ localizations.values = {
     -- notifications
     tutorial_title_notifications = "Bildirimler",
     tutorial_notifications_task = "En son bildirime yakınlaştır",
+
+    --food poisoning added 0.3.0
+    tutorial_title_foodPoisoning = "Gıda Zehirlenmesi",
+    tutorial_foodPoisoning_storyText = "Eğer çiğ ve pişmiş et bir arada saklanırsa, Sapiens gıda zehirlenmesi yaşayabilir.\n\nBunu, depolama alanlarını sadece belirli türdeki nesnelerin saklanmasına izin vermek suretiyle yöneterek önleyebilirsiniz.",
+    tutorial_foodPoisoning_configureRawMeat = "Sadece çiğ et türlerine izin vermek için bir Depolama Alanı ayarla.",
+    tutorial_foodPoisoning_configureCookedMeat = "Sadece pişmiş et türlerine izin vermek için bir Depolama Alanı ayarla.",
+    --/0.3.0
+
     -- completion
     tutorial_title_completion = "Eğitim Tamamlandı!",
     tutorial_completion_storyText = "Tebrikler!\n\nKabileniz daha yeni başlıyor, ancak buradan itibaren kendi başınızasınız.\n\nKeşfetmeye, üretmeye ve araştırmaya devam edin ve kabilenizi ilerletip büyütmeye devam edin. Sapienlerinize göz kulak olun, hareketli bir köy inşa edin, kabilenizi yeni ve güzel bir geleceğe yönlendirin. gezegeni üzmemeye çalışın ki gezegen sizi üzmesin.. \n\nİyi şanslar! ",
@@ -3283,26 +3363,26 @@ localizations.values = {
     creditsText_music = "Original soundtrack by John Konsalakis & David Frampton",
     creditsText_soundtrackLinkText = "Soundtrack detayları",
     creditsText = [[
-        Türkçe Çeviri: Lysboi
+Türkçe Çeviri: Lysboi
+Emma Frampton, Ethan Frampton ve David Frampton tarafından Seslendirme
+Topluluk Yonetimi: Milla Koutsos
+Eric Bruneton'un çalışmasına dayanan atmosfer oluşturma
+Ses Motoru: Firelight Technologies Pty Ltd.'den FMOD Studio
+Fizik: Bullet Physics
+Serilestirme: Cereal - Grant, W. Shane and Voorhies, Randolph (2017)
+Ağ Oluşturma: Enet - Lee Salzman
+Sapiens, Mike Pall'in muhteşem LuaJIT kitaplığını kullanıyor
+Sapiens ayrıca Islakhan Reed, Vinnie Falco ve digerleri tarafindan LuaBridge kullaniyor
+Sapiens'teki vokaller, Sonja Lang tarafindan İnşa edilen \"toki pona\" dilindedir - tokipona.org
 
-        Emma Frampton, Ethan Frampton ve David Frampton tarafından Seslendirme
-        Topluluk Yonetimi: Milla Koutsos
+Büyük destek, test, geri bildirim ve diğer şeyler adina gelen yardim için çok tesekkurler. Alfa testcilerine ve topluluk Discord sunucusunun uyelerine, YouTube'daki gelistirme gunlugu videolari hakkinda geri bildirimde bulunanlara ozellikle Büyük bir tesekkurler. Sen olmasan Sapiens yapamazdim.
 
-        Eric Bruneton'un çalışmasına dayanan atmosfer oluşturma
-        Ses Motoru: Firelight Technologies Pty Ltd.'den FMOD Studio
-        Fizik: Mermi Fiziği
-        Serilestirme: Cereal - Grant, W. Shane and Voorhies, Randolph (2017)
-        Ağ Oluşturma: Enet - Lee Salzman
-        Sapiens, Mike Pall'in muhteşem LuaJIT kitaplığını kullanıyor
-        Sapiens ayrıca Islakhan Reed, Vinnie Falco ve digerleri tarafindan LuaBridge kullaniyor
-        Sapiens'teki vokaller, Sonja Lang tarafindan İnşa edilen \"toki pona\" dilindedir - tokipona.org
-
-        Büyük destek, test, geri bildirim ve diğer şeyler adina gelen yardim için çok tesekkurler. Alfa testcilerine ve topluluk Discord sunucusunun uyelerine, YouTube'daki gelistirme gunlugu videolari hakkinda geri bildirimde bulunanlara ozellikle Büyük bir tesekkurler. Sen olmasan Sapiens yapamazdim.
-
-        Ve hepsinden onemlisi, bu çok uzun gelisim sürecinde ailemize ve bana destek olan, kendi kariyerini feda ederek, bana kendi isim için zaman yaratan, harika esim Emma'ya tesekkur ederim. Bu oyun, benim oldugu kadar Emma'nin da sıki calismasinin, fedakarliginin ve ozverisinin bir sonucu.
+Ve hepsinden onemlisi, bu çok uzun gelisim sürecinde ailemize ve bana destek olan, kendi kariyerini feda ederek, bana kendi isim için zaman yaratan, harika esim Emma'ya tesekkur ederim. Bu oyun, benim oldugu kadar Emma'nin da sıki calismasinin, fedakarliginin ve ozverisinin bir sonucu.
         ]],
 
     --orderStatus
+    -- values for these function usally include .name, the noun variant of the inProgressName. Also planName, which is the name of the plan, instead of the in-progress variant provided with planText.
+
     orderStatus_deliverTo = function(values)
         return values.inProgressName .. " " .. values.heldObjectName .. " ile " .. values.retrievedObjectName .. values.logisticsPostfix
     end,
@@ -3321,7 +3401,9 @@ localizations.values = {
     end,
     orderStatus_pickupObject = function(values)
             if values.planText then
-                if values.retrievedObjectConstructableTypeName then
+            if values.retrievedObjectConstructableLocationName then
+              return values.inProgressName .. " " .. values.pickupObjectName .. " için " .. values.planText .. " de " .. values.retrievedObjectConstructableLocationName
+                elseif values.retrievedObjectConstructableTypeName then
                 return values.inProgressName .. " " .. values.pickupObjectName .. " için " .. values.planText .. " de " .. values.retrievedObjectConstructableTypeName
                 else
                 return values.inProgressName .. " " .. values.pickupObjectName .. " için " .. values.planText
@@ -3383,7 +3465,7 @@ localizations.values = {
 
     -- 0.3.3
     orderStatus_addWarmingUp = function(values)
-        return values.currentText .. " (Warming up)"
+        return values.currentText .. " (Isınıyor)"
     end,
     --/0.3.0
 }
@@ -3416,18 +3498,18 @@ local function getTimeDurationDescriptionFromSplitTime(timeSplit)
     local result = ""
     local empty = true
     if timeSplit.years > 0 then
-        local postfix = " yıl"
+        local postfix = " Yıl"
         if timeSplit.years > 1 then
-            postfix = " yıl"
+            postfix = " Yıl"
         end
         result = mj:tostring(timeSplit.years) .. postfix
         empty = false
     end
 
     if timeSplit.days > 0 then
-        local postfix = " gün"
+        local postfix = " Gün"
         if timeSplit.days > 1 then
-            postfix = " gün"
+            postfix = " Gün"
         end
 
         if not empty then
@@ -3439,9 +3521,9 @@ local function getTimeDurationDescriptionFromSplitTime(timeSplit)
     end
 
     if timeSplit.hours > 0 then
-        local postfix = " saat"
+        local postfix = " Saat"
         if timeSplit.hours > 1 then
-            postfix = " saat"
+            postfix = " Saat"
         end
 
         if not empty then
@@ -3452,7 +3534,7 @@ local function getTimeDurationDescriptionFromSplitTime(timeSplit)
         empty = false
     else
         if empty then
-        return "< 1 saat"
+        return "< 1 Saat"
         end
     end
 
@@ -3481,13 +3563,13 @@ function localizations.getTimeRangeDescription(durationSecondsMin, durationSecon
 
     if (timeSplitMin.years == 0 and timeSplitMax.years == 0) then
         if (timeSplitMin.days == 0 and timeSplitMax.days == 0) then
-        return mj:tostring(timeSplitMin.hours) .. " - " .. mj:tostring(timeSplitMax.hours) .. " saat"
+        return mj:tostring(timeSplitMin.hours) .. " - " .. mj:tostring(timeSplitMax.hours) .. " Saat"
         end
         if (timeSplitMin.hours == 0 and timeSplitMax.hours == 0) then
-        return mj:tostring(timeSplitMin.days) .. " - " .. mj:tostring(timeSplitMax.days) .. " gün"
+        return mj:tostring(timeSplitMin.days) .. " - " .. mj:tostring(timeSplitMax.days) .. " Gün"
         end
     elseif (timeSplitMin.days == 0 and timeSplitMax.days == 0) and (timeSplitMin.hours == 0 and timeSplitMax.hours == 0) then
-        return mj:tostring(timeSplitMin.years) .. " - " .. mj:tostring(timeSplitMax.years) .. " yıl"
+        return mj:tostring(timeSplitMin.years) .. " - " .. mj:tostring(timeSplitMax.years) .. " Yıl"
     end
 
     local minDescription = getTimeDurationDescriptionFromSplitTime(timeSplitMin)
@@ -3515,14 +3597,14 @@ function localizations.getBiomeForestDescription(biomeTags)
 
     if biomeTags.coniferous then
         if biomeTags.birch then
-            typeString = "çam ve huş"
+            typeString = "Çam ve Huş"
         elseif biomeTags.bamboo then
-            typeString = "çam ve bambu"
+            typeString = "Çam ve Bambu"
         else
-            typeString = "çam"
+            typeString = "Çam"
         end
     else
-        typeString = "huş ağacı"
+        typeString = "Huş Ağacı"
     end
 
     if not typeString then
@@ -3614,10 +3696,14 @@ function localizations.getBiomeTemperatureDescription(biomeTags)
     elseif biomeTags.temperatureWinterVeryCold then
         descriptionString = descriptionString .. " Çok Soğuk Kış."
     else
-        descriptionString = descriptionString .. " Iliman Kış."
+        descriptionString = descriptionString .. " Ilıman Kış."
     end
 
     return descriptionString
+end
+
+function localizations.getBiomeFullDescription(biomeTags) --b13
+    return localizations.getBiomeMainDescription(biomeTags) .. " " .. localizations.getBiomeForestDescription(biomeTags) .. " " .. localizations.getBiomeTemperatureDescription(biomeTags)
 end
 
 --mj:log("localizations count:", #(localizations.localizations))

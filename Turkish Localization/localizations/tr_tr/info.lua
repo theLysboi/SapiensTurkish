@@ -1,6 +1,5 @@
-
 local info = {
-    displayName = "Turkce",
+    displayName = "Türkçe",
 }
 
 return info
