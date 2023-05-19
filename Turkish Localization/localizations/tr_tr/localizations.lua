@@ -37,6 +37,8 @@ localizations.values = {
     buildable_storageArea = "Depolama Alanı",
     buildable_storageArea_plural = "Depolama Alanları",
     buildable_storageArea_summary = "Etraftaki malzemeleri toplayın ve düzenli bir yığın olarak depolayın.",
+    buildable_compostBin = "Kompost Kutusu", --0.4
+    buildable_compostBin_plural = "Kompost Kutuları", --0.4
     buildable_campfire = "Kamp Ateşi",
     buildable_campfire_plural = "Kamp Ateşleri",
     buildable_campfire_summary = "Kamp Ateşi, sıcaklık ve ışık sağlar, yemek pişirmek için de kullanılır.",
@@ -52,39 +54,57 @@ localizations.values = {
     buildable_woolskinBed = "Yün Yatak",
     buildable_woolskinBed_plural = "Yün Yataklar",
     buildable_woolskinBed_summary = "Sıacık bir yatak.",
-    buildable_thatchRoof = "Sazdan Çatı",
-    buildable_thatchRoof_plural = "Sazdan Çatılar",
+    buildable_thatchRoof = "Hasırdan Çatı",
+    buildable_thatchRoof_plural = "Hasırdan Çatılar",
     buildable_thatchRoof_summary = "Mütevazi bir yapı.",
-    buildable_thatchRoofLarge = "Büyük Sazdan Çatı",
-    buildable_thatchRoofLarge_plural = "Büyük Sazdan Çatılar",
+    buildable_thatchRoofSlope = "Hasır Çatı Eğimli Bölüm", --0.4
+    buildable_thatchRoofSlope_plural = "Hasır Çatı Eğimli Bölümler", --0.4
+    buildable_thatchRoofSlope_summary = "Köşelere yakın veya küçük bir boşluğu doldurmak için kullanışlı.", --0.4
+    buildable_thatchRoofSmallCorner = "Hasır Çatı Köşesi", --0.4
+    buildable_thatchRoofSmallCorner_plural = "Hasır Çatı Köşeleri", --0.4
+    buildable_thatchRoofSmallCorner_summary = "Küçük bir çatı köşesi.", --0.4
+    buildable_thatchRoofSmallCornerInside = "Hasır Çatı İç Köşe", --0.4
+    buildable_thatchRoofSmallCornerInside_plural = "Hasır Çatı İç Köşeleri", --0.4
+    buildable_thatchRoofSmallCornerInside_summary = "O sinir bozucu boşluğu doldurmak için.", --0.4
+    buildable_thatchRoofTriangle = "Hasır Çatı Üçgen", --0.4
+    buildable_thatchRoofTriangle_plural = "Hasır Çatı Üçgenler", --0.4
+    buildable_thatchRoofTriangle_summary = "Üçgen zeminlerin üzerinde kullanışlı.", --0.4
+    buildable_thatchRoofInvertedTriangle = "Hasır Çatı Ters Üçgen", --0.4
+    buildable_thatchRoofInvertedTriangle_plural = "Hasır Çatı Ters Üçgenler", --0.4
+    buildable_thatchRoofInvertedTriangle_summary = "Üçgen zeminlerin üzerinde kullanışlı.", --0.4
+    buildable_thatchRoofLarge = "Büyük Hasırdan Çatı",
+    buildable_thatchRoofLarge_plural = "Büyük Hasırdan Çatılar",
     buildable_thatchRoofLarge_summary = "Büyük bir Çatı parçası.",
-    buildable_thatchRoofLargeCorner = "Büyük Saz Çatı Köşesi",
-    buildable_thatchRoofLargeCorner_plural = "Büyük Saz Çatı Köşeleri",
+    buildable_thatchRoofLargeCorner = "Büyük Hasır Çatı Köşesi",
+    buildable_thatchRoofLargeCorner_plural = "Büyük Hasır Çatı Köşeleri",
     buildable_thatchRoofLargeCorner_summary = "Büyük bir Çatı parçası.",
-    buildable_thatchWall = "Saz Duvar",
-    buildable_thatchWall_plural = "Saz Duvarlar",
+    buildable_thatchWall = "Hasır Duvar",
+    buildable_thatchWall_plural = "Hasır Duvarlar",
     buildable_thatchWall_summary = "İnşa edilmesi en kolay ve en hızlı duvar. 4x2",
-    buildable_thatchWallDoor = "Kapılı Saz Duvar",
-    buildable_thatchWallDoor_plural = "Kapılı Saz Duvarlar",
+    buildable_thatchWallDoor = "Kapılı Hasır Duvar",
+    buildable_thatchWallDoor_plural = "Kapılı Hasır Duvarlar",
     buildable_thatchWallDoor_summary = "İnşa edilmesi en kolay ve en hızlı duvar. 4x2",
-    buildable_thatchWallLargeWindow = "Tek Pencereli Saz Duvar",
-    buildable_thatchWallLargeWindow_plural = "Tek Pencereli Saz Duvarlar",
+    buildable_thatchWallLargeWindow = "Tek Pencereli Hasır Duvar",
+    buildable_thatchWallLargeWindow_plural = "Tek Pencereli Hasır Duvarlar",
     buildable_thatchWallLargeWindow_summary = "İnşa edilmesi en kolay ve en hızlı duvar. 4x2",
-    buildable_thatchWall4x1 = "Kısa Saz Duvar",
-    buildable_thatchWall4x1_plural = "Kısa Saz Duvarlar",
+    buildable_thatchWall4x1 = "Kısa Hasır Duvar",
+    buildable_thatchWall4x1_plural = "Kısa Hasır Duvarlar",
     buildable_thatchWall4x1_summary = "İnşa edilmesi en kolay ve en hızlı duvar. Boyut: 4x1",
-    buildable_thatchWall2x2 = "Kare Saz Duvar",
-    buildable_thatchWall2x2_plural = "Kare Saz Duvarlar",
+    buildable_thatchWall2x2 = "Kare Hasır Duvar",
+    buildable_thatchWall2x2_plural = "Kare Hasır Duvarlar",
     buildable_thatchWall2x2_summary = "İnşa edilmesi en kolay ve en hızlı duvar. Boyut: 2x2",
-    buildable_thatchRoofEnd = "Saz Çatı Duvarı",
-    buildable_thatchRoofEnd_plural = "Saz Çatı Duvarları",
-    buildable_thatchRoofEnd_summary = "İnşa edilmesi en kolay ve en hızlı duvar.",
+    buildable_thatchRoofEnd = "Hasır Çatı Bitiş Duvarı", --0.4 "Bitiş" eklendi
+    buildable_thatchRoofEnd_plural = "Hasır Çatı Bitiş Duvarları", --0.4 "Bitiş" eklendi
+    buildable_thatchRoofEnd_summary = "İnşa edilmesi en basit ve en hızlı duvar. Bir kulübenin/çatının son üçgenini doldurur.", --0.4 düzenlendi
     buildable_splitLogFloor = "Ahşap Zemin 2x2",
     buildable_splitLogFloor_plural = "Ahşap Zeminler 2x2",
     buildable_splitLogFloor_summary = "Basit Zemin.",
     buildable_splitLogFloor4x4 = "Ahşap Zemin 4x4",
     buildable_splitLogFloor4x4_plural = "Ahşap Zeminler 4x4",
     buildable_splitLogFloor4x4_summary = "Basit Zemin.",
+    buildable_splitLogFloorTri2 = "Ahşap Zemin Üçgeni", --0.4
+    buildable_splitLogFloorTri2_plural = "Ahşap Zemin Üçgenleri", --0.4
+    buildable_splitLogFloorTri2_summary = "Ahşap bir üçgen zemin.", --0.4
     buildable_splitLogWall = "Ahşap Duvar",
     buildable_splitLogWall_plural = "Ahşap Duvarlar",
     buildable_splitLogWall_summary = "Ahşaptan yapılmış sağlam bir duvar. 4x2",
@@ -100,9 +120,9 @@ localizations.values = {
     buildable_splitLogWallLargeWindow = "Büyük Pencereli Ahşap Duvar",
     buildable_splitLogWallLargeWindow_plural = "Büyük Pencereli Ahşap Duvarlar",
     buildable_splitLogWallLargeWindow_summary = "Ahşaptan yapılmış sağlam bir duvar. 4x2",
-    buildable_splitLogRoofEnd = "Ahşap Çatı Duvarı",
-    buildable_splitLogRoofEnd_plural = "Ahşap Çatı Duvarları",
-    buildable_splitLogRoofEnd_summary = "Sağlam bir duvar.",
+    buildable_splitLogRoofEnd = "Ahşap Çatı Bitiş Duvarı", --0.4 "Bitiş" eklendi
+    buildable_splitLogRoofEnd_plural = "Ahşap Çatı Bitiş Duvarları", --0.4 "Bitiş" eklendi
+    buildable_splitLogRoofEnd_summary = "Ahşaptan yapılmış sağlam bir duvar. Bir kulübenin/çatının son üçgenini doldurur.", --0.4 düzenlendi
     buildable_splitLogBench = "Ahşap Bank",
     buildable_splitLogBench_plural = "Ahşap Banklar",
     buildable_splitLogBench_summary = "Oturmak için iyi bir yer.",
@@ -115,30 +135,74 @@ localizations.values = {
     buildable_splitLogRoof = "Ahşap Çatı",
     buildable_splitLogRoof_plural = "Ahşap Çatılar",
     buildable_splitLogRoof_summary = "Güçlü bir Çatı, barınak olarak kullanılabilir.",
+    buildable_splitLogRoofSlope = "Ahşap Çatı Eğimli Bölümü", --0.4
+    buildable_splitLogRoofSlope_plural = "Ahşap Çatı Eğimli Bölümleri", --0.4
+    buildable_splitLogRoofSlope_summary = "Köşelere yakın veya küçük bir boşluğu doldurmak için kullanışlı.", --0.4
+    buildable_splitLogRoofSmallCorner = "Ahşap Çatı Köşesi", --0.4
+    buildable_splitLogRoofSmallCorner_plural = "Ahşap Çatı Köşeleri", --0.4
+    buildable_splitLogRoofSmallCorner_summary = "Küçük bir çatı köşesi.", --0.4
+    buildable_splitLogRoofSmallCornerInside = "Ahşap Çatı İç Köşe", --0.4
+    buildable_splitLogRoofSmallCornerInside_plural = "Ahşap Çatı İç Köşeleri", --0.4
+    buildable_splitLogRoofSmallCornerInside_summary = "O sinir bozucu boşluğu doldurmak için.", --0.4
+    buildable_splitLogRoofTriangle = "Ahşap Çatı Üçgeni", --0.4
+    buildable_splitLogRoofTriangle_plural = "Ahşap Çatı Üçgenleri", --0.4
+    buildable_splitLogRoofTriangle_summary = "Üçgen zeminlerin üzerinde kullanışlı.", --0.4
+    buildable_splitLogRoofInvertedTriangle = "Ahşap Çatı Ters Üçgeni", --0.4
+    buildable_splitLogRoofInvertedTriangle_plural = "Ahşap Çatı Ters Üçgenleri", --0.4
+    buildable_splitLogRoofInvertedTriangle_summary = "Üçgen zeminlerin üzerinde kullanışlı.", --0.4
     buildable_mudBrickWall = "Kerpiç Duvar",
     buildable_mudBrickWall_plural = "Kerpiç Duvarlar",
-    buildable_mudBrickWall_summary = "Kerpiçten yapılmış güçlü bir duvar. 4x2",
+    buildable_mudBrickWall_summary = "Kerpiçten yapılmış güçlü bir duvar, ancak yağmur tarafından zarar görebilir. 4x2", --4.0 "yağmur" eklendi
     buildable_mudBrickWallDoor = "Kapılı Kerpiç Duvar",
     buildable_mudBrickWallDoor_plural = "Kapılı Kerpiç Duvarlar",
-    buildable_mudBrickWallDoor_summary = "Kerpiçten yapılmış güçlü bir duvar. 4x2",
+    buildable_mudBrickWallDoor_summary = "Kerpiçten yapılmış güçlü bir duvar, ancak yağmur tarafından zarar görebilir.  4x2", --4.0 "yağmur" eklendi
     buildable_mudBrickWallLargeWindow = "Büyük Pencereli Kerpiç Duvar",
     buildable_mudBrickWallLargeWindow_plural = "Büyük Pencereli Kerpiç Duvarlar",
-    buildable_mudBrickWallLargeWindow_summary = "Kerpiçten yapılmış güçlü bir duvar. 4x2",
+    buildable_mudBrickWallLargeWindow_summary = "Kerpiçten yapılmış güçlü bir duvar, ancak yağmur tarafından zarar görebilir. 4x2", --4.0 "yağmur" eklendi
     buildable_mudBrickWall4x1 = "Kısa Kerpiç Duvar",
     buildable_mudBrickWall4x1_plural = "Kısa Kerpiç Duvarlar",
-    buildable_mudBrickWall4x1_summary = "Kerpiçten yapılmış güçlü bir duvar. 4x1",
+    buildable_mudBrickWall4x1_summary = "Kerpiçten yapılmış güçlü bir duvar, ancak yağmur tarafından zarar görebilir. 4x1", --4.0 "yağmur" eklendi
     buildable_mudBrickWall2x2 = "Kare Kerpiç Duvar",
     buildable_mudBrickWall2x2_plural = "Kare Kerpiç Duvarlar",
-    buildable_mudBrickWall2x2_summary = "Kerpiçten yapılmış güçlü bir duvar. 2x2",
+    buildable_mudBrickWall2x2_summary = "Kerpiçten yapılmış güçlü bir duvar, ancak yağmur tarafından zarar görebilir. 2x2", --4.0 "yağmur" eklendi
+    buildable_mudBrickRoofEnd = "Kerpiç Çatı Bitiş Duvarı", --0.4
+    buildable_mudBrickRoofEnd_plural = "Kerpiç Çatı Bitiş Duvarları", --0.4
+    buildable_mudBrickRoofEnd_summary = "Sağlam bir duvar, ancak yağmur tarafından zarar görebilir. Bir kulübenin/çatının son üçgenini doldurur.", --0.4
     buildable_mudBrickColumn = "Kerpiç Kolon",
     buildable_mudBrickColumn_plural = "Kerpiç Kolon",
-    buildable_mudBrickColumn_summary = "Dekoratif kolon.",
+    buildable_mudBrickColumn_summary = "Dekoratif kolon, ancak yağmur tarafından zarar görebilir.", --4.0 "yağmur" eklendi
     buildable_mudBrickFloor2x2 = "Kerpiç Zemin 2x2",
     buildable_mudBrickFloor2x2_plural = "Kerpiç Zeminler 2x2",
     buildable_mudBrickFloor2x2_summary = "Kuru bir zemin için iyi bir seçim.",
     buildable_mudBrickFloor4x4 = "Kerpiç Zemin 4x4",
     buildable_mudBrickFloor4x4_plural = "Kerpiç Zeminler 4x4",
     buildable_mudBrickFloor4x4_summary = "Kuru bir zemin için iyi bir seçim.",
+    buildable_mudBrickFloorTri2 = "Kerpiç Zemin Üçgeni", --0.4
+    buildable_mudBrickFloorTri2_plural = "Kerpiç Zemin Üçgenleri", --0.4
+    buildable_mudBrickFloorTri2_summary = "Kuru yerler için iyi bir zemin.", --0.4
+
+    buildable_stoneBlockWall = "Taş Blok Duvarı", --0.4
+    buildable_stoneBlockWall_plural = "Taş Blok Duvarları", --0.4
+    buildable_stoneBlockWall_summary = "Sağlam bir duvar. 4x2", --0.4
+    buildable_stoneBlockWallDoor = "Kapılı Taş Blok Duvarı", --0.4
+    buildable_stoneBlockWallDoor_plural = "Kapılı Taş Blok Duvarları", --0.4
+    buildable_stoneBlockWallDoor_summary = "Sağlam bir duvar. 4x2", --0.4
+    buildable_stoneBlockWallLargeWindow = "Geniş Pencereli Taş Blok Duvarı", --0.4
+    buildable_stoneBlockWallLargeWindow_plural = "Geniş Pencereli Taş Blok Duvarları", --0.4
+    buildable_stoneBlockWallLargeWindow_summary = "Sağlam bir duvar. 4x2", --0.4
+    buildable_stoneBlockRoofEnd = "Taş Blok Çatı Bitiş Duvarı", --0.4
+    buildable_stoneBlockRoofEnd_plural = "Taş Blok Çatı Bitiş Duvarları", --0.4
+    buildable_stoneBlockRoofEnd_summary = "Sağlam bir duvar. Bir kulübenin/çatının son üçgenini doldurur.", --0.4
+    buildable_stoneBlockWall4x1 = "Kısa Taş Blok Duvarı", --0.4
+    buildable_stoneBlockWall4x1_plural = "Kısa Taş Blok Duvarları", --0.4
+    buildable_stoneBlockWall4x1_summary = "Sağlam bir duvar. 4x1", --0.4
+    buildable_stoneBlockWall2x2 = "Kare Taş Blok Duvarı", --0.4
+    buildable_stoneBlockWall2x2_plural = "Kare Taş Blok Duvarları", --0.4
+    buildable_stoneBlockWall2x2_summary = "Sağlam bir duvar. 2x2", --0.4
+    buildable_stoneBlockColumn = "Taş Blok Sütun", --0.4
+    buildable_stoneBlockColumn_plural = "Taş Blok Sütunlar", --0.4
+    buildable_stoneBlockColumn_summary = "Dekoratif bir sütun.", --0.4
+
     buildable_brickWall = "Tuğla Duvar",
     buildable_brickWall_plural = "Tuğla Duvarlar",
     buildable_brickWall_summary = "Tuğladan yapılmış çok sağlam bir duvar. 4x2",
@@ -154,6 +218,9 @@ localizations.values = {
     buildable_brickWall2x2 = "Kare Tuğla Duvar",
     buildable_brickWall2x2_plural = "Kare Tuğla Duvarlar",
     buildable_brickWall2x2_summary = "Tuğladan yapılmış çok sağlam bir duvar. 2x2",
+    buildable_brickRoofEnd = "Tuğla Çatı Bitiş Duvarı", --0.4
+    buildable_brickRoofEnd_plural = "Tuğla Çatı Bitiş Duvarları", --0.4
+    buildable_brickRoofEnd_summary = "Sağlam bir duvar. Bir kulübenin/çatının son üçgenini doldurur.", --0.4
     buildable_tileFloor2x2 = "Kiremit Zemin 2x2",
     buildable_tileFloor2x2_plural = "Kiremit Zeminler 2x2",
     buildable_tileFloor2x2_summary = "Kırsal çekicilik.",
@@ -163,12 +230,35 @@ localizations.values = {
     buildable_genericPath_summary = "Yollar, sapienlerin daha hızlı hareket etmesini sağlar.",
     buildable_tileRoof = "Kiremit Çatı",
     buildable_tileRoof_plural = "Kiremit Çatılar",
-    buildable_tileRoof_summary = "Sağlam. Sert hava koşullarına dayanıklı bir çatı.",
+    buildable_tileRoof_summary = "Sağlam. Sert hava koşullarına dayanıklı bir çatı.",buildable_tileRoofSlope = "Kiremit Çatı Eğimli Bölüm", --0.4
+    buildable_tileRoofSlope_plural = "Kiremit Çatı Eğimli Bölümler", --0.4
+    buildable_tileRoofSlope_summary = "Köşelerde veya küçük boşlukları doldurmak için kullanışlı.", --0.4
+    buildable_tileRoofSmallCorner = "Kiremit Çatı Köşesi", --0.4
+    buildable_tileRoofSmallCorner_plural = "Kiremit Çatı Köşeleri", --0.4
+    buildable_tileRoofSmallCorner_summary = "Küçük bir çatı köşesi.", --0.4
+    buildable_tileRoofSmallCornerInside = "Kiremit Çatı İç Köşesi", --0.4
+    buildable_tileRoofSmallCornerInside_plural = "Kiremit Çatı İç Köşeleri", --0.4
+    buildable_tileRoofSmallCornerInside_summary = "O sıkıcı boşluğu doldurmak için.", --0.4
+    buildable_tileRoofTriangle = "Kiremit Çatı Üçgeni", --0.4
+    buildable_tileRoofTriangle_plural = "Kiremit Çatı Üçgenleri", --0.4
+    buildable_tileRoofTriangle_summary = "Üçgen zeminlerin üstünde kullanışlı.", --0.4
+    buildable_tileRoofInvertedTriangle = "Kiremit Çatı Ters Üçgeni", --0.4
+    buildable_tileRoofInvertedTriangle_plural = "Kiremit Çatı Ters Üçgenleri", --0.4
+    buildable_tileRoofInvertedTriangle_summary = "Üçgen zeminlerin üstünde kullanışlı.", --0.4
+    buildable_tileFloorTri2 = "Kiremit Zemin Üçgeni", --0.4
+    buildable_tileFloorTri2_plural = "Kiremit Zemin Üçgenleri", --0.4
+    buildable_tileFloorTri2_summary = "Rustik bir cazibe.", --0.4
+    buildable_fertilize = "Organik Gübre", --0.4
+    buildable_fertilize_plural = "Organik Gübreler", --0.4
+    buildable_fertilize_summary = "Toprağı kompost veya gübre ile zenginleştirerek.", --0.4
 
     --craftables
-    craftable_rockSmall = "Küçük Taş",
-    craftable_rockSmall_plural = "Küçük Taşlar",
+    craftable_rockSmall = "Küçük Sert Kaya", --0.4 added "Sert"
+    craftable_rockSmall_plural = "Küçük Sert Kayalar", --0.4 added "Sert"
     craftable_rockSmall_summary = "Temel araçlara dönüştürülebilir.",
+    craftable_rockSmallSoft = "Küçük Yumuşak Kaya", --0.4
+    craftable_rockSmallSoft_plural = "Küçük Yumuşak Kayalar", --0.4
+    craftable_rockSmallSoft_summary = "Hızlı bir şekilde basit el baltalarına dönüştürülebilir.", --0.4
     craftable_stoneSpearHead = "Taş Mızrak Başı",
     craftable_stoneSpearHead_plural = "Taş Mızrak Başları",
     craftable_stoneSpearHead_summary = "Taş Mızrak yapımında kullanılır.",
@@ -184,6 +274,9 @@ localizations.values = {
     craftable_stoneKnife = "Taş Bıçak",
     craftable_stoneKnife_plural = "Taş Bıçaklar",
     craftable_stoneKnife_summary = "Temel işçilik aleti, birçok amaç için kullanılabilir.",
+    craftable_stoneChisel = "Taş Keski", --0.4
+    craftable_stoneChisel_plural = "Taş Keskiler", --0.4
+    craftable_stoneChisel_summary = "Yumuşak kumtaşı ve kalker gibi yumuşak kayalardan taş bloklar kesmek ve ahşap oymak için kullanılır.", --0.4
     craftable_quernstone = "Öğütme Taşı",
     craftable_quernstone_plural = "Öğütme Taşları",
     craftable_quernstone_summary = "Öğütme için kullanılır, buğdayı un haline getirebilir.",
@@ -193,6 +286,12 @@ localizations.values = {
     craftable_boneKnife = "Kemik Bıçak",
     craftable_boneKnife_plural = "Kemik Bıçaklar",
     craftable_boneKnife_summary = "Temel işçilik aleti, birçok amaç için kullanılabilir.",
+    craftable_bronzeKnife = "Bronz Bıçak", --0.4
+    craftable_bronzeKnife_plural = "Bronz Bıçaklar", --0.4
+    craftable_bronzeKnife_summary = "Kesim yapmak ve ahşapla zanaat yapmak dahil birçok şeyde kullanılır.", --0.4
+    craftable_bronzeChisel = "Bronz Keski", --0.4
+    craftable_bronzeChisel_plural = "Bronz Keskiler", --0.4
+    craftable_bronzeChisel_summary = "Yumuşak ve sert kaya kayalarından taş bloklar kesmek ve ahşap oymak için kullanılır.", --0.4
     craftable_boneFlute = "Kemik Flüt",
     craftable_boneFlute_plural = "Kemik Flütler",
     craftable_boneFlute_summary = "Müzik ruhun gıdasıdır! sapienleri mutlu eder.",
@@ -225,16 +324,51 @@ localizations.values = {
     craftable_flintPickaxe_summary = "Kaya madenciliği yapmak ve daha kolay kazmak için kullanılabilir.",
     craftable_stoneHatchet = "Taş Balta",
     craftable_stoneHatchet_plural = "Taş Baltalar",
-    craftable_stoneHatchet_summary = "Ağaç kesmek için iyi bir seçim.",
-    craftable_stoneAxeHead = "Taş El Baltası",
-    craftable_stoneAxeHead_plural = "Taş El Baltaları",
-    craftable_stoneAxeHead_summary = "Odun kesmek ve toprağı kazmak için kullanılabilir.",
+    craftable_stoneHatchet_summary = "Ağaç kesmek için iyi bir seçim",
+    craftable_stoneAxeHead = "Taş El Balta Başı (Sert Kaya)", --0.4 added "(Sert Kaya)"
+    craftable_stoneAxeHead_plural = "Taş El Balta Başları (Sert Kaya)", --0.4 added "(Sert Kaya)"
+    craftable_stoneAxeHead_summary = "Odun kesmek ve toprağı kazmak için kullanılabilir. Aynı zamanda balta yapımında da kullanılabilir.", --0.4 added "Aynı zamanda balta yapımında da kullanılabilir"
+    craftable_stoneAxeHeadSoft = "Taş El Balta Başı (Yumuşak Kaya)", --0.4
+    craftable_stoneAxeHeadSoft_plural = "Taş El Balta Başları (Yumuşak Kaya)", --0.4
+    craftable_stoneAxeHeadSoft_summary = "Odun kesmek ve toprağı kazmak için kullanılabilir. Bu kaya türü yumuşaktır, bu yüzden hızlı bir şekilde üretilebilir, ancak çabuk aşınır.", --0.4
     craftable_flintAxeHead = "Çakmaktaşı El Baltası",
     craftable_flintAxeHead_plural = "Çakmaktaşı El Baltaları",
     craftable_flintAxeHead_summary = "Odun kesmek ve toprağı kazmak için kullanılabilir.",
     craftable_flintHatchet = "Çakmaktaşı Balta",
     craftable_flintHatchet_plural = "Çakmaktaşı Baltalar",
     craftable_flintHatchet_summary = "Ağaç kesmek için iyi bir seçim.",
+
+    craftable_bronzeAxeHead = "Bronz El Baltası Başı", --0.4
+    craftable_bronzeAxeHead_plural = "Bronz El Baltası Başları", --0.4
+    craftable_bronzeAxeHead_summary = "Odun kesmek ve toprağı kazmak için kullanılabilir.", --0.4
+    craftable_bronzeHatchet = "Bronz Balta", --0.4
+    craftable_bronzeHatchet_plural = "Bronz Baltalar", --0.4
+    craftable_bronzeHatchet_summary = "Ağaç kesimi için uygundur.", --0.4
+    craftable_bronzeSpearHead = "Bronz Mızrak Başı", --0.4
+    craftable_bronzeSpearHead_plural = "Bronz Mızrak Başları", --0.4
+    craftable_bronzeSpearHead_summary = "Bronz mızrak yapımında kullanılır.", --0.4
+    craftable_bronzeSpear = "Bronz Mızrak", --0.4
+    craftable_bronzeSpear_plural = "Bronz Mızraklar", --0.4
+    craftable_bronzeSpear_summary = "Avcılık, balıkçılık ve savaş için kullanılır.", --0.4
+    craftable_bronzePickaxeHead = "Bronz Kazma Başı", --0.4
+    craftable_bronzePickaxeHead_plural = "Bronz Kazma Başları", --0.4
+    craftable_bronzePickaxeHead_summary = "Bronz kazma yapımında kullanılır.", --0.4
+    craftable_bronzePickaxe = "Bronz Kazma", --0.4
+    craftable_bronzePickaxe_plural = "Bronz Kazmalar", --0.4
+    craftable_bronzePickaxe_summary = "Kaya madenciliği yapmak ve daha kolay kazmak için kullanılabilir.", --0.4
+    craftable_stoneHammerHead = "Taş Çekiç Başı", --0.4
+    craftable_stoneHammerHead_plural = "Taş Çekiç Başları", --0.4
+    craftable_stoneHammerHead_summary = "Demircilik için çekiç yapımında kullanılır.", --0.4
+    craftable_stoneHammer = "Taş Çekiç", --0.4
+    craftable_stoneHammer_plural = "Taş Çekiçler", --0.4
+    craftable_stoneHammer_summary = "İnşaat ve demircilik için kullanılır.", --0.4
+    craftable_bronzeHammerHead = "Bronz Çekiç Başı", --0.4
+    craftable_bronzeHammerHead_plural = "Bronz Çekiç Başları", --0.4
+    craftable_bronzeHammerHead_summary = "Demircilik için çekiç yapımında kullanılır.", --0.4
+    craftable_bronzeHammer = "Bronz Çekiç", --0.4
+    craftable_bronzeHammer_plural = "Bronz Çekiçler", --0.4
+    craftable_bronzeHammer_summary = "Demircilik için kullanılır.", --0.4
+
     craftable_splitLog = "Kesik Kütük",
     craftable_splitLog_plural = "Kesik Kütükler",
     craftable_splitLog_summary = "Bina için kullanılır.",
@@ -270,15 +404,18 @@ localizations.values = {
     craftable_firedBowl = "Kase", --0.3.0
     craftable_firedBowl_plural = "Kaseler", --0.3.0
     craftable_firedBowl_summary = "İlaçları saklamak için kullanılabilir. Pişirildiğinde içeriği daha uzun süre korur", --0.3.0
+    craftable_crucibleWet = "Eritme Kazanı", --0.4
+    craftable_crucibleWet_plural = "Eritme Kazanları", --0.4
+    craftable_crucibleWet_summary = "Kalıp yaparken erimiş metali tutmak için kullanılır.", --0.4
     craftable_hulledWheat = "Kabuklu Buğday",
     craftable_hulledWheat_plural = "Kabuklu Buğdaylar",
     craftable_hulledWheat_summary = "Un haline getirilebilir.",
-    craftable_thatchResearch = "Saz Araştırması",
-    craftable_thatchResearch_plural = "Saz Araştırmaları",
-    craftable_thatchResearch_summary = "Saz Araştırması.",
-    craftable_mudBrickBuildingResearch = "Kil Tuğla Yapı Araştırması",
-    craftable_mudBrickBuildingResearch_plural = "Kil Tuğla Yapı Araştırmaları",
-    craftable_mudBrickBuildingResearch_summary = "Kil Tuğla Yapı Araştırması.",
+    craftable_thatchResearch = "Hasır Araştırması",
+    craftable_thatchResearch_plural = "Hasır Araştırmaları",
+    craftable_thatchResearch_summary = "Hasır Araştırması.",
+    craftable_mudBrickBuildingResearch = "Duvarcılık Araştırması", --0.4 çamur tuğla yapımından duvarcılığa değiştirildi, artık tüm tuğla/blok temelli yapılara uygulanır
+    craftable_mudBrickBuildingResearch_plural = "Duvarcılık Araştırmaları", --0.4 çamur tuğla yapımından duvarcılığa değiştirildi, artık tüm tuğla/blok temelli yapılara uygulanır
+    craftable_mudBrickBuildingResearch_summary = "Duvarcılık Araştırması.", --0.4 çamur tuğla yapımından duvarcılığa değiştirildi, artık tüm tuğla/blok temelli yapılara uygulanır
     craftable_woodBuildingResearch = "Ahşap Yapı Araştırması",
     craftable_woodBuildingResearch_plural = "Ahşap Yapı Araştırmaları",
     craftable_woodBuildingResearch_summary = "Ahşap Yapı Araştırması.",
@@ -319,7 +456,7 @@ localizations.values = {
     craftable_firedBrick_plural = "Tuğlalar",
     craftable_firedBrick_summary = "Dayanıklı bir inşa kaynağı.",
 
-    --0.3.0 group:
+      --0.3.0 group:
        craftable_injuryMedicine = "Yara İlacı",
        craftable_injuryMedicine_plural = "Yara İlaçları",
        craftable_injuryMedicine_summary = "Fiziksel yaraları iyileştirir.",
@@ -333,6 +470,16 @@ localizations.values = {
        craftable_virusMedicine_plural = "Virüs İlaçları",
        craftable_virusMedicine_summary = "Soğuk ve viral enfeksiyonlar için ilaç.",
        --0.3.0 group end
+
+       craftable_bronzeIngot = "Bronz Kalıp", --0.4
+       craftable_bronzeIngot_plural = "Bronz Kalıplar", --0.4
+       craftable_bronzeIngot_summary = "Daha güçlü araç ve silahların yapımında kullanılır.", --0.4
+       craftable_stoneTileSoft = "Taş Kiremit (Yumuşak)", --0.4
+       craftable_stoneTileSoft_plural = "Taş Kiremitler (Yumuşak)", --0.4
+       craftable_stoneTileSoft_summary = "Limon taşı veya kumtaşı gibi yumuşak kayalardan kiremit yapmak için kesici kullanılır; çatılar, zeminler ve patikalar için kullanılır.", --0.4
+       craftable_stoneTileHard = "Taş Kiremit (Sert)", --0.4
+       craftable_stoneTileHard_plural = "Taş Kiremitler (Sert)", --0.4
+       craftable_stoneTileHard_summary = "Granit veya mermer gibi sert kayalardan kiremit yapmak için kesici kullanılır; çatılar, zeminler ve patikalar için kullanılır.", --0.4
 
        --actions
        action_idle = "Boş dur",
@@ -424,7 +571,12 @@ localizations.values = {
        action_selfApplyTopicalMedicine_inProgress = "İlaç Uygulanıyor",
        action_giveMedicine = "İlaç Ver",
        action_giveMedicine_inProgress = "İlaç Veriliyor",
-       --0.3.0 group end
+       --0.3.0 group
+
+       action_smithHammer = "Demircilik", --0.4
+       action_smithHammer_inProgress = "Demircilik Yapılıyor", --0.4
+       action_chiselStone = "Kesici Kullan", --0.4
+       action_chiselStone_inProgress = "Kesici Kullanılıyor", --0.4
 
        --action modifiers
        action_jog = "Yürü",
@@ -443,6 +595,9 @@ localizations.values = {
        terrain_limestone = "Kireçtaşı",
        terrain_redRock = "Kızıl Kaya",
        terrain_greenRock = "Yeşil Kaya",
+       terrain_graniteRock = "Granit", --0.4
+       terrain_marbleRock = "Mermer", --0.4
+       terrain_lapisRock = "Lapis Lazuli", --0.4
        terrain_beachSand = "Kum",
        terrain_riverSand = "Nehir Kumu",
        terrain_desertSand = "Çöl Kumu",
@@ -452,6 +607,12 @@ localizations.values = {
        terrain_richDirt = "Zengin Toprak",
        terrain_poorDirt = "Dandik Toprak",
        terrain_clay = "Kil",
+       terrain_copperOre = "Bakır Cevheri", --0.4
+       terrain_tinOre = "Kalay Cevheri", --0.4
+       terrain_sandstoneYellowRock = "Sarı Kumtaşı", --0.4
+       terrain_sandstoneRedRock = "Kızıl Kumtaşı", --0.4
+       terrain_sandstoneOrangeRock = "Turuncu Kumtaşı", --0.4
+       terrain_sandstoneBlueRock = "Mavi Kumtaşı", --0.4
 
        -- terrain variations
        terrainVariations_snow = "Kar",
@@ -459,11 +620,20 @@ localizations.values = {
        terrainVariations_grass = "Çimen",
        terrainVariations_flint = "Çakmaktaşı",
        terrainVariations_clay = "Kil",
+       terrainVariations_copperOre = "Bakır Cevheri", --0.4
+       terrainVariations_tinOre = "Kalay Cevheri", --0.4
        terrainVariations_limestone = "Kireçtaşı",
        terrainVariations_redRock = "Kızıl Kaya",
        terrainVariations_greenRock = "Yeşil Kaya",
+       terrainVariations_graniteRock = "Granit", --0.4
+       terrainVariations_marbleRock = "Mermer", --0.4
+       terrainVariations_lapisRock = "Lapis Lazuli", --0.4
        terrainVariations_shallowWater = "Sığ Su",
        terrainVariations_deepWater = "Derin Su",
+       terrainVariations_sandstoneYellowRock = "Kumtaşı (Sarı)", --0.4
+       terrainVariations_sandstoneRedRock = "Kumtaşı (Kızıl)", --0.4
+       terrainVariations_sandstoneOrangeRock = "Kumtaşı (Turuncu)", --0.4
+       terrainVariations_sandstoneBlueRock = "Kumtaşı (Mavi)", --0.4
 
        -- needs
        need_sleep = "Uykusu Var",
@@ -819,6 +989,19 @@ localizations.values = {
        tool_knappingCrude_plural = "Ham Yoğurma araçlari", --b20
        tool_knappingCrude_usage = "Ham Yoğurma", --b20
 
+       tool_crucible = "Eritme Kazanı", --0.4
+       tool_crucible_plural = "Eritme Kazanları", --0.4
+       tool_crucible_usage = "Eritme Kazanı", --0.4
+       tool_hammering = "Çekiç", --0.4
+       tool_hammering_plural = "Çekiçler", --0.4
+       tool_hammering_usage = "Çekiçleme", --0.4
+       tool_softChiselling = "Keski (Yumuşak Kaya)", --0.4
+       tool_softChiselling_plural = "Keskiler (Yumuşak Kaya)", --0.4
+       tool_softChiselling_usage = "Keskiliyor (Yumuşak Kaya)", --0.4
+       tool_hardChiselling = "Keski (Sert Kaya)", --0.4
+       tool_hardChiselling_plural = "Keskiler (Sert Kaya)", --0.4
+       tool_hardChiselling_usage = "Keskileme (Sert Kaya)", --0.4
+
        --tool properties
        toolProperties_damage = "Hasar",
        toolProperties_speed = "Hız",
@@ -897,6 +1080,11 @@ localizations.values = {
     plan_clone_inProgress = "Kopyalanıyor",
     plan_playInstrument = "Çal",
     plan_playInstrument_inProgress = "Çalınıyor",
+    plan_rebuild = "Yeniden İnşa Et", --0.4
+    plan_rebuild_inProgress = "Yeniden İnşa Ediliyor", --0.4
+    plan_rebuild_title = function(values)
+        return values.rebuildText .. " " .. values.objectName
+    end,
 
     plan_treatInjury = "Tedavi Et", --0.3.0
     plan_treatInjury_inProgress = "Tedavi Ediliyor", --0.3.0
@@ -907,6 +1095,13 @@ localizations.values = {
     plan_treatVirus = "Virüsü Tedavi Et", --0.3.0
     plan_treatVirus_inProgress = "Tedavi Ediliyor", --0.3.0
 
+    plan_fertilize = "Malç", --0.4
+    plan_fertilize_inProgress = "Malçlama", --0.4
+    plan_deliverToCompost = "Kompost", --0.4
+    plan_deliverToCompost_inProgress = "Kompostlama", --0.4
+    plan_chiselStone = "Keskile", --0.4
+    plan_chiselStone_inProgress = "Keskileme", --0.4
+
     --research
     research_fire = researchName,
     research_fire_inProgress = researchingName,
@@ -916,7 +1111,7 @@ localizations.values = {
     research_thatchBuilding_description = "Kabileniz, kurutulmuş bitki örtüsü dizilerek ve destekleyici bir yapının üzerine yerleştirilerek su geçirmez bir barınak sağlayabileceğini keşfetti.",
     research_mudBrickBuilding = researchName,
     research_mudBrickBuilding_inProgress = researchingName,
-    research_mudBrickBuilding_description = "Kurutulmuş kil, saman veya kum gibi bir bağlayıcı ile karıştırıldığında sert ve dayanıklı bir malzeme üretebilir. Kabileniz, yapılar inşa etmek için uygun olabileceğini keşfetti.",
+    research_mudBrickBuilding_description = "Kabileniz, bir araya getirilmiş bloklar veya tuğlaların sağlam yapılar oluşturabileceğini keşfetti.", --0.4 değiştirildi, artık tüm tuğla/blok temelli yapılar için geçerlidir
     research_brickBuilding = researchName,
     research_brickBuilding_inProgress = researchingName,
     research_brickBuilding_description = "Artık kabileniz kurumuş tuğlaları nasıl birbirine bağlayacağını öğrendiğine göre, duvar inşa etmek için tuğlalara yeni bir dekoratif alternatifleri var.",
@@ -938,6 +1133,8 @@ localizations.values = {
     research_spinning = researchName,
     research_spinning_inProgress = researchingName,
     research_spinning_description = "Kabileniz artık bitki liflerini bir araya getirerek sicimler ve halatlar oluşturabilir. Bu özellikle bir şeyleri birbirine bağlamak ve karmaşık araçlar yapmak için faydalı olacaktır.",
+    research_chiselStone_description = "Kabileniz, bir keski kullanarak taştan bloklar oyulabileceğini keşfetti. Taş blokları sağlam yapılar inşa etmek için kullanılabilir veya tekrar oyularak kiremitler oluşturulabilir.", --0.4
+    research_mulching_description = "Kabileniz, toprağa çürümüş organik malzeme katmanı eklenerek toprağın iyileştirilebileceğini keşfetti. Daha zengin bir toprakla bitkiler ve ağaçlar daha hızlı büyür ve bolluk sağlayan hasatlar sunar.", --0.4
     research_digging = researchName,
     research_digging_inProgress = researchingName,
     research_digging_description = "Kaya yontma konusundaki yeni bilgilerle, üst toprağı daha kolay çıkarmak, başka bir yere taşımak ve altında ne olduğunu ortaya çıkarmak için el baltaları kullanılabilir.",
@@ -988,8 +1185,12 @@ localizations.values = {
     research_grinding_description = "Toz haline getirmek özellikle tohum ve tahıllarda saklı olan değerli kalorileri açığa çıkarmak için çok faydalı olabilir. Kabileniz, öğütme taşını geliştirerek öğütme işlemini çok daha kolay hale getirdi.", --modified b13
     research_tiling = researchName,
     research_tiling_inProgress = researchingName,
-    research_tiling_description = "İnce kil tabakaları ateşleyerek, kabileniz yeni bir inşaat yöntemi keşfetti. Kiremitler, yüksek kaliteli çatı, zemin ve yollar inşa etmek için kullanılabilir.",
+    research_tiling_description = "Kabileniz, ince dilimlenmiş taş veya çömlek kullanarak yeni bir yapı yöntemi keşfetti. Karolar, yüksek kaliteli çatılar, zeminler ve yollar inşa etmek için kullanılabilir.", --0.4
     research_unlock_butcherMammoth = "Mamut Kasabı",
+
+    research_composting_name = "Kompostlama", --0.4 -- İsim genellikle yetenekten türetilir, bu nedenle ilişkili bir yeteneği olmayan araştırma türlerine bir isim verilmelidir.
+    research_composting_description = "Çürümüş organik maddeler bir araya getirilerek kompost haline dönüştürülebilir. Bu kompost daha sonra toprağı zenginleştirmek için kullanılabilir.", --0.4
+    research_blacksmithing_description = "Belirli türlerdeki taşları yüksek sıcaklıklarda ısıtarak ve birleştirerek, kabileniz bronz üretmeyi ve kullanmayı keşfetmiştir. Bronz araçlar çok daha uzun süre dayanır ve tamamen yeni kategorilerde araçların yapılmasına olanak sağlar.", --0.4
 
     -- paths
     path_dirt = "Toprak Yol",
@@ -1018,6 +1219,8 @@ localizations.values = {
     object_dirtWallDoor_plural = "Kapılı Toprak Duvarlar",
     object_build_storageArea = "Depolama Alanı",
     object_build_storageArea_plural = "Depolama Alanları",
+    object_build_compostBin = "Kompost Kutusu", --0.4
+    object_build_compostBin_plural = "Kompost Kutuları", --0.4
     object_aspenSplitLog = "Titrek Kavak Odunu",
     object_aspenSplitLog_plural = "Titrek Kavak Odunları",
     object_dirtRoof = "Toprak Tavan",
@@ -1040,6 +1243,10 @@ localizations.values = {
     object_splitLogFloor_plural = "Ahşap Zeminler 2x2",
     object_splitLogFloor4x4 = "Ahşap Zemin 4x4",
     object_splitLogFloor4x4_plural = "Ahşap Zeminler 4x4",
+    object_splitLogFloorTri2 = "Ahşap Zemin Üçgeni", --0.4
+    object_splitLogFloorTri2_plural = "Ahşap Zemin Üçgenleri", --0.4
+    object_build_splitLogFloorTri2 = "Ahşap Zemin Üçgeni İnşa Et", --0.4
+    object_build_splitLogFloorTri2_plural = "Ahşap Zemin Üçgenleri İnşa Et", --0.4
     object_mudBrickFloor2x2 = "Tuğla Zemin 2x2",
     object_mudBrickFloor2x2_plural = "Tuğla Zeminler 2x2",
     object_build_mudBrickFloor2x2 = "Tuğla Zemin 2x2",
@@ -1048,6 +1255,10 @@ localizations.values = {
     object_mudBrickFloor4x4_plural = "Tuğla Zeminler 4x4",
     object_build_mudBrickFloor4x4 = "Tuğla Zemin 4x4",
     object_build_mudBrickFloor4x4_plural = "Tuğla Zeminler 4x4",
+    object_mudBrickFloorTri2 = "Tuğla Zemin Üçgeni", --0.4
+    object_mudBrickFloorTri2_plural = "Tuğla Zemin Üçgenleri", --0.4
+    object_build_mudBrickFloorTri2 = "Tuğla Zemin Üçgeni İnşa Et", --0.4
+    object_build_mudBrickFloorTri2_plural = "Tuğla Zemin Üçgenleri İnşa Et", --0.4
     object_tileFloor2x2 = "Kiremit Zemin 2x2",
     object_tileFloor2x2_plural = "Kiremit Zeminler 2x2",
     object_build_tileFloor2x2 = "Kiremit Zemin 2x2",
@@ -1070,16 +1281,72 @@ localizations.values = {
     object_splitLogSteps_plural = "Ahşap Merdivenler 2x3",
     object_splitLogSteps2x2 = "Ahşap Merdiven 2x2",
     object_splitLogSteps2x2_plural = "Ahşap Merdivenler 2x2",
+    object_splitLogRoofSlope = "Ahşap Çatı Eğimi", --0.4
+    object_splitLogRoofSlope_plural = "Ahşap Çatı Eğimleri", --0.4
+    object_build_splitLogRoofSlope = "Ahşap Çatı Eğimi İnşa Et", --0.4
+    object_build_splitLogRoofSlope_plural = "Ahşap Çatı Eğimleri İnşa Et", --0.4
+    object_splitLogRoofSmallCorner = "Ahşap Çatı Köşesi", --0.4
+    object_splitLogRoofSmallCorner_plural = "Ahşap Çatı Köşeleri", --0.4
+    object_build_splitLogRoofSmallCorner = "Ahşap Çatı Köşesi İnşa Et", --0.4
+    object_build_splitLogRoofSmallCorner_plural = "Ahşap Çatı Köşeleri İnşa Et", --0.4
+    object_splitLogRoofSmallCornerInside = "Ahşap İç Köşe Çatısı", --0.4
+    object_splitLogRoofSmallCornerInside_plural = "Ahşap İç Köşe Çatıları", --0.4
+    object_build_splitLogRoofSmallCornerInside = "Ahşap İç Köşe Çatısı İnşa Et", --0.4
+    object_build_splitLogRoofSmallCornerInside_plural = "Ahşap İç Köşe Çatıları İnşa Et", --0.4
+    object_splitLogRoofTriangle = "Ahşap Üçgen Çatı", --0.4
+    object_splitLogRoofTriangle_plural = "Ahşap Üçgen Çatılar", --0.4
+    object_build_splitLogRoofTriangle = "Ahşap Üçgen Çatı İnşa Et", --0.4
+    object_build_splitLogRoofTriangle_plural = "Ahşap Üçgen Çatılar İnşa Et", --0.4
+    object_splitLogRoofInvertedTriangle = "Ahşap Ters Üçgen Çatı", --0.4
+    object_splitLogRoofInvertedTriangle_plural = "Ahşap Ters Üçgen Çatılar", --0.4
+    object_build_splitLogRoofInvertedTriangle = "Ahşap Ters Üçgen Çatı İnşa Et", --0.4
+    object_build_splitLogRoofInvertedTriangle_plural = "Ahşap Ters Üçgen Çatılar İnşa Et", --0.4
     object_stick = "Sopa",
     object_stick_plural = "Sopalar",
-    object_build_thatchRoof = "Saz Çatı",
-    object_build_thatchRoof_plural = "Saz Çatıları",
-    object_build_thatchRoofLarge = "Büyük Saz Çatı",
-    object_build_thatchRoofLarge_plural = "Büyük Saz Çatıları",
-    object_build_thatchRoofLargeCorner = "Büyük Saz Çatı Köşesi",
-    object_build_thatchRoofLargeCorner_plural = "Büyük Saz Çatı Köşeleri",
+    object_build_thatchRoof = "Hasır Çatı",
+    object_build_thatchRoof_plural = "Hasır Çatıları",
+    object_build_thatchRoofSlope = "Hasır Çatı Eğimi", --0.4
+    object_build_thatchRoofSlope_plural = "Hasır Çatı Eğimleri", --0.4
+    object_build_thatchRoofSmallCorner = "Hasır Çatı Köşesi", --0.4
+    object_build_thatchRoofSmallCorner_plural = "Hasır Çatı Köşeleri", --0.4
+    object_build_thatchRoofSmallCornerInside = "Hasır İç Köşe Çatısı", --0.4
+    object_build_thatchRoofSmallCornerInside_plural = "Hasır İç Köşe Çatıları", --0.4
+    object_build_thatchRoofTriangle = "Hasır Üçgen Çatı", --0.4
+    object_build_thatchRoofTriangle_plural = "Hasır Üçgen Çatılar", --0.4
+    object_build_thatchRoofInvertedTriangle = "Hasır Ters Üçgen Çatı", --0.4
+    object_build_thatchRoofInvertedTriangle_plural = "Hasır Ters Üçgen Çatılar", --0.4
+    object_build_thatchRoofLarge = "Büyük Hasır Çatı",
+    object_build_thatchRoofLarge_plural = "Büyük Hasır Çatıları",
+    object_build_thatchRoofLargeCorner = "Büyük Hasır Çatı Köşesi",
+    object_build_thatchRoofLargeCorner_plural = "Büyük Hasır Çatı Köşeleri",
+    object_build_thatchRoofLargeCornerInside = "Büyük Hasır İç Köşe Çatısı", --0.4
+    object_build_thatchRoofLargeCornerInside_plural = "Büyük Hasır İç Köşe Çatıları", --0.4
     object_build_tileRoof = "Kiremit Çatı",
     object_build_tileRoof_plural = "Kiremit Çatılar",
+    object_tileRoofSlope = "Kiremit Çatı Eğimi", --0.4
+    object_tileRoofSlope_plural = "Kiremit Çatı Eğimleri", --0.4
+    object_build_tileRoofSlope = "Kiremit Çatı Eğimi", --0.4
+    object_build_tileRoofSlope_plural = "Kiremit Çatı Eğimleri", --0.4
+    object_tileRoofSmallCorner = "Kiremit Çatı Köşesi", --0.4
+    object_tileRoofSmallCorner_plural = "Kiremit Çatı Köşeleri", --0.4
+    object_build_tileRoofSmallCorner = "Kiremit Çatı Köşesi", --0.4
+    object_build_tileRoofSmallCorner_plural = "Kiremit Çatı Köşeleri", --0.4
+    object_tileRoofSmallCornerInside = "Kiremit Çatı İç Köşesi", --0.4
+    object_tileRoofSmallCornerInside_plural = "Kiremit Çatı İç Köşeleri", --0.4
+    object_build_tileRoofSmallCornerInside = "Kiremit Çatı İç Köşesi", --0.4
+    object_build_tileRoofSmallCornerInside_plural = "Kiremit Çatı İç Köşeleri", --0.4
+    object_tileRoofTriangle = "Kiremit Çatı Üçgeni", --0.4
+    object_tileRoofTriangle_plural = "Kiremit Çatı Üçgenleri", --0.4
+    object_build_tileRoofTriangle = "Kiremit Çatı Üçgeni", --0.4
+    object_build_tileRoofTriangle_plural = "Kiremit Çatı Üçgenleri", --0.4
+    object_tileRoofInvertedTriangle = "Kiremit Çatı Ters Üçgen", --0.4
+    object_tileRoofInvertedTriangle_plural = "Kiremit Çatı Ters Üçgenler", --0.4
+    object_build_tileRoofInvertedTriangle = "Kiremit Çatı Ters Üçgen", --0.4
+    object_build_tileRoofInvertedTriangle_plural = "Kiremit Çatı Ters Üçgenler", --0.4
+    object_tileFloorTri2 = "Kiremit Zemin Üçgeni", --0.4
+    object_tileFloorTri2_plural = "Kiremit Zemin Üçgenleri", --0.4
+    object_build_tileFloorTri2 = "Kiremit Zemin Üçgeni", --0.4
+    object_build_tileFloorTri2_plural = "Kiremit Zemin Üçgenleri", --0.4
     object_dirtWall = "Toprak Duvar",
     object_dirtWall_plural = "Toprak Duvarlar",
     object_alpacaWoolskin = "Alpaka Yünü",
@@ -1094,24 +1361,124 @@ localizations.values = {
     object_rockSmall_plural = "Taşlar",
     object_rockLarge = "Büyük Kaya",
     object_rockLarge_plural = "Büyük Kayalar",
+
+    object_stoneBlock = "Taş Blok", --0.4
+    object_stoneBlock_plural = "Taş Blokları", --0.4
+    object_stoneTile = "Taş Döşeme Taşı", --0.4
+    object_stoneTile_plural = "Taş Döşeme Taşları", --0.4
+
     object_limestoneRock = "Kireçtaşı Kaya",
     object_limestoneRock_plural = "Kireçtaşı Kayaları",
     object_limestoneRockSmall = "Kireçtaşı",
     object_limestoneRockSmall_plural = "Kireçtaşları",
     object_limestoneRockLarge = "Büyük Kireçtaşı Kaya",
     object_limestoneRockLarge_plural = "Büyük Kireçtaşı Kayaları",
+    object_limestoneRockBlock = "Kireçtaşı Blok", --0.4
+    object_limestoneRockBlock_plural = "Kireçtaşı Blokları", --0.4
+    object_stoneTile_limestone = "Kireçtaşı Döşeme Taşı", --0.4
+    object_stoneTile_limestone_plural = "Kireçtaşı Döşeme Taşları", --0.4
+
     object_redRock = "Kızıl Kaya",
     object_redRock_plural = "Kızıl Kayalar",
     object_redRockSmall = "Küçük Kızıl Kaya",
-    object_redRockSmall_plural = "Küçük Kızıl Kayalar",
+    object_redRockSmall_plural = "Küçük Kızıl Kayaları",
     object_redRockLarge = "Büyük Kızıl Kaya",
     object_redRockLarge_plural = "Büyük Kızıl Kayalar",
+    object_redRockBlock = "Kızıl Kaya Blok", --0.4
+    object_redRockBlock_plural = "Kızıl Kaya Blokları", --0.4
+    object_stoneTile_redRock = "Kızıl Kaya Döşeme Taşı", --0.4
+    object_stoneTile_redRock_plural = "Kızıl Kaya Döşeme Taşları", --0.4
+
     object_greenRock = "Yeşil Kaya",
-    object_greenRock_plural = "Yeşil Kayalar",
+    object_greenRock_plural = "Yeşil Kayaları",
     object_greenRockSmall = "Küçük Yeşil Kaya",
     object_greenRockSmall_plural = "Küçük Yeşil Kayalar",
     object_greenRockLarge = "Büyük Yeşil Kaya",
     object_greenRockLarge_plural = "Büyük Yeşil Kayalar",
+    object_greenRockBlock = "Yeşil Kaya Blok", --0.4
+    object_greenRockBlock_plural = "Yeşil Kaya Blokları", --0.4
+    object_stoneTile_greenRock = "Yeşil Kaya Döşeme Taşı", --0.4
+    object_stoneTile_greenRock_plural = "Yeşil Kaya Döşeme Taşları", --0.4
+
+    --0.4 added group start
+    object_graniteRock = "Granit Kaya",
+    object_graniteRock_plural = "Granit Kayaları",
+    object_graniteRockSmall = "Küçük Granit Kaya",
+    object_graniteRockSmall_plural = "Küçük Granit Kayaları",
+    object_graniteRockLarge = "Büyük Granit Kaya",
+    object_graniteRockLarge_plural = "Büyük Granit Kayalar",
+    object_graniteRockBlock = "Granit Blok",
+    object_graniteRockBlock_plural = "Granit Blokları",
+    object_stoneTile_graniteRock = "Granit Döşeme Taşı",
+    object_stoneTile_graniteRock_plural = "Granit Döşeme Taşları",
+
+    object_marbleRock = "Mermer Kaya",
+    object_marbleRock_plural = "Mermer Kayaları",
+    object_marbleRockSmall = "Küçük Mermer Kaya",
+    object_marbleRockSmall_plural = "Küçük Mermer Kayaları",
+    object_marbleRockLarge = "Büyük Mermer Kaya",
+    object_marbleRockLarge_plural = "Büyük Mermer Kayaları",
+    object_marbleRockBlock = "Mermer Blok",
+    object_marbleRockBlock_plural = "Mermer Blokları",
+    object_stoneTile_marbleRock = "Mermer Döşeme Taşı",
+    object_stoneTile_marbleRock_plural = "Mermer Döşeme Taşları",
+
+    object_lapisRock = "Lapis Lazuli Kaya",
+    object_lapisRock_plural = "Lapis Lazuli Kayaları",
+    object_lapisRockSmall = "Küçük Lapis Lazuli Kaya",
+    object_lapisRockSmall_plural = "Küçük Lapis Lazuli Kayaları",
+    object_lapisRockLarge = "Büyük Lapis Lazuli Kaya",
+    object_lapisRockLarge_plural = "Büyük Lapis Lazuli Kayaları",
+    object_lapisRockBlock = "Lapis Lazuli Blok",
+    object_lapisRockBlock_plural = "Lapis Lazuli Blokları",
+    object_stoneTile_lapisRock = "Lapis Lazuli Döşeme Taşı",
+    object_stoneTile_lapisRock_plural = "Lapis Lazuli Döşeme Taşları",
+
+    object_sandstoneYellowRock = "Sarı Kumtaşı Kaya",
+    object_sandstoneYellowRock_plural = "Sarı Kumtaşı Kayaları",
+    object_sandstoneYellowRockSmall = "Küçük Sarı Kumtaşı Kaya",
+    object_sandstoneYellowRockSmall_plural = "Küçük Sarı Kumtaşı Kayaları",
+    object_sandstoneYellowRockLarge = "Büyük Sarı Kumtaşı Kaya",
+    object_sandstoneYellowRockLarge_plural = "Büyük Sarı Kumtaşı Kayaları",
+    object_sandstoneYellowRockBlock = "Sarı Kumtaşı Blok",
+    object_sandstoneYellowRockBlock_plural = "Sarı Kumtaşı Blokları",
+    object_stoneTile_sandstoneYellowRock = "Sarı Kumtaşı Döşeme Taşı",
+    object_stoneTile_sandstoneYellowRock_plural = "Sarı Kumtaşı Döşeme Taşları",
+
+    object_sandstoneRedRock = "Kırmızı Kumtaşı Kaya",
+    object_sandstoneRedRock_plural = "Kırmızı Kumtaşı Kayaları",
+    object_sandstoneRedRockSmall = "Küçük Kırmızı Kumtaşı Kaya",
+    object_sandstoneRedRockSmall_plural = "Küçük Kırmızı Kumtaşı Kayaları",
+    object_sandstoneRedRockLarge = "Büyük Kırmızı Kumtaşı Kaya",
+    object_sandstoneRedRockLarge_plural = "Büyük Kırmızı Kumtaşı Kayaları",
+    object_sandstoneRedRockBlock = "Kırmızı Kumtaşı Blok",
+    object_sandstoneRedRockBlock_plural = "Kırmızı Kumtaşı Blokları",
+    object_stoneTile_sandstoneRedRock = "Kırmızı Kumtaşı Döşeme Taşı",
+    object_stoneTile_sandstoneRedRock_plural = "Kırmızı Kumtaşı Döşeme Taşları",
+
+    object_sandstoneOrangeRock = "Turuncu Kumtaşı Kaya",
+    object_sandstoneOrangeRock_plural = "Turuncu Kumtaşı Kayaları",
+    object_sandstoneOrangeRockSmall = "Küçük Turuncu Kumtaşı Kaya",
+    object_sandstoneOrangeRockSmall_plural = "Küçük Turuncu Kumtaşı Kayaları",
+    object_sandstoneOrangeRockLarge = "Büyük Turuncu Kumtaşı Kaya",
+    object_sandstoneOrangeRockLarge_plural = "Büyük Turuncu Kumtaşı Kayaları",
+    object_sandstoneOrangeRockBlock = "Turuncu Kumtaşı Blok",
+    object_sandstoneOrangeRockBlock_plural = "Turuncu Kumtaşı Blokları",
+    object_stoneTile_sandstoneOrangeRock = "Turuncu Kumtaşı Döşeme Taşı",
+    object_stoneTile_sandstoneOrangeRock_plural = "Turuncu Kumtaşı Döşeme Taşları",
+
+    object_sandstoneBlueRock = "Mavi Kumtaşı Kaya",
+    object_sandstoneBlueRock_plural = "Mavi Kumtaşı Kayaları",
+    object_sandstoneBlueRockSmall = "Küçük Mavi Kumtaşı Kaya",
+    object_sandstoneBlueRockSmall_plural = "Küçük Mavi Kumtaşı Kayaları",
+    object_sandstoneBlueRockLarge = "Büyük Mavi Kumtaşı Kaya",
+    object_sandstoneBlueRockLarge_plural = "Büyük Mavi Kumtaşı Kayaları",
+    object_sandstoneBlueRockBlock = "Mavi Kumtaşı Blok",
+    object_sandstoneBlueRockBlock_plural = "Mavi Kumtaşı Blokları",
+    object_stoneTile_sandstoneBlueRock = "Mavi Kumtaşı Döşeme Taşı",
+    object_stoneTile_sandstoneBlueRock_plural = "Mavi Kumtaşı Döşeme Taşları",
+    --0.4 group end
+
     object_chickenMeatBreast = "Tavuk Göğsü",
     object_chickenMeatBreast_plural = "Tavuk Göğüsleri",
     object_birchWoodenPole = "Huş Ağacı Direği",
@@ -1128,8 +1495,8 @@ localizations.values = {
     object_peachWoodenPole_plural = "Şeftali Ağacı Direkleri",
     object_bambooWoodenPole = "Bambu Direği",
     object_bambooWoodenPole_plural = "Bambu Direkleri",
-    object_thatchWallDoor = "Saz Kapılı Duvar",
-    object_thatchWallDoor_plural = "Saz Kapılı Duvarlar",
+    object_thatchWallDoor = "Hasır Kapılı Duvar",
+    object_thatchWallDoor_plural = "Hasır Kapılı Duvarlar",
     object_birchSplitLog = "Kesilmiş Huş Ağacı Kütüğü",
     object_birchSplitLog_plural = "Kesilmiş Huş Ağacı Kütükleri",
     object_willowSplitLog = "Kesilmiş Söğüt Kütüğü",
@@ -1182,6 +1549,18 @@ localizations.values = {
     object_flint_plural = "Çakmaktaşları",
     object_clay = "Kil",
     object_clay_plural = "Killer",
+    object_copperOre = "Bakır Cevheri", --0.4
+    object_copperOre_plural = "Bakır Cevherleri", --0.4
+    object_tinOre = "Kalay Cevheri", --0.4
+    object_tinOre_plural = "Kalay Cevherleri", --0.4
+    object_manure = "Hayvan Gübresi", --0.4
+    object_manure_plural = "Hayvan Gübreleri", --0.4
+    object_manureRotten = "Çürümüş Hayvan Gübresi", --0.4
+    object_manureRotten_plural = "Çürümüş Hayvan Gübreleri", --0.4
+    object_rottenGoo = "Yapıştırıcı", --0.4
+    object_rottenGoo_plural = "Yapıştırıcılar", --0.4
+    object_compost = "Kompost", --0.4
+    object_compost_plural = "Kompostlar", --0.4
     object_build_craftArea = "Üretim Alanı",
     object_build_craftArea_plural = "Üretim Alanları",
     object_build_dirtWallDoor = "Kapılı Toprak Duvar",
@@ -1194,10 +1573,20 @@ localizations.values = {
     object_stoneKnife_redRock_plural = "Kızıl Kaya Bıçaklar",
     object_stoneKnife_greenRock = "Yeşil Kaya Bıçak",
     object_stoneKnife_greenRock_plural = "Yeşil Kaya Bıçaklar",
+    object_stoneKnife_graniteRock = "Granit Bıçak", --0.4
+    object_stoneKnife_graniteRock_plural = "Granit Bıçaklar", --0.4
+    object_stoneKnife_marbleRock = "Mermer Bıçağı", --0.4
+    object_stoneKnife_marbleRock_plural = "Mermer Bıçaklar", --0.4
+    object_stoneKnife_lapisRock = "Lapis Lazuli Bıçağı", --0.4
+    object_stoneKnife_lapisRock_plural = "Lapis Lazuli Bıçakları", --0.4
     object_flintKnife = "Çakmaktaşı Bıçak",
     object_flintKnife_plural = "Çakmaktaşı Bıçaklar",
     object_boneKnife = "Kemik Bıçak",
     object_boneKnife_plural = "Kemik Bıçaklar",
+    object_bronzeKnife = "Bronz Bıçak", --0.4
+    object_bronzeKnife_plural = "Bronz Bıçaklar", --0.4
+    object_bronzeChisel = "Bronz Keski", --0.4
+    object_bronzeChisel_plural = "Bronz Keskiler", --0.4
     object_boneFlute = "Kemik Flüt",
     object_boneFlute_plural = "Kemik Flütler",
     object_logDrum = "Kütük Davul",
@@ -1218,6 +1607,72 @@ localizations.values = {
     object_stoneAxeHead_redRock_plural = "Kızıl Kaya Balta Başları",
     object_stoneAxeHead_greenRock = "Yeşil Kaya Balta Başı",
     object_stoneAxeHead_greenRock_plural = "Yeşil Kaya Balta Başları",
+
+    --0.4 group start:
+
+    object_stoneChisel = "Taş Keski", --0.4
+    object_stoneChisel_plural = "Taş Keskiler", --0.4
+    object_stoneChisel_limestone = "Kireçtaşı Keski", --0.4
+    object_stoneChisel_limestone_plural = "Kireçtaşı Keskiler", --0.4
+    object_stoneChisel_redRock = "Kırmızı Kaya Keski", --0.4
+    object_stoneChisel_redRock_plural = "Kırmızı Kaya Keskiler", --0.4
+    object_stoneChisel_greenRock = "Yeşil Taş Keski", --0.4
+    object_stoneChisel_greenRock_plural = "Yeşil Taş Keskiler", --0.4
+    object_stoneChisel_graniteRock = "Granit Keski", --0.4
+    object_stoneChisel_graniteRock_plural = "Granit Keskiler", --0.4
+    object_stoneChisel_marbleRock = "Mermer Keski", --0.4
+    object_stoneChisel_marbleRock_plural = "Mermer Keskiler", --0.4
+    object_stoneChisel_lapisRock = "Lapis Lazuli Keski", --0.4
+    object_stoneChisel_lapisRock_plural = "Lapis Lazuli Keskiler", --0.4
+
+    object_stoneAxeHead_sandstoneYellowRock = "Kumtaşı (Sarı) El Baltası", --0.4
+    object_stoneAxeHead_sandstoneYellowRock_plural = "Kumtaşı (Sarı) El Baltaları", --0.4
+    object_quernstone_sandstoneYellowRock = "Kumtaşı (Sarı) Öğütme Taşı", --0.4
+    object_quernstone_sandstoneYellowRock_plural = "Kumtaşı (Sarı) Öğütme Taşları", --0.4
+
+    object_stoneAxeHead_sandstoneRedRock = "Kumtaşı (Kırmızı) El Baltası", --0.4
+    object_stoneAxeHead_sandstoneRedRock_plural = "Kumtaşı (Kırmızı) El Baltaları", --0.4
+    object_quernstone_sandstoneRedRock = "Kumtaşı (Kırmızı) Öğütme Taşı", --0.4
+    object_quernstone_sandstoneRedRock_plural = "Kumtaşı (Kırmızı) Öğütme Taşları", --0.4
+
+    object_stoneAxeHead_sandstoneOrangeRock = "Kumtaşı (Turuncu) El Baltası", --0.4
+    object_stoneAxeHead_sandstoneOrangeRock_plural = "Kumtaşı (Turuncu) El Baltaları", --0.4
+    object_quernstone_sandstoneOrangeRock = "Kumtaşı (Turuncu) Öğütme Taşı", --0.4
+    object_quernstone_sandstoneOrangeRock_plural = "Kumtaşı (Turuncu) Öğütme Taşları", --0.4
+
+    object_stoneAxeHead_sandstoneBlueRock = "Kumtaşı (Mavi) El Baltası", --0.4
+    object_stoneAxeHead_sandstoneBlueRock_plural = "Kumtaşı (Mavi) El Baltaları", --0.4
+    object_quernstone_sandstoneBlueRock = "Kumtaşı (Mavi) Öğütme Taşı", --0.4
+    object_quernstone_sandstoneBlueRock_plural = "Kumtaşı (Mavi) Öğütme Taşları", --0.4
+
+    object_stoneAxeHead_graniteRock = "Granit El Baltası", --0.4
+    object_stoneAxeHead_graniteRock_plural = "Granit El Baltaları", --0.4
+    object_stoneAxeHead_marbleRock = "Mermer El Baltası", --0.4
+    object_stoneAxeHead_marbleRock_plural = "Mermer El Baltaları", --0.4
+    object_stoneAxeHead_lapisRock = "Lapis Lazuli El Baltası", --0.4
+    object_stoneAxeHead_lapisRock_plural = "Lapis Lazuli El Baltaları", --0.4
+    object_stoneHammerHead = "Taş Çekiç Başı", --0.4
+    object_stoneHammerHead_plural = "Taş Çekiç Başları", --0.4
+    object_stoneHammerHead_redRock = "Kırmızı Kaya Çekiç Başı", --0.4
+    object_stoneHammerHead_redRock_plural = "Kırmızı Kaya Çekiç Başları", --0.4
+    object_stoneHammerHead_greenRock = "Yeşil Taş Çekiç Başı", --0.4
+    object_stoneHammerHead_greenRock_plural = "Yeşil Taş Çekiç Başları", --0.4
+    object_stoneHammerHead_graniteRock = "Granit Çekiç Başı", --0.4
+    object_stoneHammerHead_graniteRock_plural = "Granit Çekiç Başları", --0.4
+    object_stoneHammerHead_marbleRock = "Mermer Çekiç Başı", --0.4
+    object_stoneHammerHead_marbleRock_plural = "Mermer Çekiç Başları", --0.4
+    object_stoneHammerHead_lapisRock = "Lapis Lazuli Çekiç Başı", --0.4
+    object_stoneHammerHead_lapisRock_plural = "Lapis Lazuli Çekiç Başları", --0.4
+    object_bronzeHammerHead = "Bronz Çekiç Başı", --0.4
+    object_bronzeHammerHead_plural = "Bronz Çekiç Başları", --0.4
+    object_bronzeAxeHead = "Bronz El Baltası", --0.4
+    object_bronzeAxeHead_plural = "Bronz El Baltaları", --0.4
+    object_bronzePickaxeHead = "Bronz Kazma Başı", --0.4
+    object_bronzePickaxeHead_plural = "Bronz Kazma Başları", --0.4
+    object_compostBin = "Kompost Kautusu", --0.4
+    object_compostBin_plural = "Kompost Kutuları", --0.4
+  --0.4 group end
+
     object_flintAxeHead = "Çakmaktaşı Balta Başı",
     object_flintAxeHead_plural = "Çakmaktaşı Balta Başları",
     object_chickenMeatCooked = "Haşlanmış Tavuk Eti",
@@ -1278,6 +1733,12 @@ localizations.values = {
     object_stoneHatchet_plural = "Taş Baltalar",
     object_flintHatchet = "Çakmaktaşı Balta",
     object_flintHatchet_plural = "Çakmaktaşı Baltalar",
+    object_bronzeHatchet = "Bronz Balta", --0.4
+    object_bronzeHatchet_plural = "Bronz Baltalar", --0.4
+    object_bronzePickaxe = "Bronz Kazma", --0.4
+    object_bronzePickaxe_plural = "Bronz Kazmalar", --0.4
+    object_bronzeSpear = "Bronz Mızrak", --0.4
+    object_bronzeSpear_plural = "Bronz Mızraklar", --0.4
     object_alpacaMeatLeg = "Alpaka Bacagı",
     object_alpacaMeatLeg_plural = "Alpaka Bacakları",
     object_alpacaMeatLegCooked = "Pişmiş Alpaka Bacagı",
@@ -1288,12 +1749,24 @@ localizations.values = {
     object_woolskinBed_plural = "Yün Yatakları",
     object_sapien = "Sapien",
     object_sapien_plural = "Sapienler",
-    object_thatchRoof = "Saman Çatı",
-    object_thatchRoof_plural = "Saman Çatıları",
-    object_thatchRoofLarge = "Büyük Saman Çatı",
-    object_thatchRoofLarge_plural = "Büyük Saman Çatıları",
-    object_thatchRoofLargeCorner = "Büyük Saman Çatı Köşesi",
-    object_thatchRoofLargeCorner_plural = "Büyük Saman Çatı Köşeleri",
+    object_thatchRoof = "Hasır Çatı",
+    object_thatchRoof_plural = "Hasır Çatılar",
+    object_thatchRoofSlope = "Haır Çatı Eğimi", --0.4
+    object_thatchRoofSlope_plural = "Haır Çatı Eğimleri", --0.4
+    object_thatchRoofSmallCorner = "Haır Çatı Köşesi", --0.4
+    object_thatchRoofSmallCorner_plural = "Haır Çatı Köşeleri", --0.4
+    object_thatchRoofSmallCornerInside = "Haır Çatı İç Köşe", --0.4
+    object_thatchRoofSmallCornerInside_plural = "Haır Çatı İç Köşeleri", --0.4
+    object_thatchRoofTriangle = "Haır Çatı Üçgeni", --0.4
+    object_thatchRoofTriangle_plural = "Haır Çatı Üçgenleri", --0.4
+    object_thatchRoofInvertedTriangle = "Haır Çatı Ters Üçgeni", --0.4
+    object_thatchRoofInvertedTriangle_plural = "Haır Çatı Ters Üçgenleri", --0.4
+    object_thatchRoofLarge = "Büyük Hasır Çatı",
+    object_thatchRoofLarge_plural = "Büyük Hasır Çatılar",
+    object_thatchRoofLargeCorner = "Büyük Hasır Çatı Köşesi",
+    object_thatchRoofLargeCorner_plural = "Büyük Hasır Çatı Köşeleri",
+    object_thatchRoofLargeCornerInside = "Büyük Haır Çatı İç Köşe", --0.4
+    object_thatchRoofLargeCornerInside_plural = "Büyük Haır Çatı İç Köşeleri", --0.4
     object_tileRoof = "Kiremit Çatı",
     object_tileRoof_plural = "Kiremit Çatıları",
     object_pineWoodenPole = "Çam Direği",
@@ -1322,6 +1795,12 @@ localizations.values = {
     object_stoneSpearHead_redRock_plural = "Kızıl Kaya Mızrak Başları",
     object_stoneSpearHead_greenRock = "Yeşil Kaya Mızrak Başı",
     object_stoneSpearHead_greenRock_plural = "Yeşil Kaya Mızrak Başları",
+    object_stoneSpearHead_graniteRock = "Granit Mızrak Başı", --0.4
+    object_stoneSpearHead_graniteRock_plural = "Granit Mızrak Başları", --0.4
+    object_stoneSpearHead_marbleRock = "Mermer Mızrak Başı", --0.4
+    object_stoneSpearHead_marbleRock_plural = "Mermer Mızrak Başları", --0.4
+    object_stoneSpearHead_lapisRock = "Lapis Lazuli Mızrak Başı", --0.4
+    object_stoneSpearHead_lapisRock_plural = "Lapis Lazuli Mızrak Başları", --0.4
     object_stonePickaxeHead = "Taş Kazma Başı",
     object_stonePickaxeHead_plural = "Taş Kazma Başları",
     object_stonePickaxeHead_limestone = "Kireçtaşı Kazma Başı",
@@ -1330,14 +1809,26 @@ localizations.values = {
     object_stonePickaxeHead_redRock_plural = "Kızıl Kaya Kazma Başları",
     object_stonePickaxeHead_greenRock = "Yeşil Kaya Kazma Başı",
     object_stonePickaxeHead_greenRock_plural = "Yeşil Kaya Kazma Başları",
+    object_stonePickaxeHead_graniteRock = "Granit Kazma Başı", --0.4
+    object_stonePickaxeHead_graniteRock_plural = "Granit Kazma Başları", --0.4
+    object_stonePickaxeHead_marbleRock = "Mermer Kazma Başı", --0.4
+    object_stonePickaxeHead_marbleRock_plural = "Mermer Kazma Başları", --0.4
+    object_stonePickaxeHead_lapisRock = "Lapis Lazuli Kazma Başı", --0.4
+    object_stonePickaxeHead_lapisRock_plural = "Lapis Lazuli Kazma Başları", --0.4
     object_flintSpearHead = "Çakmaktaşı Mızrak Başı",
     object_flintSpearHead_plural = "Çakmaktaşı Mızrak Başları",
+    object_bronzeSpearHead = "Bronz Mızrak Başı", --0.4
+    object_bronzeSpearHead_plural = "Bronz Mızrak Başları", --0.4
     object_boneSpearHead = "Kemik Mızrak Başı",
     object_boneSpearHead_plural = "Kemik Mızrak Başları",
     object_flintPickaxeHead = "Çakmaktaşı Kazma Başı",
     object_flintPickaxeHead_plural = "Çakmaktaşı Kazma Başları",
-    object_build_thatchWallDoor = "Kapılı Saz Duvarı",
-    object_build_thatchWallDoor_plural = "Kapılı Saz Duvarları",
+    object_stoneHammer = "Taş Çekiç", --0.4
+    object_stoneHammer_plural = "Taş Çekiçler", --0.4
+    object_bronzeHammer = "Bronz Çekiç", --0.4
+    object_bronzeHammer_plural = "Bronz Çekiçler", --0.4
+    object_build_thatchWallDoor = "Kapılı Hasır Duvarı",
+    object_build_thatchWallDoor_plural = "Kapılı Hasır Duvarları",
     object_pineSplitLog = "Kesik Çam Kütüğü",
     object_pineSplitLog_plural = "Kesik Çam Kütükleri",
     object_burntBranch = "Yanmış Ağaç Gövdesi",
@@ -1388,6 +1879,11 @@ localizations.values = {
     object_firedBowlMedicineRotten_plural = "Çürük İlaçları",
     --0.3.0 group end
 
+    object_crucibleWet = "Eritme Kazanı (Yaş)", --0.4
+    object_crucibleWet_plural = "Eritme Kazanları (Yaş)", --0.4
+    object_crucibleDry = "Eritme Kazanı", --0.4
+    object_crucibleDry_plural = "Eritme Kazanları", --0.4
+
     object_temporaryCraftArea = "Üretim Alanı",
     object_temporaryCraftArea_plural = "Üretim Alanları",
     object_quernstone = "Öğütme Taşı",
@@ -1398,6 +1894,12 @@ localizations.values = {
     object_quernstone_redRock_plural = "Kızıl Kayadan Öğütme Taşları",
     object_quernstone_greenRock = "Yesil Kayadan Öğütme Taşı",
     object_quernstone_greenRock_plural = "Yesil Kayadan Öğütme Taşları",
+    object_quernstone_graniteRock = "Öğütme Taşı", --0.4
+    object_quernstone_graniteRock_plural = "Öğütme Taşları", --0.4
+    object_quernstone_marbleRock = "Öğütme Taşı", --0.4
+    object_quernstone_marbleRock_plural = "Öğütme Taşları", --0.4
+    object_quernstone_lapisRock = "Öğütme Taşı", --0.4
+    object_quernstone_lapisRock_plural = "Öğütme Taşları", --0.4
     object_unfiredUrnFlour = "Un (pişmemiş)",
     object_unfiredUrnFlour_plural = "Unlar (pişmemiş)",
     object_unfiredUrnFlourRotten = "Çürük Un (pişmemiş)",
@@ -1462,6 +1964,10 @@ localizations.values = {
     object_build_mudBrickWall4x1_plural = "Tuğla Duvarlar",
     object_build_mudBrickWall2x2 = "Tuğla Duvar",
     object_build_mudBrickWall2x2_plural = "Tuğla Duvarlar",
+    object_mudBrickRoofEnd = "Tuğla Çatı Bitiş Duvarı", --0.4
+    object_mudBrickRoofEnd_plural = "Tuğla Çatı Bitiş Duvarları", --0.4
+    object_build_mudBrickRoofEnd = "Tuğla Çatı Bitiş Duvarı", --0.4
+    object_build_mudBrickRoofEnd_plural = "Tuğla Çatı Bitiş Duvarları", --0.4
     object_mudBrickWallDoor = "Kapılı Tuğla Duvar",
     object_mudBrickWallDoor_plural = "Kapılı Tuğla Duvarlar",
     object_build_mudBrickWallDoor = "Kapılı Tuğla Duvar",
@@ -1474,6 +1980,36 @@ localizations.values = {
     object_mudBrickColumn_plural = "Tuğla Kolonlar",
     object_build_mudBrickColumn = "Tuğla Kolon",
     object_build_mudBrickColumn_plural = "Tuğla Kolonlar",
+
+    object_stoneBlockWall = "Taş Blok Duvarı", --0.4
+    object_stoneBlockWall_plural = "Taş Blok Duvarları", --0.4
+    object_build_stoneBlockWall = "Taş Blok Duvarı", --0.4
+    object_build_stoneBlockWall_plural = "Taş Blok Duvarları", --0.4
+    object_stoneBlockWallDoor = "Kapılı Taş Blok Duvarı", --0.4
+    object_stoneBlockWallDoor_plural = "Kapılı Taş Blok Duvarları", --0.4
+    object_build_stoneBlockWallDoor = "Kapılı Taş Blok Duvarı", --0.4
+    object_build_stoneBlockWallDoor_plural = "Kapılı Taş Blok Duvarları", --0.4
+    object_stoneBlockWallLargeWindow = "Geniş Pencereli Taş Blok Duvarı", --0.4
+    object_stoneBlockWallLargeWindow_plural = "Geniş Pencereli Taş Blok Duvarları", --0.4
+    object_build_stoneBlockWallLargeWindow = "Geniş Pencereli Taş Blok Duvarı", --0.4
+    object_build_stoneBlockWallLargeWindow_plural = "Geniş Pencereli Taş Blok Duvarları", --0.4
+    object_stoneBlockWall4x1 = "Kısa Taş Blok Duvarı", --0.4
+    object_stoneBlockWall4x1_plural = "Kısa Taş Blok Duvarları", --0.4
+    object_build_stoneBlockWall4x1 = "Kısa Taş Blok Duvarı", --0.4
+    object_build_stoneBlockWall4x1_plural = "Kısa Taş Blok Duvarları", --0.4
+    object_stoneBlockWall2x2 = "Kare Taş Blok Duvarı", --0.4
+    object_stoneBlockWall2x2_plural = "Kare Taş Blok Duvarları", --0.4
+    object_build_stoneBlockWall2x2 = "Kare Taş Blok Duvarı", --0.4
+    object_build_stoneBlockWall2x2_plural = "Kare Taş Blok Duvarları", --0.4
+    object_stoneBlockRoofEnd = "Taş Blok Çatı Bitiş Duvarı", --0.4
+    object_stoneBlockRoofEnd_plural = "Taş Blok Çatı Bitiş Duvarları", --0.4
+    object_build_stoneBlockRoofEnd = "Taş Blok Çatı Bitiş Duvarı", --0.4
+    object_build_stoneBlockRoofEnd_plural = "Taş Blok Çatı Bitiş Duvarları", --0.4
+    object_stoneBlockColumn = "Taş Blok Sütun", --0.4
+    object_stoneBlockColumn_plural = "Taş Blok Sütunlar", --0.4
+    object_build_stoneBlockColumn = "Taş Blok Sütun", --0.4
+    object_build_stoneBlockColumn_plural = "Taş Blok Sütunlar", --0.4
+
     object_brickWall = "Tuğla Duvar",
     object_brickWall_plural = "Tuğla Duvarlar",
     object_build_brickWall = "Tuğla Duvar",
@@ -1494,6 +2030,10 @@ localizations.values = {
     object_brickWall2x2_plural = "Tuğla Duvarlar",
     object_build_brickWall2x2 = "Tuğla Duvar",
     object_build_brickWall2x2_plural = "Tuğla Duvarlar",
+    object_brickRoofEnd = "Tuğla Çatı Bitiş Duvarı", --0.4
+    object_brickRoofEnd_plural = "Tuğla Çatı Bitiş Duvarları", --0.4
+    object_build_brickRoofEnd = "Tuğla Çatı Bitiş Duvarı", --0.4
+    object_build_brickRoofEnd_plural = "Tuğla Çatı Bitiş Duvarları", --0.4
     object_splitLogWallLargeWindow = "Büyük Pencereli Tuğla Duvar",
     object_splitLogWallLargeWindow_plural = "Büyük Pencereli Tuğla Duvarlar",
     object_build_splitLogWallLargeWindow = "Büyük Pencereli Tuğla Duvar",
@@ -1506,6 +2046,8 @@ localizations.values = {
     object_mammothMeatCooked_plural = "Pişmiş Mamut Etleri",
     object_mammothMeatTBoneCooked = "Pişmiş Mamut Kemigi",
     object_mammothMeatTBoneCooked_plural = "Pişmiş Mamut Kemikleri",
+    object_bronzeIngot = "Bronz Külçe", --0.4
+    object_bronzeIngot_plural = "Bronz Külçeler", --0.4
 
     --order
     order_idle = "Duruyor",
@@ -1595,7 +2137,12 @@ localizations.values = {
     order_giveMedicineToOtherSapien_inProgress = "İlaç Veriyor", --0.3.0
 
 
-
+    order_fertilize = "Malçla", --0.4
+    order_fertilize_inProgress = "Malçlama", --0.4
+    order_deliverToCompost = "Kompostla", --0.4
+    order_deliverToCompost_inProgress = "Kompostlama", --0.4
+    order_chiselStone = "Keskiyle Oy", --0.4
+    order_chiselStone_inProgress = "Keskileme", --0.4
 
 
     --resource
@@ -1605,8 +2152,10 @@ localizations.values = {
     resource_burntBranch_plural = "Yanık Dallar",
     resource_log = "Kütük",
     resource_log_plural = "Kütükler",
-    resource_rock = "Kaya",
-    resource_rock_plural = "Kayalar",
+    resource_rock = "Büyük Kaya (Sert)", --0.4 "Hard" eklendi
+    resource_rock_plural = "Büyük Kayalar (Sert)", --0.4 "Hard" eklendi
+    resource_rockSoft = "Büyük Kaya (Yumuşak)", --0.4
+    resource_rockSoft_plural = "Büyük Kayalar (Yumuşak)", --0.4
     resource_dirt = "Toprak",
     resource_dirt_plural = "Topraklar",
     resource_hay = "Saman",
@@ -1619,12 +2168,30 @@ localizations.values = {
     resource_flaxDried_plural = "Kuru Ketenler",
     resource_sand = "Kum",
     resource_sand_plural = "Kumlar",
-    resource_rockSmall = "Taş",
-    resource_rockSmall_plural = "Taşlar",
+    resource_rockSmall = "Küçük Kaya (Sert)", --0.4 "Hard" eklendi
+    resource_rockSmall_plural = "Küçük Kayalar (Sert)", --0.4 "Hard" eklendi
+    resource_rockSmallSoft = "Küçük Kaya (Yumuşak)", --0.4
+    resource_rockSmallSoft_plural = "Küçük Kayalar (Yumuşak)", --0.4
+    resource_stoneBlockSoft = "Taş Blok (Yumuşak)", --0.4
+    resource_stoneBlockSoft_plural = "Taş Bloklar (Yumuşak)", --0.4
+    resource_stoneBlockHard = "Taş Blok (Sert)", --0.4
+    resource_stoneBlockHard_plural = "Taş Bloklar (Sert)", --0.4
     resource_flint = "Çakmaktaşı",
     resource_flint_plural = "Çakmaktaşları",
     resource_clay = "Kil",
     resource_clay_plural = "Killer",
+    resource_copperOre = "Bakır Cevheri", --?
+    resource_copperOre_plural = "Bakır Cevherleri", --?
+    resource_tinOre = "Kalay Cevheri", --?
+    resource_tinOre_plural = "Kalay Cevherleri", --?
+    resource_manure = "Gübre", --0.4
+    resource_manure_plural = "Gübreler", --0.4
+    resource_manureRotten = "Çürümüş Gübre", --0.4
+    resource_manureRotten_plural = "Çürümüş Gübreler", --0.4
+    resource_rottenGoo = "Yapıştırıcı", --0.4
+    resource_rottenGoo_plural = "Yapıştırıcılar", --0.4
+    resource_compost = "Kompost", --0.4
+    resource_compost_plural = "Kompostlar", --0.4
     resource_deadChicken = "Ölü Tavuk",
     resource_deadChicken_plural = "Ölü Tavuklar",
     resource_deadChickenRotten = "Çürük Ölü Tavuk",
@@ -1657,30 +2224,58 @@ localizations.values = {
     resource_stonePickaxeHead_plural = "Taş Kazma Başları",
     resource_stoneHatchet = "Taş Balta",
     resource_stoneHatchet_plural = "Taş Baltalar",
-    resource_stoneAxeHead = "Taş Balta Başı",
-    resource_stoneAxeHead_plural = "Taş Balta Başları",
+    resource_stoneAxeHead = "Taş Balta Başı (Sert)", --0.4 added (Sert)
+    resource_stoneAxeHead_plural = "Taş Balta Başları (Sert)", --0.4 added (Sert)
+    resource_stoneAxeHeadSoft = "Taş Balta Başı (Yumuşak)", --0.4
+    resource_stoneAxeHeadSoft_plural = "Taş Balta Başları (Yumuşak)", --0.4
+    resource_stoneHammerHead = "Taş Çekiç Başı", --0.4
+    resource_stoneHammerHead_plural = "Taş Çekiç Başları", --0.4
+    resource_stoneHammer = "Taş Çekiç", --0.4
+    resource_stoneHammer_plural = "Taş Çekiçler", --0.4
+    resource_bronzeHammerHead = "Bronz Çekiç Başı", --0.4
+    resource_bronzeHammerHead_plural = "Bronz Çekiç Başları", --0.4
+    resource_bronzeHammer = "Bronz Çekiç", --0.4
+    resource_bronzeHammer_plural = "Bronz Çekiçler", --0.4
     resource_stoneKnife = "Taş Bıçak",
     resource_stoneKnife_plural = "Taş Bıçaklar",
+    resource_stoneChisel = "Taş Keski", --0.4
+    resource_stoneChisel_plural = "Taş Keskiler", --0.4
     resource_flintSpear = "Çakmaktaşı Mızrak",
     resource_flintSpear_plural = "Çakmaktaşı Mızraklar",
     resource_boneSpear = "Kemik Mızrak",
     resource_boneSpear_plural = "Kemik Mızraklar",
+    resource_bronzeSpear = "Bronz Mızrak", --0.4
+    resource_bronzeSpear_plural = "Bronz Mızraklar", --0.4
     resource_flintPickaxe = "Çakmaktaşı Kazma",
     resource_flintPickaxe_plural = "Çakmaktaşı Kazmalar",
     resource_flintHatchet = "Çakmaktaşı Balta",
     resource_flintHatchet_plural = "Çakmaktaşı Baltalar",
     resource_flintSpearHead = "Çakmaktaşı Mızrak Başı",
     resource_flintSpearHead_plural = "Çakmaktaşı Mızrak Başları",
+    resource_bronzeSpearHead = "Bronz Mızrak Başı", --0.4
+    resource_bronzeSpearHead_plural = "Bronz Mızrak Başları", --0.4
     resource_boneSpearHead = "Kemik Mızrak Başı",
     resource_boneSpearHead_plural = "Kemik Mızrak Başları",
     resource_flintPickaxeHead = "Çakmaktaşı Kazma Başı",
     resource_flintPickaxeHead_plural = "Çakmaktaşı Kazma Başları",
     resource_flintAxeHead = "Çakmaktaşı Balta Başı",
     resource_flintAxeHead_plural = "Çakmaktaşı Balta Başları",
+    resource_bronzeAxeHead = "Bronz Balta Başı", --0.4
+    resource_bronzeAxeHead_plural = "Bronz Balta Başları", --0.4
+    resource_bronzeHatchet = "Bronz Balta", --0.4
+    resource_bronzeHatchet_plural = "Bronz Baltalar", --0.4
+    resource_bronzePickaxeHead = "Bronz Kazma Başı", --0.4
+    resource_bronzePickaxeHead_plural = "Bronz Kazma Başları", --0.4
+    resource_bronzePickaxe = "Bronz Kazma", --0.4
+    resource_bronzePickaxe_plural = "Bronz Kazmalar", --0.4
     resource_flintKnife = "Çakmaktaşı Bıçak",
     resource_flintKnife_plural = "Çakmaktaşı Bıçaklar",
     resource_boneKnife = "Kemik Bıçak",
     resource_boneKnife_plural = "Kemik Bıçaklar",
+    resource_bronzeKnife = "Bronz Bıçak", --0.4
+    resource_bronzeKnife_plural = "Bronz Bıçaklar", --0.4
+    resource_bronzeChisel = "Bronz Keski", --0.4
+    resource_bronzeChisel_plural = "Bronz Keskiler", --0.4
     resource_boneFlute = "Kemik Flüt",
     resource_boneFlute_plural = "Kemik Flütler",
     resource_logDrum = "Kütük Davul",
@@ -1751,6 +2346,11 @@ localizations.values = {
     resource_firedBowlMedicineRotten_plural = "Çürük İlaçlar",
     --0.3.0 group end
 
+    resource_crucibleWet = "Eritme Kazanı (Islak)", --0.4
+    resource_crucibleWet_plural = "Eritme Kazanları (Islak)", --0.4
+    resource_crucibleDry = "Eritme Kazanı", --0.4
+    resource_crucibleDry_plural = "Eritme Kazanları", --0.4
+
     resource_branch_rotten = "Çürük Dal",
     resource_branch_rotten_plural = "Çürük Dallar",
     resource_breadDough = "Ekmek Hamuru",
@@ -1771,6 +2371,8 @@ localizations.values = {
     resource_mudTileDry_plural = "Kiremitler (kuru)",
     resource_firedTile = "Kiremit",
     resource_firedTile_plural = "Kiremitler",
+    resource_bronzeIngot = "Bronz Külçe", --0.4
+    resource_bronzeIngot_plural = "Bronz Külçeler", --0.4
     resource_mammothMeat = "Mamut Eti",
     resource_mammothMeat_plural = "Mamut Etleri",
     resource_mammothMeatCooked = "Pişmiş Mamut Eti",
@@ -1805,6 +2407,20 @@ localizations.values = {
     resource_group_virusMedicine = "Virüs İlacı",
     resource_group_virusMedicine_plural = "Virüs İlaçları",
     --0.3.0 group end
+
+    resource_group_fertilizer = "Gübre/Kompost", --0.4
+    resource_group_fertilizer_plural = "Gübre/Kompost", --0.4
+    resource_group_compostable = "Çürük Eşya", --0.4
+    resource_group_compostable_plural = "Çürük Eşyalar", --0.4
+
+    resource_group_rockSmallAny = "Küçük Kaya", --0.4
+    resource_group_rockSmallAny_plural = "Küçük Kayalar", --0.4
+    resource_group_rockAny = "Büyük Kaya", --0.4
+    resource_group_rockAny_plural = "Büyük Kayalar", --0.4
+    resource_group_stoneBlockAny = "Taş Blok", --0.4
+    resource_group_stoneBlockAny_plural = "Taş Bloklar", --0.4
+
+
 
     --desire
     desire_names_none = "Yok",
@@ -2142,14 +2758,21 @@ localizations.values = {
     settings_Controls_invertMouseLookY = "Fare Ters Çevir (Y)",
     settings_Controls_invertMouseWheelZoom = "Fare Tekerleği Yakınlaştırmasını Ters Çevir", --b20
     settings_Controls_controllerLookSensitivity = "Kontrolcü Hassasiyeti",
+    settings_Controls_controllerZoomSensitivity = "Kontrolcü Yakınlaştırma Hassasiyeti",
     settings_Controls_invertControllerLookY = "Kontrolcü Ters Çevir (Y)",
     settings_Controls_enableDoubleTapForFastMovement = "Çift Dokunma - hızlı hareket",
+    settings_Controls_reticle = "İşaretçi", --0.4 - işaretçi/nişangah görüntüsü ayarı için
+    settings_Controls_reticleSize = "İşaretçi Boyutu", --0.4
+    settings_Controls_reticleType_dot = "Nokta", --0.4
+    settings_Controls_reticleType_bullseye = "Hedef Tahtası", --0.4
+    settings_Controls_reticleType_crosshairs = "Nişangahlar", --0.4
     settings_Audio = "Ses",
     settings_Audio_MusicVolume = "Müzik Seviyesi",
     settings_Audio_SoundVolume = "Ses Seviyesi",
     settings_Other = "Diğer",
     settings_allowLanConnections = "Çok Oyunculu LAN Bağlantılarına İzin Ver",
     settings_pauseOnLostFocus = "Oyun Alta Alındığında Durdur", --b19
+    settings_pauseOnInactivity = "Etkinliksiz ise duraklat", --0.4
     settings_enableTutorialForThisWorld = "Bu gezegen için öğreticiyi etkinleştir",
     settings_enableTutorialForNewWorlds = "Yeni gezegenler için öğreticiyi etkinleştir",
     settings_GeneralGraphics = "Genel Grafikler",
@@ -2218,15 +2841,18 @@ localizations.values = {
         return "Hiçbir Sapien atanmamış \"" .. values.taskName .. "\" rol"
     end,
     lookatUI_needsTools = function(values)-- b16
-      local planInfoString = "Gerekli "
-      for i,missingToolInfo in ipairs(values.missingToolInfos) do
-          planInfoString = planInfoString .. missingToolInfo.toolName .. " (eg. " .. missingToolInfo.exampleObjectName .. ")"
-          if i ~= #values.missingToolInfos then
-              planInfoString = planInfoString .. ", "
-          end
-      end
-      return planInfoString
-  end,
+        local planInfoString = "Needs "
+        for i,missingToolInfo in ipairs(values.missingToolInfos) do
+            planInfoString = planInfoString .. missingToolInfo.toolName
+            if missingToolInfo.exampleObjectName and missingToolInfo.exampleObjectName ~= missingToolInfo.toolName then --0.4 modified to only add example if it is present and different.
+                planInfoString = planInfoString .. " (eg. " .. missingToolInfo.exampleObjectName .. ")"
+            end
+            if i ~= #values.missingToolInfos then
+                planInfoString = planInfoString .. ", "
+            end
+        end
+        return planInfoString
+    end,
   lookatUI_needsResources = function(values)-- b16
       local planInfoString = "Gerekli "
       for i,missingResourceString in ipairs(values.missingResources) do
@@ -2251,6 +2877,8 @@ localizations.values = {
     lookatUI_tooDistantRequiresCapable = function(values)
         return "Yakınlarda yetenekli Sapien yok \"" .. values.taskName .. "\" rol (Ağır Kaldırma gerektirir)"
     end,
+    lookatUI_missingSuitableTerrain = "Yakınlarda gereken türde uygun bir arazi bulunmamaktadır.", --0.4
+
     sapien_ui_roles = "Roller",
     sapien_ui_inventory = "Envanter",
     sapien_ui_relationships = "İlişkiler",
@@ -2520,6 +3148,20 @@ localizations.values = {
         return string.format("%s ile Süsle", values.name)
     end,
 
+    misc_compostNotEnoughMaterialStored = "Yeterli miktarda malzeme depolanmamış, daha fazla çürümüş eşya ekleyin.", --0.4
+    misc_compostNextInLessThanAnHour = "Bir sonraki kompost < 1 saat içinde hazır olacak.", --0.4
+    misc_compostNextInXHours = function(values) --0.4
+        return string.format("Bir sonraki kompostun hazır olmasına. %d saat var", values.hours)
+    end,
+    misc_compostPreviousWasLessThanAnHour = "Son kompost < 1 saat önce üretildi.", --0.4
+    misc_compostPreviousWasXHours = function(values) --0.4
+        return string.format("Son kompost %d saat önce üretildi", values.hours)
+    end,
+
+    misc_disabled = "Devre Dışı", --0.4
+    misc_maxQuantity = "Maks. Miktar!", --0.4
+    misc_max = "Maks.", --0.4
+
     --loading
     loading_connecting = "Sunucuya Bağlanıyor",
     loading_connected = "Sunucuya Bağlandı",
@@ -2587,12 +3229,12 @@ localizations.values = {
     skill_potteryFiring_description = "Fırınlama ve tuglalar.",
     skill_spinning = "Keten Eğirme",
     skill_spinning_description = "Bitki liflerinden sicimler ve ipler oluşturun.",
-    skill_thatchBuilding = "Saz Bina",
-    skill_thatchBuilding_description = "Samandan ve dallardan basit barınaklar İnşa edin.",
-    skill_mudBrickBuilding = "Kil Tuğla Bina",
-    skill_mudBrickBuilding_description = "Kil Tuğlalarla yapılar İnşa edin.",
-    skill_brickBuilding = "Tuğla bina",
-    skill_brickBuilding_description = "Kesik tuglalarla yapılar İnşa edin.",
+    skill_thatchBuilding = "Hasır Bina",
+    skill_thatchBuilding_description = "Samandan ve dallardan basit barınaklar İnşa edin",
+    skill_mudBrickBuilding = "İnşaat Ustalığı", --0.4 mud brick building yerine tüm tuğla/blok tabanlı yapılar için geçerli
+    skill_mudBrickBuilding_description = "Tuğla ve taş bloklarla yapılar inşa edin.", --0.4 "mud bricks" yerine "tuğla ve taş bloklar" olarak değiştirildi
+    skill_brickBuilding = "Tuğla İnşaatı", --eskimiş (0.4)
+    skill_brickBuilding_description = "Tuğlalarla yapılar inşa edin.", --eskimiş (0.4)
     skill_tiling = "Kiremit",
     skill_tiling_description = "Kiremitlerle Çatılar, zeminler ve yollar İnşa edin.",
     skill_basicHunting = "Temel Avcılık",
@@ -2609,20 +3251,24 @@ localizations.values = {
     skill_treeFelling_description = "El aletlerini kullanarak ağaçları kesin.",
     skill_woodWorking = "Ahşap İsleme",
     skill_woodWorking_description = "Dallardan ve kütüklerden bir şeyler üretin.",
-    skill_toolAssembly = "Takim Montajı",
+    skill_toolAssembly = "Takım Montajı",
     skill_toolAssembly_description = "Birden çok bileşeni birleştirerek daha karmaşık araçlar oluşturun.",
     skill_medicine = "İlaç", --0.3.0
     skill_medicine_description = "Yaralı ve hastaları iyileştirin.", --0.3.0
     skill_digging = "Kazma",
     skill_digging_description = "Toprağı, kumları ve killeri kazın ve doldurun.",
     skill_mining = "Madencilik",
-    skill_mining_description = "Kaya gibi sert malzemeleri cikarin.",
+    skill_mining_description = "Kaya ve maden gibi sert malzemeleri çıkarın.", --0.4 maden eklendi
     skill_planting = "Ekim",
     skill_planting_description = "Ağaçlar ve ekinler yetiştirmek için tohum ekin.",
     skill_threshing = "Harman",
     skill_threshing_description = "Tahılları öğütmeye veya pişirmeye hazır hale getirmek için harmanlayın.",
     skill_grinding = "Bileme",
-    skill_grinding_description = "Tahıllari toz haline getirin.",
+    skill_grinding_description = "Tahılları toz haline getirin",
+    skill_blacksmithing = "Demircilik", --0.4
+    skill_blacksmithing_description = "Cevherleri erit ve metallerle el işi yap.", --0.4
+    skill_chiselStone = "Taş Oyma", --0.4
+    skill_chiselStone_description = "Taş blokları doğrudan kayalık zeminden oyma.", --0.4
 
     --storage
     storage_rockSmall = "Taş",
@@ -2645,6 +3291,8 @@ localizations.values = {
     storage_flax = "Keten",
     storage_knife = "Bıçak",
     storage_axeHead = "Balta Başı",
+    storage_hammerHead = "Çekiç Başları", --0.4
+    storage_hammer = "Çekiçler", --0.4
     storage_pickaxeHead = "Kazma Başı",
     storage_pickaxe = "Kazma",
     storage_hatchet = "Balta",
@@ -2682,6 +3330,32 @@ localizations.values = {
     storage_balafon = "Balafon",
     storage_tile = "Kiremitler",
 
+    storage_copperOre = "Bakır Cevheri", --0.4
+    storage_tinOre = "Kalay Cevheri", --0.4
+    storage_manure = "Gübre", --0.4
+    storage_rottenGoo = "Yapıştırıcı", --0.4
+    storage_compost = "Kompost", --0.4
+    storage_crucible = "Eritme Kazanları", --0.4
+    storage_ingot = "Külçeler", --0.4
+    storage_chisel = "Keskiler", --0.4
+    storage_stoneBlock = "Taş Bloklar", --0.4
+
+    constructable_classification_build = "Yapılar",
+    constructable_classification_build_action = "İnşa Et",
+    constructable_classification_plant = "Bitkiler/Ağaçlar",
+    constructable_classification_plant_action = "Dik",
+    constructable_classification_craft = "El İşi Nesneler",
+    constructable_classification_craft_action = "El İşi Yap",
+    constructable_classification_path = "Yollar",
+    constructable_classification_path_action = "İnşa Et",
+    constructable_classification_place = "Nesne Yerleştir",
+    constructable_classification_place_action = "Yerleştir",
+    constructable_classification_fill = "Zemin Doldur",
+    constructable_classification_fill_action = "Doldur",
+    constructable_classification_research = "Keşifler",
+    constructable_classification_research_action = researchName,
+    constructable_classification_fertilize = "Malç", --0.4
+    constructable_classification_fertilize_action = "Malçla", --0.4
 
     --evolution
     evolution_dryAction = "Kuruyor",
@@ -2704,6 +3378,8 @@ localizations.values = {
     time_day_plural = "Günler",
     time_second = "İkinci",
     time_second_plural = "İkinciler",
+    time_hour = "Saat", --0.4
+    time_hour_plural = "Saat", --0.4
 
     --weather
     weather_temperatureZone_veryCold = "Çok soğuk",
@@ -2744,8 +3420,9 @@ localizations.values = {
     key_game_radialMenuShortcut4 = "Radyal Menü Kısayolu 4",
     key_game_radialMenuShortcut5 = "Radyal Menü Kısayolu 5",
     key_game_radialMenuShortcut6 = "Radyal Menü Kısayolu 6", --0.3.0
-    key_game_radialMenuAutomateModifier = "Radyal Menü Otomatikleştirme Değiştirici",
+    key_game_radialMenuAutomateModifier = "Radyal Menü Seçenekleri Değiştirici", --0.4 Seçenekleri eklendi!
     key_game_radialMenuDeconstruct = "Radyal Menü Kaldir/Yok Et",
+    key_game_moveCommandAddWaitOrderModifier = "Sapien Hareketi - Bekleme Emri Ekle", --0.4
     key_game_zoomModifier = "Yakınlastırma tıklama değiştiricisi",
     key_game_multiselectModifier = "Çoklu Seçim tıklama değiştiricisi",
     key_game_radialMenuClone = "Radyal Menü Klon",--b13
@@ -2769,6 +3446,9 @@ localizations.values = {
     key_movement_backAlt = "Geri (Alternatif)",
     key_movement_leftAlt = "Sol (Alternatif)",
     key_movement_rightAlt = "Sağ (Alternatif)",
+    key_movement_zoomIn = "Yakınlaştır", --0.4
+    key_movement_zoomOut = "Uzaklaştır", --0.4
+
     key_building_cancel = "İptal",
     key_building_confirm = "Onayla",
     key_building_zAxisModifier = "Axis Switch / Disable Snapping",
@@ -2824,6 +3504,10 @@ localizations.values = {
     selectionGroup_smallRock_objectName = "Taş",
     selectionGroup_smallRock_plural = "Taşlar",
     selectionGroup_smallRock_descriptive = "Tüm Taşlar",
+
+    selectionGroup_stoneBlock_objectName = "Taş Blok", --0.4
+    selectionGroup_stoneBlock_plural = "Taş Bloklar", --0.4
+    selectionGroup_stoneBlock_descriptive = "Tüm Taş Bloklar", --0.4
 
     -- notifications
     notification_becamePregnant = function(values)
@@ -3022,6 +3706,17 @@ localizations.values = {
         return values.name .. " artık daha iyi durumda"
     end,
 
+    notification_windDestruction = function(values) --0.4. values.name is not a sapien's name, it is an object's name like "Thatch Roof/Hut"
+        return " " .. values.name .. " rüzgardan hasar aldı!"
+    end,
+    notification_rainDestruction = function(values) --0.4. values.name is not a sapien's name, it is an object's name like "Thatch Roof/Hut"
+        return " " .. values.name .. " yağmurdan hasar aldı!"
+    end,
+
+    notification_addWindBlownAdjective = function(values) --0.4 Used in a wind storm eg: "Bob was majorly injured by a 'flying banana'"
+        return "uçan " .. string.lower(values.objectName)
+    end,
+
     deathReason_criticalInjury = "Kritik Hastalık",
     deathReason_oldAge = "Yaşlılık",
     deathReason_burn = "Kritik Yanık",
@@ -3041,9 +3736,9 @@ localizations.values = {
     menu_rainfall = "Yağış",
     menu_temperature = "Sıcaklık",
     menu_continentSize = "Kıta Boyutu",
-    menu_continentHeight = "Dağ Yüksekliği",
-    menu_featureSize = "Tepelerin Genişliği",
-    menu_featureHeight = "Tepelerin Yüksekliği",
+    menu_continentHeight = "Kıta Yüksekliği", --0.4 değiştirildi
+    menu_featureSize = "Dağ Boyutu", --0.4 değiştirildi
+    menu_featureHeight = "Dağ Yüksekliği", --0.4 değiştirildi
     menu_mods = "Modlar",
 
     --bug reporting
@@ -3234,9 +3929,9 @@ localizations.values = {
     tutorial_fire_waitForBuild = "Ateşin inşa edilmesini ve yakılmasını bekleyin",
 
     -- thatchBuilding
-    tutorial_title_thatchBuilding = "Saz ile Bina",
-    tutorial_thatchBuilding_storyText = "Yeni Sazdan Bina anlayışıyla, şimdi kabilenin bazı temel yapılar üzerinde çalişmaya başlaması için harika bir zaman olacak.\n\nSapienler Yatakları Çatı altındaysa daha mutlu olacak ve bir Çatı altında depolanan kaynaklar da daha uzun süre dayanacak.",
-    tutorial_thatchBuilding_place = "Bir Saz Çatı yerleştirin",
+    tutorial_title_thatchBuilding = "Hasır ile Bina",
+    tutorial_thatchBuilding_storyText = "Yeni Hasırdan Bina anlayışıyla, şimdi kabilenin bazı temel yapılar üzerinde çalişmaya başlaması için harika bir zaman olacak.\n\nSapienler Yatakları Çatı altındaysa daha mutlu olacak ve bir Çatı altında depolanan kaynaklar da daha uzun süre dayanacak.",
+    tutorial_thatchBuilding_place = "Bir Hasır Çatı yerleştirin",
     tutorial_thatchBuilding_waitForBuild = "Yapının inşa edilmesini bekleyin",
 
     -- food
@@ -3281,7 +3976,7 @@ localizations.values = {
 
     -- woodBuilding
     tutorial_title_woodBuilding = "Ahşap ile Bina",
-    tutorial_woodBuilding_storyText = "Saz kulübeler hiç yoktan iyidir, ancak zamana kafa tutacaksanız, kabilenizin daha gelişmiş malzemelerle inşa etmeye başlaması gerekecek.",
+    tutorial_woodBuilding_storyText = "Hasır kulübeler hiç yoktan iyidir, ancak zamana kafa tutacaksanız, kabilenizin daha gelişmiş malzemelerle inşa etmeye başlaması gerekecek.",
     tutorial_woodBuilding_chopTree = "Ağaç Kesin",
     tutorial_woodBuilding_splitLog = "Kütük Kesin",
     tutorial_woodBuilding_buildWall = "Ahşap Duvar İnşa Edin",
@@ -3468,6 +4163,12 @@ Ve hepsinden onemlisi, bu çok uzun gelisim sürecinde ailemize ve bana destek o
         return values.currentText .. " (Isınıyor)"
     end,
     --/0.3.0
+
+    --0.4
+    orderStatus_deliverToCompost = function(values)
+        return values.inProgressName .. " " .. values.heldObjectName .. " - " .. values.retrievedObjectName
+    end,
+    --/0.4
 }
 
 local function getTimeSplit(durationSeconds, dayLength, yearLength)
